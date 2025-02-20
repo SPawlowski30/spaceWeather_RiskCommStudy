@@ -25,5 +25,3 @@ for mitData in mitArticleSoup.find_all('div',{'class':'paragraph'}):
     print(mitData.text.strip())
     # TO-DO: split data into sentences, append each sentence to dataframe
 
-# NUMERICAL DATA (MAYBE CREATE A SEPARATE FILE FOR THIS?)
-
