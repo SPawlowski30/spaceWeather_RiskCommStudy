@@ -1,0 +1,71 @@
+﻿Space Weather Message Code: WARK04
+Serial Number: 4838
+Issue Time: 2025 Feb 16 2020 UTC
+
+
+EXTENDED WARNING: Geomagnetic K-index of 4 expected
+Extension to Serial Number: 4837
+Valid From: 2025 Feb 13 0527 UTC
+Now Valid Until: 2025 Feb 17 0600 UTC
+Warning Condition: Persistence
+
+
+NOAA Space Weather Scale descriptions can be found at
+www.swpc.noaa.gov/noaa-scales-explanation
+
+
+Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.
+Induced Currents - Weak power grid fluctuations can occur.
+Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.
+________________
+
+
+
+
+Space Weather Message Code: WARK05
+Serial Number: 1974
+Issue Time: 2025 Feb 15 1733 UTC
+
+
+EXTENDED WARNING: Geomagnetic K-index of 5 expected
+Extension to Serial Number: 1973
+Valid From: 2025 Feb 15 1015 UTC
+Now Valid Until: 2025 Feb 15 2359 UTC
+Warning Condition: Persistence
+
+
+NOAA Space Weather Scale descriptions can be found at
+www.swpc.noaa.gov/noaa-scales-explanation
+
+
+Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.
+Induced Currents - Weak power grid fluctuations can occur.
+Spacecraft - Minor impact on satellite operations possible.
+Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.
+________________
+
+
+
+
+Space Weather Message Code: WARK06
+Serial Number: 560
+Issue Time: 2025 Feb 15 1034 UTC
+
+
+WARNING: Geomagnetic K-Index of 6 expected
+Valid From: 2025 Feb 15 1030 UTC
+Valid To: 2025 Feb 15 1500 UTC
+Warning Condition: Onset
+NOAA Scale: G2 - Moderate
+
+
+NOAA Space Weather Scale descriptions can be found at
+www.swpc.noaa.gov/noaa-scales-explanation
+
+
+Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.
+Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.
+Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.
+Radio - HF (high frequency) radio propagation can fade at higher latitudes.
+Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.
+________________

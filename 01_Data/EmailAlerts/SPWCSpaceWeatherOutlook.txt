@@ -1,0 +1,30 @@
+﻿Official Space Weather Advisory issued by NOAA Space Weather Prediction Center
+Boulder, Colorado, USA
+
+
+SPACE WEATHER ADVISORY OUTLOOK #25-7
+2025 February 16 at 6:29 p.m. MST (2025 February 17 0129 UTC)
+
+
+**** SPACE WEATHER OUTLOOK ****
+
+
+Summary For February 10-16
+
+
+R1 (Minor) events were observed on 10-11 and 13-14 Feb.
+G1 (Minor) storming was observed on 10, and 14-15 Feb due to CH HSS influences.
+No other space weather storms were observed.
+
+
+Outlook For February 17-23
+
+
+No space weather storms are expected during the outlook period.
+
+
+Data used to provide space weather services are contributed by NOAA,
+USAF, NASA, NSF, USGS, the International Space Environment Services 
+and other observatories, universities, and institutions. More 
+information is available at SWPC's Web site http://swpc.noaa.gov
+________________
