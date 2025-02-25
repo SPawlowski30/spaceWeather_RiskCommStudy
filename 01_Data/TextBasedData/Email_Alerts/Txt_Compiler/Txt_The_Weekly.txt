@@ -1,4 +1,3 @@
-=== File from 2020 ===
 SWPC PRF 2344 03 August 2020
 1
 Space Weather Highlights
@@ -36,7 +35,6 @@ once again on 29 Aug. Quiet levels are expected to prevail for the remainder of 
 Aug.
 
 
-=== File from 2020 ===
 SWPC PRF 2321 24 February 2020
 1
 Space Weather Highlights
@@ -66,7 +64,6 @@ conditions are expected to prevail throughout the rest of the outlook period und
 wind regime.
 
 
-=== File from 2020 ===
 SWPC PRF 2361 30 November 2020
 1
 Space Weather Highlights
@@ -108,7 +105,6 @@ conditions around 01-02 Dec. Coronal hole influence is expected to produce activ
 23-25 Dec. The remainder of the outlook period is expected to be quiet.
 
 
-=== File from 2020 ===
 SWPC PRF 2354 12 October 2020
 1
 Space Weather Highlights
@@ -138,7 +134,6 @@ HSS influence. Active conditions are expected on 20, 26-28 Oct. Quiet to unsettl
 expected throughout the remainder of the outlook period.
 
 
-=== File from 2021 ===
 SWPC PRF 2379 05 April 2021
 1
 Space Weather Highlights
@@ -165,7 +160,6 @@ with active conditions on 17 April due to recurrent, negative-polarity CH HSS in
 to unsettled conditions are expected throughout the remainder of the outlook period.
 
 
-=== File from 2021 ===
 SWPC PRF 2387 31 May 2021
 1
 Space Weather Highlights
@@ -207,7 +201,6 @@ The greater than 2 MeV electron flux at geosynchronous orbit is expected to reac
 Geomagnetic field activity is expected to reach unsettled to active levels on 01-04 Jun due to a
 
 
-=== File from 2021 ===
 SWPC PRF 2397 09 August 2021
 1
 Space Weather Highlights
@@ -244,7 +237,6 @@ Geomagnetic field activity is expected to reach unsettled levels on 09-10 Aug, 1
 Aug, and 02-04 Sep and reach active levels on 24 Aug and 03 Sep due to CH HSS activity.
 
 
-=== File from 2021 ===
 SWPC PRF 2396 02 August 2021
 1
 Space Weather Highlights
@@ -274,7 +266,6 @@ Geomagnetic field activity is expected to reach unsettled levels on 05-06, 10-11
 Aug and active levels on 10, 24 Aug due to CH HSS activity.
 
 
-=== File from 2022 ===
 SWPC PRF 2463 14 November 2022
 1
 Space Weather Highlights
@@ -317,7 +308,6 @@ The greater than 2 MeV electron flux at geosynchronous orbit is expected to reac
 Geomagnetic field activity is expected to reach unsettled to active levels on 15-16 Nov, 20-22
 
 
-=== File from 2022 ===
 SWPC PRF 2456 26 September 2022
 1
 Space Weather Highlights
@@ -359,7 +349,6 @@ October, 16-17 October, with active levels possible on 01-05 October and 20-21 O
 CH HSS influences.
 
 
-=== File from 2022 ===
 SWPC PRF 2452 29 August 2022
 1
 Space Weather Highlights
@@ -401,7 +390,6 @@ Rgn 3088.
 The greater than 2 MeV electron flux at geosynchronous orbit is expected to be at moderate to
 
 
-=== File from 2022 ===
 SWPC PRF 2422 31 January 2022
 1
 Space Weather Highlights
@@ -439,7 +427,6 @@ and 25 Feb all due to recurrent CH HSS activity. Quiet to unsettled levels are e
 remaining days of the period.
 
 
-=== File from 2023 ===
 SWPC PRF 2476 13 February 2023
 1
 Space Weather Highlights
@@ -481,7 +468,6 @@ The greater than 2 MeV electron flux at geosynchronous orbit is expected to be a
 13-15 Feb and 07-11 Mar. Normal to moderate levels are expected on 16 Feb - 06 Mar.
 
 
-=== File from 2023 ===
 SWPC PRF 2477 20 February 2023
 1
 Space Weather Highlights
@@ -522,7 +508,6 @@ conditions are expected on 22-24 and 27-28 Feb, 02, 05-08 and 15-17 Mar due to C
 effects.
 
 
-=== File from 2023 ===
 SWPC PRF 2504 28 August 2023
 1
 Space Weather Highlights
@@ -557,7 +542,6 @@ Sep. All elevations in geomagnetic activity are anticipated due to recurrent CH 
 The remainder of the outlook period is expected to be at quiet levels.
 
 
-=== File from 2023 ===
 SWPC PRF 2519 11 December 2023
 1
 Space Weather Highlights
@@ -596,7 +580,6 @@ Quiet levels and background solar wind conditions are expected to prevail throug
 remainder of the period.
 
 
-=== File from 2024 ===
 SWPC PRF 2523 08 January 2024
 1
 Space Weather Highlights
@@ -637,7 +620,6 @@ Geomagnetic field activity is expected to be at unsettled periods on 08-09 Jan a
 to geoeffective CH HSS flow. The remainder of the outlook period is likely to be mostly quiet.
 
 
-=== File from 2024 ===
 SWPC PRF 2548 01 July 2024
 1
 Space Weather Highlights
@@ -670,7 +652,6 @@ possible glancing influences from multiple CMEs. Unsettled to active levels are 
 HSS). Quiet to unsettled levels are expected on 05-13 Jul and 17-27 Jul.
 
 
-=== File from 2024 ===
 SWPC PRF 2547 24 June 2024
 1
 Space Weather Highlights
@@ -707,7 +688,6 @@ due to anticipated influence from multiple, recurrent, CH HSSs. The remainder of
 period is likely to be at mostly quiet levels.
 
 
-=== File from 2024 ===
 SWPC PRF 2553 05 August 2024
 1
 Space Weather Highlights
@@ -735,7 +715,6 @@ An Isolated period of G1 (Minor) storms are possible on 05 Aug due to waning CME
 Geomagnetic field activity is expected to be mostly quiet and quiet to unsettled over 06-31 Aug.
 
 
-=== File from 2025 ===
 SWPC PRF 2578 27 January 2025
 1
 Space Weather Highlights
@@ -775,7 +754,6 @@ CH HSSs.
 <pre style="color: rgb(0, 0, 0); overflow-wrap: break-word; text-wrap-mode: wrap;"> </pre>
 
 
-=== File from 2025 ===
 SWPC PRF 2580 10 February 2025
 1
 Space Weather Highlights
@@ -804,7 +782,6 @@ and active levels are expected on 11-12 Feb, and 01 Mar due to CH HSS influences
 quiet to unsettled conditions are likely to prevail throughout the remainder of the period.
 
 
-=== File from 2025 ===
 SWPC PRF 2579 03 February 2025
 1
 Space Weather Highlights
@@ -846,7 +823,6 @@ Geomagnetic field activity is expected to be at unsettled to active levels on 03
 combination of positive polarity CH HSS and weak CME effects. Unsettled to active levels are
 
 
-=== File from 2025 ===
 SWPC PRF 2577 20 January 2025
 1
 Space Weather Highlights

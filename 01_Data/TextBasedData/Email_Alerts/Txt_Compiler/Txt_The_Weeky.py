@@ -3,7 +3,7 @@ and combines it into a single text file."""
 
 import pandas as pd
 import requests
-import fitz  # PyMuPDF
+import fitz
 from pathlib import Path
 from io import BytesIO
 
@@ -28,11 +28,8 @@ with open(output_filename, "w", encoding="utf-8") as outfile:
                 first_page_text = doc[0].get_text("text")
 
                 # Write to output file with a separator
-                outfile.write(f"=== File from {row['Year']} ===\n")
                 outfile.write(first_page_text)
                 outfile.write("\n\n")
-
-                print(f"Successfully added: {pdf_url}")
             doc.close()
 
 print(f"All extracted text saved in {output_filename}")
