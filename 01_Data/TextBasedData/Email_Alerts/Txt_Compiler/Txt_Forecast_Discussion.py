@@ -3,7 +3,7 @@ import requests
 from pathlib import Path
 
 # Load the DataFrame from the previous script
-csv_path = Path("/Users/sarahpawlowski/Documents/spaceWeather_RiskCommStudy/01_Data/Email_Alerts/NOAA_Alerts/Forecast_Discussion.csv")
+csv_path = Path("/Users/sarahpawlowski/Documents/spaceWeather_RiskCommStudy/01_Data/TextBasedData/Email_Alerts/NOAA_Alerts/Forecast_Discussion.csv")
 df = pd.read_csv(csv_path)
 
 # Output file to store all the combined text

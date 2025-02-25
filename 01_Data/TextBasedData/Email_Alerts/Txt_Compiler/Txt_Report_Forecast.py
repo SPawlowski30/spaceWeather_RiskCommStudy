@@ -3,11 +3,11 @@ import requests
 from pathlib import Path
 
 # Load the DataFrame from the previous script
-csv_path = Path("/Users/sarahpawlowski/Documents/spaceWeather_RiskCommStudy/01_Data/Email_Alerts/NOAA_Alerts/Report_Forecast.csv")
+csv_path = Path("/Users/sarahpawlowski/Documents/spaceWeather_RiskCommStudy/01_Data/TextBasedData/Email_Alerts/NOAA_Alerts/Report_Forecast_Solar_Geophysical_Activity.csv")
 df = pd.read_csv(csv_path)
 
 # Output file to store all the combined text
-output_filename = "Txt_Report_Forecast.txt"
+output_filename = "Txt_Report_Forecast_Solar_Geophysical_Activity.txt"
 
 # Open the output file in write mode
 with open(output_filename, "w", encoding="utf-8") as outfile:

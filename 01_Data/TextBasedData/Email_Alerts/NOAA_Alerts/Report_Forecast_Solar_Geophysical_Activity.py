@@ -37,7 +37,7 @@ for year in years:
 
 # Calculate the number of files to select per year
 total_files = sum(len(files) for files in yearly_files.values())
-num_to_select = max(1, int(0.1 * total_files))  # Select 10% overall
+num_to_select = max(1, int(0.03 * total_files))  # Select 10% overall
 
 files_per_year = num_to_select // len(years)  # Equal distribution
 selected_files = []
@@ -52,3 +52,6 @@ for year, files in yearly_files.items():
 df = pd.DataFrame(selected_files, columns=["Year", "File Link"])
 print(f"Total rows in df: {df.shape[0]}")
 print(df.head())
+
+df.to_csv("Report_Forecast_Solar_Geophysical_Activity.csv", index=False)
+print("File links saved to selected_files.csv")

@@ -1,0 +1,3684 @@
+:Product: 04111230forecast_discussion.txt
+:Issued: 2024 Apr 11 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached low levels, with numerous low level C-class
+flares observed. Most of the flare activity was produced by regions
+beyond the east and west limbs. Region 3628 (N08W35, Hsx/alpha)
+exhibited decay and remained quiet. Region 3633 (S08E12, Cso/beta-gamma)
+continued to decay while producing C-class activity. Region 3635
+(N19E41, Cso/beta) was numbered this period, but was otherwise
+unremarkable.
+
+From ~11/0515-0605 UTC, an approximately 15 degree long filament,
+centered near N20W02, was observed lifting off the solar disk.
+Corresponding dimming was observed in SUVI 195 imagery, and a filament
+eruption was observed lifting off to the east in SUVI 304. The resulting
+coronagraph imagery is being analyzed and modeled at the time of this
+summary. No other potentially Earth-directed CMEs were observed.
+
+.Forecast...
+Solar activity will likely to continue at low levels on 11 Apr with a
+slight chance for M-class flare activity. Probabilities increase for
+12-13 Apr to a chance for isolated M-class flare activity with the
+anticipated return of old AR 3615.
+
+Energetic Particles
+
+.24 hr Summary...
+The greater than 10 MeV proton flux was at background levels. The
+greater than 2 MeV electron flux was at normal to moderate levels.
+
+.Forecast...
+The greater than 10 MeV proton flux is expected to remain at background
+levels. The greater than 2 MeV electron flux is expected to continue at
+normal to moderate levels through 13 Apr.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters reflected weak positive polarity CH HSS
+influences. Total field ranged 1-7 nT, the Bz component was +/- 6 nT
+with no significant, sustained southward deflections, and solar wind
+speeds averaged near 450 km/s. Phi was predominantly positive.
+
+.Forecast...
+Weak enhancements in the solar wind environment are anticipated to
+wane over the course of 11 Apr, with a return to nominal conditions on
+12 Apr. Disturbances are expected once again on 13 Apr due to negative
+polarity CH HSS influences.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet to unsettled levels.
+
+.Forecast...
+Quiet to unsettled conditions, with a chance for isolated active
+periods, are expected on 11 and 13 Apr due to CH HSS effects. A
+primarily quiet environment is expected on 12 Apr.
+
+
+:Product: 12141230forecast_discussion.txt
+:Issued: 2024 Dec 14 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar flare activity reached moderate levels. Region 3922 (S18E18,
+Bxo/beta) produced an M1.0 flare at 13/1424 UTC, the largest of the
+period, and exhibited decay throughout the period. Region 3924 (S19W08,
+Dai/beta-gamma) exhibited moderate growth but remained quiet. The
+remaining regions were either stable or in decay. No Earth-directed CMEs
+were detected.
+
+.Forecast...
+R1-R2 (Minor-Moderate) radio blackouts are likely over 14-16 Dec.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux reached moderate levels and the
+greater than 10 MeV proton flux remained at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to remain at normal to
+moderate levels over 14-16 Dec. The greater than 10 MeV proton flux is
+expected to remain at background levels through 16 Dec.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were at nominal levels. Total field reached 9 nT
+and the Bz component varied between +4/-7 nT. Solar wind speeds ranged
+between 275-355 km/s. Phi was predominantly positive.
+
+.Forecast...
+Solar wind parameters are expected to remain at nominal levels on 14
+Dec. On 15 Dec, an increase in solar wind parameters is likely due to
+influence from an equatorial, positive polarity CH HSS.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet and unsettled.
+
+.Forecast...
+The geomagnetic field is expected to be quiet and unsettled on 14 Dec.
+Unsettled conditions, with a chance for isolated active periods,
+are expected on 15-16 Dec under positive polarity CH HSS effects.
+
+
+:Product: 12240030forecast_discussion.txt
+:Issued: 2024 Dec 24 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached high levels this period. Region 3932 (S17E27,
+Fkc/beta-gamma-delta) produced an impulsive M8.9 flare (R2-Moderate) at
+23/1112 UTC; the largest event of the period. Development continued
+among the cluster of active regions in the SE quadrant, with a few small
+delta spots emerging. A new spot region appeared near S11W38 but has not
+been numbered at the time of this writing.
+
+Model analysis of a large CME, associated with the M8.9 flare at 23/1112
+UTC and visible in LASCO C2 imagery beginning at 23/1124 UTC off the
+south, indicated a possible arrival at Earth during the later half of 25
+Dec.
+
+.Forecast...
+M-class flare activity is likely (R1/R2-Minor/Moderate), with a slight
+chance for an isolated X-class flare (R3/Strong), over 23-25 Dec.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 10 MeV proton flux remained elevated above background
+but well below the S1 threshold, mostly due to activity that erupted on
+the far side of the Sun over 20 Dec. The greater than 2 MeV electron
+flux crossed the alert threshold at 23/1520 UTC, with a peak flux of
+1540 pfu at 23/1725 UTC, and decreasing below the threshold at 23/1935
+UTC.
+
+.Forecast...
+There remains a slight chance for the greater than 10 MeV proton flux to
+reach S1 (Minor) levels over 24-26 Dec. The greater than 2 MeV electron
+flux is expected to continue at normal to moderate levels through 26
+Dec.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were weakly enhanced this period. Total field
+reached a peak of 7 nT and Bz varied between +/- 6 nT Solar wind speeds
+ranged from 525-630 km/s, and the phi angle was predominantly negative.
+
+.Forecast...
+Enhanced solar wind conditions are expected to prevail over 24-26 Dec.
+Negative polarity CH HSS influences are expected over 24-25 Dec, and
+there is a chance to see the glancing influences of a CME (from 20 Dec)
+on 24 Dec and more direct influence from a CME (from 23 Dec) on 25 Dec. 
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field ranged from quiet to active levels.
+
+.Forecast...
+G1 (Minor) storming conditions are expected on 25 Dec, with a slight
+chance for isolated G2 (Moderate) periods, due to the arrival of a CME
+from 23 Dec. Waning influence may carry through 26 Dec where it could
+interact with a positive polarity coronal hole, producing largely
+unsettled conditions with isolated active periods.
+
+The geomagnetic field is expected to be quiet and unsettled, with a
+chance for isolated active periods, on 24 Dec due to negative
+polarity CH HSS influence plus additional enhancement from the glancing
+influences of a CME that left the Sun on 20 Dec.
+
+
+:Product: 03161230forecast_discussion.txt
+:Issued: 2024 Mar 16 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was at low levels. Only low-level C-class activity was
+observed. Newly numbered Region 3613 (S25W11, Cro/beta) was simple and
+relatively quiet, much like the remaining four spotted regions on the
+visible disk. 
+
+Other activity included a filament eruption just north of center disk
+beginning ~16/0500 UTC. Further coronagraph imagery is required to
+identify and analyze any potential CME associated with the event.
+
+.Forecast...
+Solar activity is expected to be low on 16 Mar. Very low to low levels
+are likely on 17-18 Mar.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 10 MeV proton flux slowly became enhanced after 15/0600
+UTC, following activity from Region 3599 beyond the W limb, and reached 
+S1 (Minor) levels beginning 15/2050 UTC. The greater than 2 MeV electron
+flux was at normal to moderate levels.
+
+.Forecast...
+The greater than 10 MeV proton flux is expected to continue at S1
+(Minor) levels on 16 Mar, with a chance for S1 conditions to persist
+into 17 Mar. Proton flux levels are expected to be well below S1 levels
+over 18 Mar. The greater than 2 MeV electron flux is expected to be at
+normal to moderate levels on 16-18 Mar.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind conditions were weakly enhanced due to positive polarity CH
+HSS influences. Solar wind speeds near ~400 km/s for most of the period.
+Total magnetic field strength was at or below 5 nT and the Bz component
+was mostly positive. Phi angle was predominantly positive.
+
+.Forecast...
+Weakly enhanced solar wind conditions are expected to prevail over 16-17
+Mar due to continued CH HSS influences. Background levels are expected
+to return by 18 Mar.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet.
+
+.Forecast...
+The geomagnetic field is expected to range from quiet to unsettled over
+16-17 Mar due to continued CH HSS influences. Quiet conditions are
+expected on 18 Mar.
+
+
+:Product: 04140030forecast_discussion.txt
+:Issued: 2024 Apr 14 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached moderate (R1/Minor) levels due to an impulsive
+M2.4/Sf at 13/0502 UTC from Region 3637 (S11E66, Cro/beta). Multiple
+C-class flares were also observed just beyond the SE limb. Slight growth
+was observed in Region 3634 (N27W17, Dki/beta). The rest of the spot
+groups were relatively stable or slightly decaying.
+
+A CME was observed off the N limb in SOHO/LASCO C2 imagery beginning at
+13/1648 UTC, likely associated with a C5.5 flare at 13/1459 UTC from
+Region 3634. Analysis is in progress, however, given its northerly
+trajectory, an Earth-directed component is unlikely.
+
+.Forecast...
+Solar activity is expected to be low with a chance for M-class flares
+(R1-R2/Minor-Moderate) on 14-16 Apr.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 10 MeV proton flux was at background levels. The
+greater than 2 MeV electron flux was at normal to moderate levels.
+
+.Forecast...
+The greater than 10 MeV proton flux is expected to remain at background
+levels. The greater than 2 MeV electron flux is expected to continue at
+normal to moderate levels through 16 Apr.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were at nominal levels with solar wind speed
+averaging around 390 km/s. Total field ranged from 2-4 nT with the Bz
+component between +4/-3 nT. Phi angle was predominately positive.
+
+.Forecast...
+Solar wind conditions are expected to become enhanced on 14 Apr and
+continuing through 15 Apr due to the anticipated arrival of CMEs from 11
+and 12 Apr, in addition to continued CH HSS influences. Solar wind
+parameters are expected to recover to nominal levels on 16 Apr.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet.
+
+.Forecast...
+Unsettled to Active levels are expected, with periods of G1 (Minor)
+storming likely, beginning late on 14 Apr and continuing through 15 Apr,
+due to the passage of CMEs from 11 and 12 Apr, combined with CH HSS
+influences. Quiet to unsettled levels are expected on 16 Apr as
+conditions wane.
+
+
+:Product: 08261230forecast_discussion.txt
+:Issued: 2024 Aug 26 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached moderate levels. Region 3796 (S04W33,
+Dki/beta-gamma)
+produced the strongest flare of the period, an M1.4 flare (R1-Minor) at
+26/1141 UTC. Minor evolutions were seen mostly in the intermediate spots
+of Regions 3796, 3790 (S13W67, Ekc/beta-gamma), 3799 (S09E02,
+Eki/beta-gamma) and 3800 (S27W13, Eki/beta-gamma). The remaining regions
+were relatively stable. Regions 3803 (N16E70, Dso/beta) and 3804
+(S25E74, Hsx/alpha) were numbered as they further rotated onto visible
+disk from the E limb. No Earth-directed CMEs were observed in available
+coronagraph imagery.
+
+.Forecast...
+M-class flares (R1-R2, Minor-Moderate) are likely, with a chance for
+X-class flares (R3-Strong), through 28 Aug due to the flare potential of
+multiple complex regions on the visible disk.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 10 MeV proton flux has remained at background levels.
+The greater than 2 MeV electron flux was at normal to moderate levels.
+
+.Forecast...
+There is a slight chance for the greater than 10 MeV proton flux to
+reach S1 (Minor) storm levels over 26-28 Aug. The greater than 2 MeV
+electron flux is expected to continue at normal to moderate levels
+throughout the period.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment was at background levels. Total field
+strength was steady at around 5 nT and the Bz component varied +/-4 nT.
+Solar wind speed decreased from ~350 km/s to ~290 km/s over the course
+of the day. Phi angle was positive.
+
+.Forecast...
+Solar wind parameters are expected to be at or near background levels
+on 26 Aug. Slightly enhanced solar wind conditions are possible over
+27-28 Aug due to the anticipated glancing-blow arrival of a CME that
+left the Sun on 23 Aug.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet levels.
+
+.Forecast...
+The geomagnetic field is likely to continue at mostly quiet levels on 26
+Aug. Periods of active conditions are possible over 27-28 Aug due to the
+anticipated influence of the periphery of a CME that left the Sun on 23
+Aug.
+
+
+:Product: 12160030forecast_discussion.txt
+:Issued: 2024 Dec 16 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity increased to moderate levels (R1-Minor) due to an
+impulsive M3.1/1n flare. The largest event of the period, this flare was
+observed at 15/2024 UTC from Region 3920 (N22W42, Eao/beta). Numerous
+C-class flares were also observed from this region, as well as from
+Regions 3917 (S07W83, Dko/beta), 3921 (S06, L=358), 3922 (S18W03,
+Cso/beta) and 3924 (S19W29, Dsi/beta-gamma). Little physical changes
+were observed from these five regions. Region 3922 reemerged with new
+spots, and new Region 3926 (S20E67, Hsx/alpha) was numbered.
+
+A large filament, centered roughly near S20W75, lifted off beginning at
+around 14/2200 UTC. The associated CME has been analyzed and is expected
+to miss upstream of Earth. A full-halo CME, first observed off the SE
+limb beginning at 15/1436 UTC, is believed to be a far-side event as no
+clear source on the visible disk was discernable. Possibly associated
+with this far-side CME was a Type II radio sweep at 15/1427 UTC with a
+speed of 320 km/s. No Earth-directed CMEs were detected in available
+data.
+
+.Forecast...
+Solar activity is expected to be at low levels, with a chance for R1-R2
+(Minor-Moderate) events, over 16-18 Dec.
+
+Energetic Particles
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels
+and the greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to continue at normal
+to moderate levels over 16-18 Dec. The greater than 10 MeV proton flux
+is expected to persist at background levels through 18 Dec.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment reflected positive polarity CH HSS
+influences. Total field strength reached 13 nT and the Bz component
+ranged +6/-10 nT. Solar wind speeds increased from about 330 km/s to 440
+km/s. The phi angle was in a mostly positive orientation.
+
+.Forecast...
+Mildly enhanced solar wind conditions are expected over 16 Dec due to
+positive polarity CH HSS influences. On 17 Dec, further enhancements are
+possible due to persistent, yet waning CH HSS influences and the chance
+for a possible glancing blow from one or more near-miss CMEs from 13-14
+Dec. A gradual return to nominal conditions are expected on 18 Dec.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet and unsettled levels.
+
+.Forecast...
+The geomagnetic field is expected to be at quiet and unsettled levels
+over 16 Dec due to positive polarity CH HSS influences. Periods of
+active conditions are likely on 17 Dec due to waning CH HSS influences
+and a possible glancing blow arrival of one or more CMEs from 13-14 Dec
+that are expected to pass in close proximity to Earth. Quiet to
+unsettled levels are expected on 18 Dec as possible CME influence wanes.
+
+
+:Product: 07211230forecast_discussion.txt
+:Issued: 2024 Jul 21 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was at moderate levels. Region 3744 (N15W77, Cao/beta)
+produced the strongest event of the period as it rotated closer to the
+limb, an M1.5/1n flare (R1-Minor) at 20/1849 UTC. This region also
+produced an additional M.1 flare at 21/0355 with an associated CME off
+the NW limb. Due to its close proximity to the limb, that CME is
+expected to miss well west of Earth. Region 3751 (S09W22,
+Ekc/beta-gamma-delta) remained the most complex on the visible disk and
+developed some trailer spots over the past 24 hours. Region 3761
+(S10W01, Dai/beta-gamma) also grew in area and spots. Region 3762
+(S14E57, Dao/beta) fully rotated onto the visible disk. Only minor
+changes were observed in the remaining ten spotted numbered regions on
+the visible disk.
+
+Beginning at approximately 20/1500 UTC, a DSF centered near N25E20 was
+observed in GONG/H-Alpha imagery. No apparent CMEs were identified in
+subsequent coronagraph imagery.
+
+.Forecast...
+Solar activity is likely to be moderate (R1-R2, Minor-Moderate) with a
+slight chance for X-class flares (R3, Strong) on 21-23 Jul.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels
+and the greater than 10 MeV proton flux was steady at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be at normal to
+moderate levels on 21-23 Jul. There is a slight chance for S1 (Minor)
+storm levels on 21-23 Jul.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were at nominal levels. Total field was between
+2-6 nT and Bz was between +/- 4 nT. Solar wind speeds were at or below
+350 km/s for the majority of the period. Phi was mostly in a negative
+orientation.
+
+.Forecast...
+Solar wind parameters are likely to experience CME influence over 21 Jul
+from activity that occurred on the Sun late on 16 Jul. A return to
+ambient conditions is likely over 22-23 Jul.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet.
+
+.Forecast...
+The geomagnetic field may see G1 (Minor) geomagnetic storm levels 21 Jul
+due to the influence of a CME that left the Sun late on 16 Jul. As CME
+influence wanes, mostly quiet to unsettled levels are likely on 22-23
+Jul.
+
+
+:Product: 03271230forecast_discussion.txt
+:Issued: 2024 Mar 27 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached high levels. Region 3615 (S13W48,
+Fkc/beta-gamma-delta) was responsible for five M-class flares the
+largest of which was a M1.9 flare at 26/1330 UTC. This AR continued to
+be the largest, most complex region on the visible disk, and was
+responsible for the majority of the activity. New spots were observed
+trailing AR 3619 (N18W18, Dso/beta), but remain unnumbered at this time
+as we await additional observatory reports. Region 3617 (S14W18,
+Hsx/alpha) exhibited signs of decay, and Region 3623 (S19W55, L=223)
+decayed to plage.
+
+At approximately 26/1405 UTC a filament eruption just north of AR 3620
+(S09E11, Hrx/alpha) was observed in GOES SUVI 304 angstroms. Seemingly,
+a subsequent easterly, faint, narrow CME can first be seen in LASCO C2
+coronagraph imagery around 26/1524 UTC. Modeling efforts suggest that a
+weak, glancing blow at Earth may be possible by early 31 Mar.
+Additionally, a more impressive, westerly CME was observed in LASCO C2
+coronagraph imagery beginning near 27/0125 UTC. However, this event
+appears to have originated from beyond the western limb and is therefore
+not Earth-directed.
+
+.Forecast...
+Solar activity is expected to continue at moderate
+(R1-R2/Minor-Moderate) levels, with a chance for an X-class flares
+(R3/Strong), over 27-29 Mar due primarily to the flare potential of
+Region 3615.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 10 MeV proton flux remained elevated, but below the 10
+pfu threshold. The greater than 2 MeV electron flux was at normal to
+moderate levels.
+
+.Forecast...
+A chance for S1 (Minor) solar radiation storms will persist through 29
+Mar primarily due to the potential and location of AR 3615. The greater
+than 2 MeV electron flux is expected to be at normal to moderate levels
+on 27 Mar, with a chance to reach high levels beginning on 28 Mar.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters reflected waning influence of a coronal mass
+ejection (CME) that left the Sun on 23 Mar. Total field was between 4-5
+nT, and the Bz component was mostly northward or near neutral. Solar
+wind speeds gradually decreased from ~650 km/s to just above 500 km/s by
+the end of the period. Phi was predominantly positive while taking a few
+brief excursions into a negative solar sector.
+
+.Forecast...
+Ambient-like solar wind conditions are expected to return by 28 Mar.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to unsettled.
+
+.Forecast...
+Quiet to unsettled periods are expected to continue for the remainder of
+27 Mar as CME effects continue to wane. Mostly quiet conditions are
+expected to prevail on 28 Mar with a return of isolated unsettled
+periods by late on 29 Mar under negative polarity CH HSS effects.
+
+
+:Product: 08130030forecast_discussion.txt
+:Issued: 2024 Aug 13 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity has remained at moderate levels with two M-Class flares
+over the period. Region 3777 (S10W74, Dkc/beta-gamma) was responsible
+for an M1.0 flare at 12/0848 and Region 3784 (N15E21, Dkc/beta-delta)
+was responsible for an M1.2 at 12/2257 UTC. There are eleven Active
+Regions on the visible disk with the majority of them experiencing minor
+growth. The trailing spot in Region 3777 has sheared into two and has
+become more magnetically complex. Region 3780 (S10W34,
+Fki/beta-gamma-delta) remains the largest region but continues to
+produce mostly C-Class flares. The other region of interest is Region
+3784 because of its area increasing fairly quickly from spots expanding
+out of the primary penumbra. The three aforementioned regions are the
+primary drivers for increased flare probabilities moving forward.
+
+Other activity included a filament eruption centered near N25W20
+beginning at around 12/0300 UTC, though the bulk of material appeared to
+have been reabsorbed. There have been no Earth-directed CMEs detected in
+available coronagraph imagery.
+
+.Forecast...
+Solar activity is expected to be at moderate to high levels, with
+M-class flares (R1-R2, Minor-Moderate) expected and a slight chance for
+X-class flares (R3-Strong) through 15 Aug.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 10 MeV proton flux has remained at background levels.
+The greater than 2 MeV electron flux was at normal to moderate levels.
+
+.Forecast...
+There is a slight chance for S1 (Minor) conditions through 15 Aug as a
+few magnetically complex regions remain in geoeffective locations. The
+greater than 2 MeV electron flux is expected to remain at normal to
+moderate levels over 13-15 Aug.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment was enhanced throughout the period due to
+persistent CME effects. Total field reached 23 nT and the Bz component
+was southward, by as much as -20 nT, for prolonged periods after 12/0100
+UTC. The Bz component has been on a gradual rise since roughly 15 UTC
+but remains negative. Solar wind speeds increased from around 475 km/s
+early in the period to a peak of 535 km/s, it declined and has remained
+around 440 km/s.
+
+.Forecast...
+Solar wind parameters are expected to remain enhanced through 13 Aug
+with sustained, but weakening CME influences.
+
+Geospace
+
+.24 hr Summary...
+Geomagnetic field activity reached G4 (Severe) Storm Levels at late in
+the 12-15 UTC synoptic period. It has remained at G3 (Strong) Levels
+through much of the period.
+
+.Forecast...
+G2 (Moderate) Geomagnetic storm levels are expected to continue into the
+early parts of 13 Aug from continued CME influences. Active to Unsettled
+levels are expected thereafter, with quiet to unsettled levels on 15 Aug
+as CME effects diminish.
+
+-Bri
+
+
+:Product: 11220030forecast_discussion.txt
+:Issued: 2024 Nov 22 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity returned to low levels with only C-class flares observed.
+Region 3901 (S07E24, Dai/beta-gamma) was responsible for nearly all of
+the flare activity throughout the period. This region exhibited growth
+in its trailing spot area and maintained its gamma configuration. New
+Regions 3903 (S10W17, Cai/beta), 3904 (S13W63, Cao/beta), and 3905
+S09E77, Hax/alpha) developed and were numbered this period. The
+remaining regions were either stable or displayed slight decay.
+
+Two large CMEs were observed in coronagraph imagery. The first was
+observed in LASCO C2 imagery at approximately 21/1224 UTC. This CME was
+associated with a large prominence that lifted off the SE limb. Analysis
+indicated a miss well ahead of Earth.
+
+The second was a large, explosive eruption that occurred at
+approximately 21/1800 UTC. This event was noted in SUVI imagery from
+beyond the west limb, likely from old Region 3989 (S09, L=005). The
+associated CME was first seen in LASCO C2 imagery at 21/1812 UTC. With
+this event originated well beyond the west limb, it is not expected to
+have an Earth-directed component.
+
+.Forecast...
+Solar activity is expected to be low, with a chance for M-class flares
+(R1/R2-Minor/Moderate) and a slight chance of X-class (R3-Strong) events
+22-24 Nov.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was normal to moderate levels. The
+greater than 10 MeV proton flux reached S1 (Minor) levels, reaching a
+peak value of 43 pfu thus far. The 100 MeV proton levels reached a peak
+value of 7 pfu at 21/2010 UTC.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to continue at normal
+to moderate levels. The greater than 10 MeV proton flux is expected to
+continue at S1 (Minor) levels for 22 Nov. By 23 Nov, levels are expected
+to diminish to a chance for S1 thresholds, with conditions returning to
+near background levels by 24 Nov.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were indicative of a likely SSBC as the
+anticipated negative polarity CH HSS moved into a geoeffective position.
+Solar wind speeds averaged near 400 km/s, total field strength ranged
+between 2-10nT, and the Bz component fluctuated between +/-7 nT. The phi
+angle was predominantly in a negative position, with occasional
+oscillations into a positive orientation.
+
+.Forecast...
+Solar wind conditions are anticipated to become elevated on 22-24 Nov
+due to negative polarity CH HSS influences.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to unsettled.
+
+.Forecast...
+The geomagnetic field is expected to be mostly quiet to unsettled, with
+a chance for an isolated active period, on 22-24 Nov due to anticipated
+CH HSS effects.
+
+
+:Product: 08200030forecast_discussion.txt
+:Issued: 2024 Aug 20 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity continued at moderate levels. Region 3796 (S03E55,
+Dac/beta-gamma) exhibited slight growth and produced an M1.4/Sf
+(R1-Minor) flare at 19/0000 UTC and an M3.7 (R1) at 19/2148 UTC, the
+largest of the period. Region 3785 (S14W63, Cai/beta) contributed an
+M1.3 flare (R1-Minor) at 19/0936 UTC as it edged towards the western
+limb. Region 3790 (S12E19, Dkc/beta-gamma) almost added to the M-flare
+mix, producing a C9.8/Sf flare at 19/2016 UTC. This region developed
+additional intermediate spots and continued to evolve over the course of
+the day. Multiple other regions produced low-level C-class flares, too
+numerous to list. The majority of the spot groups displayed at least
+slight growth during the period, though none appeared to be associated
+with any Earth-directed CMEs.
+
+.Forecast...
+M-class flares (R1-R2, Minor-Moderate) are likely, with a slight chance
+for X-class flares (R3-Strong), through 22 Aug.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 10 MeV proton flux has remained at background levels.
+The greater than 2 MeV electron flux was at normal to moderate levels.
+
+.Forecast...
+There is a slight chance for the greater than 10 MeV proton flux to
+reach S1 (Minor) storm levels over 20-22 Aug. The greater than 2 MeV
+electron flux is expected to continue at normal to moderate levels
+throughout the period.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment was near background levels this period. Total
+field strength averaged near 7 nT, the Bz component saw minor southward
+deflections to -7 nT, and the solar wind speed ranged between 360-460
+km/s. Phi was in a mostly positive orientation
+
+.Forecast...
+Nominal solar wind conditions are expected to prevail on 20-21 Aug. On
+22 Aug, possible interaction with a CH HSS could bring about weak
+enhancements in the IMF.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet to unsettled levels.
+
+.Forecast...
+Mostly quiet conditions are expected on 20-21 Aug. By 22 Aug, a weak CH
+HSS could potentially move into a geoeffective position, increasing the
+chances to of additional unsettled to active periods.
+
+
+:Product: 11101230forecast_discussion.txt
+:Issued: 2024 Nov 10 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached moderate levels. Region 3889 (S10E38) produced an
+impulsive M4.2 flare (R1/Minor) at 10/0015 UTC; the largest event of the
+period. The region exhibited some growth around its leader spot. The
+remaining active regions on the visible disk were either stable or in
+decay. No Earth-directed CMEs were observed in available coronagraph
+imagery.
+
+.Forecast...
+M-class flares (R1-R2/Minor-Moderate) are likely, with a slight chance
+for an X-class flare (R3-Strong), through 12 Nov.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 10 MeV proton flux was at background levels and the
+greater than 2 MeV electron flux was at normal to moderate levels.
+
+.Forecast...
+There is a slight chance for the greater than 10 MeV proton flux to
+reach S1 (Minor) levels over 10-12 Nov. The greater than 2 MeV electron
+flux is expected to continue at normal to moderate levels through 12
+Nov.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment remained enhanced this period. Total field
+strength ranged from 4-13 nT and the Bz reached as far south as -11 nT.
+Solar wind speeds averaged around 400 km/s throughout the period.
+
+.Forecast...
+Enhanced solar wind conditions are expected to prevail over 10-12 Nov
+due to CH HSS influences.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field reached G1 (Minor) storm levels following a
+prolonged period of southward Bz.
+
+.Forecast...
+The geomagnetic field is expected to reach active levels on 10-11 Nov,
+and quiet to unsettled levels on 12 Nov, due to CH HSS influences.
+
+
+:Product: 08010030forecast_discussion.txt
+:Issued: 2024 Aug 01 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was high due to a number of M-class flares to include
+three greater than M5 events. Thirteen designated sunspot groups were
+present on the visible solar disk and background X-ray flux was solidly
+at upper C-class levels. The main regions of note today were 3768
+(S16W71, Fkc/beta-gamma-delta); 3765 (S11W33, Ekc/beta-gamma-delta);
+3772 (S25E48, Eai/beta); and 3774 (S06E70, Eki/beta-gamma). Region 3762
+(S11W87, Dac/beta-gamma) rotated nearly beyond the limb. Region 3768
+underwent some growth in the leader, but decreased intermediate spot
+coverage. It was the source of the largest flare of the day, an M7.7
+(R2/Moderate) at 31/0646 UTC. It also produced an M5.3 (R2) that peaked
+at 31/1837 UTC. Region 3772 underwent some growth in the trailer section
+and was the source of M-class flares, to include an M6.0/1n at 31/1305
+UTC. Region 3774 produced an M4.7/Sf (R1/Minor) at 31/0523 UTC as it
+rotated further into Earth-view and revealed itself as a larger spot
+complex. New Region 3775 (N17E60, Cso/beta) was assigned to a recently
+emerged small group.
+
+Plenty of radio burst activity was noted today, but nothing prolific.
+One of the bursts equated to a tenflare on 2695 MHz which reached 310
+sfu (solar flux units). Later, the M5.3 flare from Region 3768 was
+associated with Type II (est velocity of 326 km/s) and IV radio sweeps
+indicative of CME movement. That same flare was associated with another
+tenflare (900 sfu).
+
+Several new CMEs were observed in available coronagraph imagery, but
+initial analyses suggest none are likely to have Earth-directed
+components. However, the most recent M5.3 flare will likely have a CME
+associated with it, based on the USAF observatory reported radio sweeps.
+That data will be analyzed to ensure no glancing blows are possible.
+
+.Forecast...
+Solar activity is expected to be moderate to high, with continuing
+M-class flares (R1-R2; Minor-Moderate) and a chance for X-class activity
+(R3/Strong) 1-3 Aug due to the number of magnetically complex sunspot
+groups present on the visible solar disk. While 3768 will rotate out of
+view over the next few days, a new region, as indicated in NSO/GONG
+helioseismology, is likely to rotate into view on day three to four.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was normal, while the greater than
+10 MeV proton flux remained at background.
+
+.Forecast...
+The greater than 2 MeV electron flux is anticipated to continue at
+normal to moderate levels on 1-3 Aug, with a chance for high levels on
+2-3 Aug due to possible CME related effects. A chance for the greater
+than 10 MeV proton flux to reach S1 (Minor) solar radiation storm levels
+will persist through 02 Aug given ongoing limb activity primarily from
+AR3762 and AR3768. In addition, the complex of regions, to include
+AR3766, will be rotating into a more favorable location on the southwest
+limb.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were indicative of CME arrival and passage. While
+it is unknown with certainty, we believe this to be an expected CME from
+28 July. Total IMF strength increased initially at 31/1042 UTC and
+promptly again at 31/1347 UTC and peaked at 16 nT. The Bz component
+varied notably upon CME arrival, but eventually seemed to settle more
+into a southward orientation by 31/1755 UTC and eventually reached a
+maximum deviation of -13 nT. Solar wind speed only increased mildly from
+~400 km/s to between 450-500 km/s with CME arrival and continued
+passage. The phi angle was firmly positive until the secondary IMF
+enhancement, when it varied between sectors.
+
+.Forecast...
+Solar wind conditions are expected to remain enhanced on 1 Aug as CME
+passage continues. Additionally, we are still anticipating another CME
+arrival (from 29 Jul) that will likely keep the solar wind field
+enhanced. Conditions should begin weakening on 2 Aug with a return
+to a more ambient-like solar wind field by 3 Aug. However, CMEs continue
+to occur, so any future forecast changes should not be surprising.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to active, with an isolated period of G1
+(Minor) storming during the 31/1800-2100 UTC timeframe, in varied
+response to CME arrival and passage.
+
+.Forecast...
+G2 (Moderate) storm levels remain likely on 1 Aug due to continuing CME
+passage and the anticipated arrival from the 29 Jul CME. Conditions are
+anticipated to decrease to active levels on 2 Aug as CME influences
+wane, with a return to mainly quiet conditions on 3 Aug - pending any
+new CME influences.
+
+
+:Product: 08141230forecast_discussion.txt
+:Issued: 2024 Aug 14 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached high levels following an X1.0/2b flare at 14/0640
+UTC from Region 3784 (N14E01, Dkc/beta-gamma-delta). Discreet radio
+signatures associated with this flare included Type II (est 516 km/s)
+and Type IV radio sweeps, as well as a 10cm Radio burst (500 sfu).
+Region 3784 continued to evolve, with the delta configuration area
+growing and the smaller leader spots starting to separate from the main
+spot. This region also produced an M1.0/Sf flare at 13/1729 UTC and an
+M4.1/1n flare at 13/2344 UTC, as well as several C-class flares. Region
+3777 (S09W87, Dkc/beta-gamma) added an M1.3 flare at 13/2245 UTC and an
+M4.4 flare at 14/0402 UTC as it made its way around the western limb.
+Region 3780 (S08W55, Ekc/beta-gamma-delta) exhibited signs of decay and
+slight magnetic simplification as it neared the western limb. The
+remaining regions were stable and inactive.
+
+Currently, no Earth-directed CMEs were visible in available coronagraph
+imagery. However, analysis will be conducted on the halo CME associated
+with the X1 flare as more imagery becomes available.
+
+.Forecast...
+Solar activity is expected to be at moderate levels, with M-class flares
+(R1-R2, Minor-Moderate) expected, and a chance for X-class flares
+(R3-Strong) through 16 Aug.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 10 MeV proton flux has remained at background levels.
+The greater than 2 MeV electron flux was at normal to moderate levels.
+
+.Forecast...
+There is a slight, but increasing chance for S1 (Minor) conditions on 14
+Aug following the X1 flare from near center disk. The increased chances
+are likely to continue through 16 Aug as a few magnetically complex
+regions remain in geoeffective locations. The greater than 2 MeV
+electron flux is expected to remain at normal to moderate levels over
+14-16 Aug.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment returned to near nominal levels. Total field
+decreased from near 15 nT to average near 5 nT the latter half of the
+period. The Bz component varied between -7 nT and 10 nT through 14/0200
+UTC, then fluctuated slightly between +/-2 nT thereafter. Solar wind
+speeds averaged near 400 km/s throughout the period. Phi angle was
+mostly positive with isolated oscillations into a negative position.
+
+.Forecast...
+Near nominal values are expected through 15 Aug before potential CH HSS
+influence from a northern latitude coronal hole are anticipated to
+become geoeffective starting 16 Aug. Weak enhancements in solar wind
+parameters are possible if the HSS connects with Earths magnetic field.
+However, confidence remains low on its effects.
+
+Geospace
+
+.24 hr Summary...
+Geomagnetic field activity was at quiet to unsettled levels, with
+isolated active conditions, due to residual CME activity.
+
+.Forecast...
+Quiet to unsettled levels are expected for the remainder of 14 Aug as
+residual CME activity diminishes. A northern latitude coronal hole
+is anticipated to become geoeffective 16 Aug which could lead to a
+slight enhancement of the geomagnetic field, but confidence is low at
+this time.
+
+
+:Product: 03100030forecast_discussion.txt
+:Issued: 2024 Mar 10 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was at low levels with a few C-class flares from Region
+3599 (S13W28, Dai/beta-gamma-delta), the largest a C6.3/Sf at 09/0119
+UTC. The region grew slightly this period and regained a delta
+configuration in its leader spots. The remaining five other active
+regions were mostly quiet and stable.
+
+At about 10/0200 UTC, an 8 degree long, E-W oriented filament, centered
+near S44E17, lifted off the disk. Weak CME signatures were detected off
+the SSE limb on SOHO/LASCO imagery. Analysis and model run output
+suggested no Earth-directed component. No additional Earth-directed CMEs
+were observed in available coronagraph imagery.
+
+.Forecast...
+Solar activity is expected to be low, with a slight chance for M-class
+(R1 - Minor) flares on 10-12 Mar.
+
+Energetic Particles
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels
+and the greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be at normal to
+moderate levels 10-12 Mar. Proton flux is expected to remain at
+background levels.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters reflected a slightly enhanced environment, likely
+associated with a negative polarity CH HSS and possible week CME
+influence. Total field strength reached 6 nT and the Bz component
+reached as far south as -5 nT. Solar wind speeds gradually declined from
+~485 km/s to ~425 km/s over the past 24 hours. Phi angle was in a mostly
+negative orientation.
+
+.Forecast...
+Slowly diminishing conditions are expected on 10 Mar as CH HSS/CME
+influence eventually dissipates. On 11-12 Mar, enhancements are expected
+again under the influence of another negative polarity CH HSS.
+
+Geospace                                                                
+
+.24 hr Summary...
+The geomagnetic field was at quiet to active levels.
+
+.Forecast...
+Quiet to unsettled conditions are expected on 10 Mar, with combined CH
+HSS influences and glancing CME effects. Continued quiet to unsettled
+periods are expected on 11-12 Mar as a new negative polarity CH HSS
+becomes effective.
+
+
+:Product: 11010030forecast_discussion.txt
+:Issued: 2024 Nov 01 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached high levels. The largest event was an X2.0/3b
+flare (R3-Strong) at 31/2120 UTC from Region 3878 (N16E23,
+Eki/beta-gamma-delta). In addition, seven M-class flares (R1-Minor) were
+observed from Regions 3875 (N28W41, Dai/beta), 3876 (S06W46,
+Dki/beta-gamma), and 3878. Growth was observed in Regions 3875 and 3876,
+and new Region 3880 (S13E55, Axx/alpha) was numbered. The remaining
+regions were either stable or in decay. Analysis of a CME associated
+with flaring from Region 3877 (S16W04, Axx/alpha) at around 31/1252 UTC
+resulted in a possible glancing blow on 03 Nov.
+ 
+.Forecast...
+M-class flares are expected, with a chance for X-class flares, through
+03 Nov.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 10 MeV proton flux persisted at S1 (Minor) levels
+throughout the period. The greater than 2 MeV electron flux was at
+normal to moderate levels.
+
+.Forecast...
+The greater than 10 MeV proton flux is expected to continue at S1
+(Minor) levels into early 01 Nov. The greater than 10 MeV proton flux is
+expected to be elevated above background levels over 02-03 Nov, but
+remain below event threshold. The greater than 2 MeV electron flux is
+expected to continue at normal to moderate levels through 03 Nov.
+
+Solar Wind
+
+.24 hr Summary...
+Enhanced solar wind conditions prevailed through much of the period,
+with an increase in interplanetary magnetic field observed late in the
+day. Total field strength reached 9 nT and the Bz component reached -8
+nT. Solar wind speeds ranged between 450-600 km/s. The phi angle was
+predominately negative.
+
+.Forecast...
+Nominal solar wind conditions are expected to prevail on 01 Nov. Mildly
+enhanced solar wind parameters are likely on 02 Nov due to positive
+polarity CH HSS influences. Weakly enhanced conditions are expected on
+03 Nov due to continued, but waning CH HSS influences and the possible
+glancing blow arrival of the 31 Oct CME.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet and active.
+
+.Forecast...
+The geomagnetic field is expected to be mostly quiet on 01 Nov. Quiet to
+active levels are likely on 02 Nov due to positive polarity CH HSS
+influences. Quiet to active levels are likely on 03 Nov due to
+continued, but waning CH HSS influences and the possible glancing blow
+arrival of a CME from 31 Oct.
+
+
+:Product: 12130030forecast_discussion.txt
+:Issued: 2024 Dec 13 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar flare activity reached moderate levels due to a pair of impulsive
+M-class (R1-Minor) flares from Region 3922 (S18E36, Cao/beta). The first
+was an M2.2 flare observed at 12/1743 UTC and the second was an M1.6
+flare observed at 12/2107 UTC. Region 3917 (S08W42,
+Dkc/beta-gamma-delta), the largest region on the disk, produced numerous
+C-class events this period. This region showed some penumbral growth.
+Region 3920 (N22W02, Eki/beta-delta) was quiet and stable this period.
+New Region 3924 (S20E12, Cro/beta) was numbered. All other regions have
+been quiet
+and stable.
+
+A halo CME was observed in LASCO C2 imagery beginning at 11/2124 UTC.
+The ejecta was determined to have originated from behind the limb, so no
+Earth-directed component is expected.
+
+Additionally, a pair of small filaments lifted off in the NW and SW at
+about 12/0930 UTC. A narrow CME was observed in LASCO C2 imagery off the
+SW beginning at 12/1000 UTC. Analysis and model output of this CME
+suggested there was no Earth directed component.
+
+Beginning at 12/1746 UTC, ejecta could be seen lifting off associated
+with the M2.2 flare. Analysis will be conducted as imagery becomes
+available.
+
+.Forecast...
+R1-R2 (Minor-Moderate) radio blackouts are likely on 13-15 Dec based
+primarily on the flare potential of Regions 3917, 3920 and 3922 (S18E48,
+Cso/beta).
+
+Energetic Particles
+
+.24 hr Summary...
+The greater than 2 MeV electron flux increased to high levels with a
+maximum flux of 1,180 pfu observed at 12/1450 UTC. The greater than 10
+MeV proton flux remained at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to reach high levels on
+13 Dec and decrease back to normal to moderate levels on 14-15 Dec. The
+greater than 10 MeV proton flux is expected to remain at background
+levels over 13-15 Dec.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were at nominal levels. Total field was mostly
+steady at around 3-6 nT with a variable Bz component between +/-5 nT.
+Solar wind speeds varied between about 340-400 km/s. The phi angle
+remained mostly in the positive (away from the Sun) orientation.
+
+.Forecast...
+Solar wind parameters are expected to remain at nominal levels on 13-14
+Dec. On 15 Dec, an increase in solar wind parameters is likely due to
+influence from an equatorial, positive polarity CH HSS.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field has been at mostly quiet levels with an isolated
+unsettled period.
+
+.Forecast...
+The geomagnetic field is likely to remain at mostly quiet levels on
+13-14 Dec, increasing to isolated unsettled periods on 15 Dec due to
+positive polarity CH HSS effects.
+
+
+:Product: 03131230forecast_discussion.txt
+:Issued: 2024 Mar 13 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity remained at low levels. Region 3599 (S12W73,
+Dao/beta-gamma) continued to produce most of the flare activity, though
+it did exhibit signs of decay and lost its delta configuration. It was
+responsible for the largest flare of the period, a C2.7 flare at 12/1815
+UTC. Weak C class activity was also observed from Region 3607 (S18E39,
+Dao/beta) and new Region 3610 (S16E75, Hsx/alpha). New Region 3608
+(N11E48, Axx/alpha) and new Region 3609 (N06E55, Axx/alpha) were also
+numbered. The remaining two active regions showed further decay. No
+Earth-directed CMEs were observed in available coronagraph imagery.
+
+.Forecast...
+Solar activity is expected to be low, with a slight chance for M-class
+(R1 - Minor) flares, on 13-15 Mar.
+
+Energetic Particles
+
+.24 hr Summary...
+The greater than 2 MeV electron flux reached moderate levels with a peak
+of 555 pfu at 12/1725 UTC. The greater than 10 MeV proton flux was near
+background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be at normal to
+moderate levels on 13-15 Mar. Proton flux is expected to remain at
+background levels.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were indicative of a near-background solar wind
+regime through about 13/0445 UTC. Total field strength averaged near 5
+nT, Bz had a few, minor southward deflections to near -5 nT, while solar
+wind speeds varied between about 425 km/s to about 460 km/s. Phi angle
+was in a mostly positive orientation. After 13/0445 UTC, Bt increased to
+7 nT and the Bz component indicated some southward deviations to -7 nT.
+The phi angle displayed some negative orientation.
+
+.Forecast...
+Solar wind parameters are expected to remain slightly enhanced on 13
+Mar. On 14-15 Mar, the solar wind environment is expected to see
+slightly more enhanced conditions as a negative polarity CH HSS moves
+into a geoeffective position.
+
+Geospace                                                                
+
+.24 hr Summary...
+The geomagnetic field was at quiet to unsettled levels.
+
+.Forecast...
+Quiet to isolated unsettled levels are expected on 13 Mar. By 14-15 Mar,
+a new negative polarity CH HSS is expected to move into a geo-effective
+position, bringing in quiet to unsettled conditions, with a chance for
+isolated active periods. There is a slight chance for possible G1
+(Minor) storm levels on 14-15 Mar if the CME from 10 Mar passes near
+enough to Earth. This is a very low confidence forecast at this time.
+
+
+:Product: 07091230forecast_discussion.txt
+:Issued: 2024 Jul 09 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was at low levels. A region just beyond the SE limb
+near S25 produced an M1.1/Sf flare at 08/1241 UTC. Region 3734 (N08,
+L=299) decayed to plage, and Region 3739 (N04W56, Axx/alpha) remerged as
+a single spot. Region 3738 (S10E15, Eki/beta-gamma) remained the
+largest, most magnetically complex region on the visible disk. This AR
+was responsible for a majority of the C-class flare activity with a C6.7
+flare at 09/0822 UTC being the largest. Regions 3742 (S24E55, Axx/alpha)
+and 3743 (S09E62, Cao/beta)  were numbered this period, and the
+remaining active regions were relatively stable.
+
+A westerly CME associated with a surge followed by field line movement
+near AR 3739 as observed by GOES SUVI 284 imagery was first seen in C2
+coronagraph imagery at approximately 08/2136 UTC. Modeling of this event
+suggests a miss well ahead of Earths orbit. Another CME associated with
+C-class flaring from AR 3738 was first observed by C2 coronagraph
+imagery just around 09/0624 UTC. Analysis and modeling of this event is
+currently underway.
+
+.Forecast...
+Solar activity is expected to be low over 09-11 Jul, with a chance for
+isolated M-class (R1-R2/Minor-Moderate) flare activity.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels
+and the greater than 10 MeV proton flux was steady at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to continue at normal
+to moderate levels over 09-11 Jul. The greater than 10 MeV proton flux
+is expected to persist at background levels through 11 Jul.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were mildly enhanced, possibly due to weak CIR
+activity. Total field decreased from 8-9 nT to 4-5 nT over the course of
+the period. The Bz component was benign, ranging +/- 4 nT. Wind speeds
+decreased from ~425-430 km/s to ~375 km/s, and phi rotated between solar
+sectors.
+
+.Forecast...
+Slightly enhanced conditions are expected to continue over the course of
+09 Jul due to weak positive polarity CH HSS influence. Another
+enhancement is expected mid to late on 11 Jul as a negative polarity CH
+HSS is likely to become geoeffective.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to unsettled.
+
+.Forecast...
+Quiet to unsettled levels are expected on 09 Jul due to weak HSS
+activity. Mostly quiet conditions are expected on 10 Jul. By mid to late
+on 11 Jul, unsettled to active levels are expected due to negative
+polarity CH HSS onset.
+
+
+:Product: 05041230forecast_discussion.txt
+:Issued: 2024 May 04 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached high levels. Region 3663 (N26W12,
+Ekc/beta-gamma-delta) produced an M9.1/1b flare (R2/Moderate) at 04/0619
+UTC, the strongest of the period. A Type II (est. 950 km/s) and Type IV
+radio sweep along with a Tenflare were observed with the event. A CME is
+suspected to be associated with the flare but additional coronagraph
+imagery is need for conformation and analysis. This region and Region
+3664 (S19E32, Ekc/beta-delta) continued to be most complex. Region 3666
+(N07E10, Dai/beta-gamma-delta) also exhibited notable growth.
+
+Other eruptive activity included a C3.9 flare at 03/2037 UTC from an
+unspotted area to the east of Region 3666 (N07E09,
+Dai/beta-gamma-delta). This event also produced a Type II (est. 392
+km/s) and Type IV radio sweep. An associated CME, first seen in
+SOHO/LASCO C3 imagery at 03/2218 UTC,  was analyzed and modeled. The
+results suggested the slow-moving periphery should pass by Earth around
+09 May.
+
+.Forecast...
+Solar activity is expected to be at moderate levels
+(R1-R2/Minor-Moderate), with a chance for X-class flares (R3/Strong or
+greater), over 04-06 May.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels
+and the greater than 10 MeV proton flux was steady at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to continue at normal
+to moderate levels over 04-06 May. There is a slight chance for the
+greater than 10 MeV proton flux to reach S1 (Minor) storm levels over
+04-06 May due to the flare potential of Regions 3663 and 3664.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind parameters returned to nominal levels over the past 24
+hours. Total magnetic field strength was at or below 5 nT. Solar wind
+speeds declined from the low 400s to near 370/km/s by the periods end.
+Phi angle transitioned from negative to positive polarity after 03/1830
+UTC.
+
+.Forecast...
+Mildly enhanced solar wind conditions and positive polarity CH HSS
+influences are likely to prevail over 04-06 May. A stronger
+disturbance is expected late on 05 May and 06 May due to the anticipated
+arrival of the 03 May CME associated with the X1.6 flare from Region
+3663.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet.
+
+.Forecast...
+The geomagnetic field may reach unsettled and active levels on 04 May
+due to positive polarity CH HSS influences. Active conditions and
+periods of G1 (Minor) storming are likely on 05 May due to continued
+positive polarity CH HSS influences in addition to the anticipated
+arrival of the 03 May CME late in the day. Periods of G1-G2
+(Minor-Moderate) storming are likely on 06 May due to continued CME
+activity and CH HSS influences.
+
+
+:Product: 06260030forecast_discussion.txt
+:Issued: 2024 Jun 26 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+NOTE: GOES X-Ray Flux, Electron Flux, and Proton Flux data went offline
+at 24/2125 UTC due to a network outage. Data began to come in around
+25/1200 UTC but has had a few intermittent gaps. Work is in progress to
+restore services.
+
+Solar activity reached moderate levels due to an isolated M1.0 flare at
+254/1245 UTC from Region 3723 (S19E44, Fai/beta-gamma-delta). The Region
+remained the most magnetically complex spot group, however the region
+changed little over the last 24 hours. Region 3720 (S06E04,
+Dai/beta-gamma) showed some decay in its leader spots during the
+previous 12 hours. New Region 3728 (S25E55, Bxo/beta) was numbered.
+
+Initial modeling of the CME associated with the 35 degree filament
+eruption centered near S19W58 that was observed lifting off at 24/2310
+UTC returned with flanking influences at Earth by late on 28 Jun.
+Additional analysis and modeling of this event is ongoing. A second
+filament erupted near S30W12 with an associated CME visible off of the
+southeast limb. A model run for that event is also in progress.
+
+.Forecast...
+M-class flares (R1-R2/Minor-Moderate) are likely on 26-28 Jun due
+primarily to the flare potential of Regions 3723 and 3720.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels
+and the greater than 10 MeV proton flux was near background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be at normal to
+moderate levels on 26-28 Jun. The greater than 10 MeV proton flux is
+expected to be at or near background levels on 26-28 Jun.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters reflected possible weak transient activity. The
+geomagnetic field increased from 6 to near 9 nT at the end of the
+period. A prolonged period of southward Bz reaching -7 nT was observed
+between 25/0035-0930 UTC. Solar wind speed ranged from 268-357 km/s. Phi
+angle was mostly negative.
+ 
+.Forecast...
+Mostly ambient-like solar wind conditions are expected to prevail
+through 27 Jun. An enhancement from the large filament eruption from
+late on 24 Jun is likely by late 28 Jun.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to unsettled.
+
+.Forecast...
+Mostly quiet conditions are expected to prevail over 26-27 Jun and
+through most of 28 Jun. Active conditions are expected, with a chance
+for G1 (Minor) geomagnetic storming, by late 28 Jun with the arrival of
+flanking effects from the 24 Jun filament eruption.
+
+
+:Product: 11090030forecast_discussion.txt
+:Issued: 2024 Nov 09 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached moderate levels. Region 3883 (S06W20) produced an
+M1.5/1n flare at 08/0301 UTC; the largest event of the period. Minor
+growth was noted in Region 3883 while the remaining regions were either
+stable or in decay. No Earth-directed CMEs were detected in available
+coronagraph data.
+
+.Forecast...
+M-class flares are expected, with a chance for X-class flares, over
+09-11 Nov.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 10 MeV proton flux was at background levels and the
+greater than 2 MeV electron flux was at normal to moderate levels.
+
+.Forecast...
+There is a slight chance for the greater than 10 MeV proton flux to
+reach S1 (Minor) levels over 09-11 Nov. The greater than 2 MeV electron
+flux is expected to continue at normal to moderate levels through 11
+Nov.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment was mildly enhanced this period. Total field
+strength values ranged between 2-16 nT and the Bz component was
+sustained southward, by as much as -12 nT, after 08/1700 UTC. Solar wind
+speeds were steady between 350-415 km/s.
+
+.Forecast...
+Enhanced solar wind conditions are expected to prevail over 09-11 Nov
+due to CH HSS influences.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field ranged from quiet to active levels.
+
+.Forecast...
+Periods of active conditions are expected on 09-11 Nov due to CH HSS
+influences.
+
+
+:Product: 12191230forecast_discussion.txt
+:Issued: 2024 Dec 19 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was reached moderate levels. Region 3924 (S18W76,
+Eko/beta-gamma) produced an M1.6 flare at 19/1038 UTC. Region 3927
+(S08E62, Dai/beta) produced several C-class flares. Region 3922 (S19W47,
+Dai/beta) increased in area, but was inactive. The remaining regions
+were either stable or in decay. No Earth-directed CMEs were detected in
+available coronagraph imagery.
+
+.Forecast...
+There is an increasing chance for R1-R2 (Minor-Moderate) events over
+19-21 Dec as Region 3927 rotates fully onto the visible disk.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels
+and the greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to continue at normal
+to moderate levels through 21 Dec. The greater than 10 MeV proton flux
+is expected to persist at background levels over 19-21 Dec.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment indicated continued but waning CME influence.
+Total field gradually decreased from 8 nT down to 4 nT by the end of
+the period with variable Bz. Solar wind speeds decreased from ~515 km/s
+to ~430 km/s. Phi was negative.
+
+.Forecast...
+A gradual return to ambient conditions is likely on 19-21 Dec.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to active due to the aforementioned CME
+effects.
+
+.Forecast...
+The geomagnetic field is expected to continue at quiet to active levels
+through on 19 Dec as CME effects wane. A return to mostly quiet
+conditions is expected on 20-21 Dec.
+
+
+:Product: 08231230forecast_discussion.txt
+:Issued: 2024 Aug 23 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached moderate levels. Region 3801 (N07E56, Cso/beta)
+produced the largest flare of the period, an M3.4 at 23/0341 UTC with an
+accompanying type II sweep (est 347 km/s). This region continued to
+exhibit slight growth. Region 3800 (S28E24, Cao/beta) produced an M1.0
+flare at 23/0418 UTC as it also underwent slight growth. Region 3790
+(S12W28, Dkc/beta-gamma) remains the largest spot group on the visible
+disk, but has been relatively quiet throughout the period. Region 3796
+(S02E06, Dki/beta-gamma) developed additional intermediate spots.
+
+A CME was observed in LASCO C2 imagery off the west starting near
+23/0224 UTC. This is possibly associated with a C5.9 flare from Region
+3794 (N19W42, Dao/beta) at 23/0203 UTC. A type II sweep was associated
+with an estimated speed of 236 km/s. The bulk of this CME is expected
+to be far to the west, but analysis is ongoing to determine if there is
+an Earth-directed component. No other potentially Earth-directed CMEs
+were observed.
+
+.Forecast...
+M-class flares (R1-R2, Minor-Moderate) remain likely, with a slight
+chance for X-class flares (R3-Strong) persisting through 25 Aug.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 10 MeV proton flux has remained at background levels.
+The greater than 2 MeV electron flux was at normal to moderate levels.
+
+.Forecast...
+There is a slight chance for the greater than 10 MeV proton flux to
+reach S1 (Minor) storm levels over 23-25 Aug. The greater than 2 MeV
+electron flux is expected to continue at normal to moderate levels
+throughout the period.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment continued to reflected an enhancement in the
+IMF. Total field strength reached 12 nT, the Bz component deviated
+southward near to a maximum of -10 nT. Solar wind speeds were between
+~350-390 km/s. Phi was in a mostly positive orientation.
+
+.Forecast...
+Weak interaction with the CH HSS should diminish by late on 23 Aug,
+decreasing the chances for any weak enhancements in the IMF. A return to
+a mostly nominal solar regime is expected on 24-25 Aug as the CH HSS
+moves from its geoeffective position.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet to unsettled levels.
+
+.Forecast...
+Unsettled levels are still likely early on 23 Aug, but diminishing weak
+CH HSS influence should lead to mostly quiet conditions on 24-25 Aug.
+
+
+:Product: 11240030forecast_discussion.txt
+:Issued: 2024 Nov 24 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity continued at moderate levels with additional M-class
+flares observed. The first was an M1.1/2n flare at 23/1607 UTC, produced
+by Region 3901 (S07W07, Cao/beta-gamma). The second event was an M1.1
+flare that originated from just beyond the NE limb at 23/1810 UTC, along
+with a few C-class flares. No obvious CMEs were associated with either
+of these events. Shortly following the second M-flare, Region 3898
+(S15W69, Cao/beta) produced a C5.4 flare at 23/1920 UTC. Coronal dimming
+was observed in SUVI 195 imagery that correlates to a CME first observed
+in LASCO C2 imagery at 23/1924 UTC. Limited imagery is available at this
+time, but a thorough analysis will be conducted as information becomes
+available to determine if there is an Earth-directed component. Region
+3898 was also responsible for several other C-class flares as it made
+its way towards the west limb.
+
+Region 3906 (S16E59, Dai/beta-gamma) was the only region to show any
+development, adding intermediate spots as well as additional peripheral
+spots near the large trailing spot. It was responsible for a few C-class
+flares early in the period, the largest being a C7.0 flare at 23/0320
+UTC. New Region 3907 (S21E15, Cro/beta) formed and was numbered, with
+the remaining regions showing little change.
+
+Pending results from the modeling of the aforementioned CME, no
+Earth-directed CMEs were observed in available coronagraph imagery.
+
+.Forecast...
+Solar activity is expected to be low, with M-class flares
+(R1/R2-Minor/Moderate) likely, and a slight chance for X-class
+(R3-Strong) events 24-26 Nov.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux returned to background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to continue at normal
+to moderate levels. The greater than 10 MeV proton flux levels are
+expected to remain at background conditions on 24-26 Nov.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters reflected weak, negative polarity CH HSS
+influence. Solar wind speeds ranged +/- 25 km/s of 400 km/s. Total field
+was primarily 7-8 nT, and the Bz component underwent a handful of
+southward deflections, reaching a minimum of -8 nT. Phi was
+predominantly negative.
+
+.Forecast...
+Solar wind parameters are expected to remain slightly enhanced on 24 Nov
+as negative polarity CH HSS influences persist. By 25 Nov, conditions
+are expected to decrease to near background as the CH moves out of a
+geoeffective position. Ambient levels are expected to return on 26 Nov.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to unsettled.
+
+.Forecast...
+The geomagnetic field is expected to be quiet to unsettled, with a
+chance for isolated active periods on 24 Nov due to CH HSS influence. By
+25-26 Nov, mostly quiet conditions are expected to return as the CH
+moves out of a geoeffective position.
+
+
+:Product: 10241230forecast_discussion.txt
+:Issued: 2024 Oct 24 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached high levels. An X3.3/sf flare was observed at
+24/0357 UTC from Region 3869 (S17E64, Ehi/beta-gamma). Associated type
+II (601 km/s) and type IV radio emissions occurred, as well as an
+asymmetric  halo CME that was first visible off the SW in C2 imagery at
+24/0348 UTC. Due to the location of the source region, the bulk of the
+CME is expected to be to the S and E of Earth. However, some flanking
+influence is likely according to preliminary modelling efforts. Analysis
+of this event for timing is ongoing at the time of this summary. This
+region was also responsible for an M1.2/sf flare at 24/1029 UTC and
+several C-class flares during the period. The other spotted regions were
+unremarkable.
+
+.Forecast...
+Solar flare activity is expected to be at Minor to Moderate (R1-R2)
+levels 24-26 Oct with a slight chance for R3-Strong levels as more
+magnetically complex regions emerge in the SE part of the disk. Region
+3869, formerly 3842, was responsible for four X-Class flares on its last
+transit.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux remained at normal to moderate
+levels. The greater than 10 MeV proton flux remained near background
+levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be at normal to
+moderate levels and the greater than 10 MeV proton flux is expected to
+remain at background levels 24-26 Oct.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters have become slightly enhanced over the period as a
+weak positive polarity CH became geoeffective. Total magnetic field was
+5-12 nT with the Bz component fluctuating between +7/-8 nT. Wind speeds
+rose from around 320 km/s to 440 km/s before settling to near 375 km/s.
+The phi angle has remained in the positive sector.
+
+.Forecast...
+Solar wind parameters are expected to remain slightly enhanced 24-25 Oct
+with weak CH influence. Nominal conditions are expected on 26 Oct.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet to active levels.
+
+.Forecast...
+Unsettled to active levels are expected on 24-25 Oct due to weak CH
+influence. Quiet conditions are expected on 26 Oct under a nominal solar
+wind.
+
+
+:Product: 03151230forecast_discussion.txt
+:Issued: 2024 Mar 15 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was at low levels. Multiple long-duration C-class
+eruptions were associated with activity near Region 3599 (S13, L=067) as
+it rotated beyond the W limb. The largest was a C6.0 flare at 15/0610
+UTC. Associated with the flare activity were multiple CME signatures in
+SOHO/LASCO C2 imagery. As the region is now on the farside of the Sun,
+the ejecta is expected to head westward and upstream of Earth.
+
+Region 3612 (N23E51, Axx/alpha) was recently numbered but remained
+mostly quiet throughout the period. The remaining three spotted regions
+were stable and quiet.
+
+.Forecast...
+Solar activity is expected to be low with a slight chance for M-class
+flares over 15-16 Mar primarily due to the eruptive potential of Region
+3599 as it rotates further beyond the W limb.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels
+and the greater than 10 MeV proton flux was slight above background
+levels due to recent activity from old Region 3599.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be at normal to
+moderate levels on 15-17 Mar. The greater than 10MeV proton flux is
+expected to remain elevated above background levels for the next few
+days.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind conditions were enhanced due to positive polarity CH HSS
+influences. Solar wind speeds were in gradual decline and ranged 400-475
+km/s. Total magnetic field strength steadily decline from 8 nT to 4 nT
+by the end of the reporting period. Phi angle was oriented in the
+positive sector.
+
+.Forecast...
+Enhanced solar wind conditions are expected to prevail over 15-17 Mar
+due to continued CH HSS influences.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet to active levels due to CH HSS
+influences.
+
+.Forecast...
+Periods of active conditions are expected on 15 Mar, and quiet to
+unsettled levels are expected over 16-17 Mar, due to continued CH HSS
+influences.
+
+
+:Product: 01191230forecast_discussion.txt
+:Issued: 2025 Jan 19 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was at moderate levels with M-class flares (R1-Minor)
+observed. Region 3964 (N06W61, Eki/beta-gamma) produced a M2.4 flare at
+19/0332 UTC, which was the largest of the period. AR 3964 was
+responsible for the majority of the C-class flare activity as well as it
+maintained a gamma magnetic configuration. Regions 3959 (N19W15,
+Cko/beta) and 3961 (S09E05, Ekc/beta-gamma) tacked on C-class flares as
+well with the latter presenting mixed polarities in its intermediate
+penumbra. Region 3968 (S18W73, Bxo/beta) was numbered this period after
+producing a C2.0 flare at 19/0203 UTC. New spots were noted near S08E75,
+but went unnumbered as we await observatory reports. No Earth-directed
+CMEs were observed in available coronagraph imagery.
+
+.Forecast...
+R1-R2 (Minor-Moderate) events are likely, with a chance for R3 or
+greater events, over 19-21 Jan.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels
+and the greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to continue at normal
+to moderate levels through 21 Jan. There is a slight chance for the
+greater than 10 MeV proton flux to reach S1 (Minor) levels over 19-21
+Jan.
+
+Solar Wind
+
+.24 hr Summary...
+Negative polarity CH HSS influences and mildly enhanced solar wind
+conditions prevailed this period. Total field strength was between 4-6
+nT. The Bz component underwent several sustained, southward deflections
+of -4 to -5 nT during the latter half of the period. Solar wind speeds
+ranged ~460 km/s to just above 500 km/s. Phi was predominantly negative
+with a few excursions into a positive solar sector.
+
+.Forecast...
+Negative polarity CH HSS influences are expected to continue over 19-21
+Jan.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet and unsettled, with an isolated active
+period, due to negative polarity CH HSS influences.
+
+.Forecast...
+The geomagnetic field is expected to be at unsettled to active levels
+for the remainder of 19 Jan. Quiet to unsettled levels are expected to
+prevail 20-21 Jan as negative polarity CH HSS effects continue.
+
+
+:Product: 02201230forecast_discussion.txt
+:Issued: 2025 Feb 20 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar flare activity has been at low levels with only C-Class observed.
+The largest flare was a C8.1 at 19/2345 UTC from the vicinity of plage
+Region 3991 (S14W45). This flare was accompanied by a Type II radio
+emission (553 km/s) and associated CME off the SW of the disk. Modelling
+efforts determined the bulk of the CME to miss ahead of Earths orbit.
+However, a weak glancing influence can not be ruled out late on 24 Feb. 
+Region 3996 (S16E04, Eki/beta-gamma) is the largest and most complex
+region on the disk but was responsible for only one C-Class flare. Flux
+emergence and an increase in interior spots can be seen in Region 3998
+(S14E19, Dai/beta-delta) but the region has been fairly quiet with a
+single C-Class flare of C1.3 at 19/1408 UTC.
+ 
+
+.Forecast...
+Solar activity is expected to be low with a chance for isolated M-class
+(R1-R2, Minor-Moderate) activity and a slight chance for X-class (R3,
+Strong) activity through 22 Feb.
+
+Energetic Particle
+
+.24 hr Summary...
+The 2 MeV electron flux at geostationary orbit has been at moderate (100
+pfu) levels for much of the period. The greater than 10 MeV proton flux
+was at background levels.
+
+.Forecast...
+Weak CH HSS in the northern hemisphere could increase the 2 MeV electron
+flux into 21 Feb but its expected to remain below threshold.
+
+All active regions in the western hemisphere are simple in their
+magnetic complexity, reducing the chances for impactful proton events.
+Therefore, the greater than 10 MeV proton flux is expected to remain
+below S1 (Minor) levels through 22 Feb.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters remained enhanced throughout the day following a
+negative polarity CH HSS and/or a possible weak glancing blow from a CME
+that left the disk on the 15 Feb. The total interplanetary magnetic
+field remained between 6-10 nT with the Bz component sustaining the
+southward direction from 00-06 UTC, northward between 06-16 UTC, and
+then mostly south thereafter.  Solar wind speeds were between 425-533
+km/s and the phi angle remained in the negative (towards the Sun)
+orientation.
+
+.Forecast...
+A northern hemispheric, positive polarity coronal hole is expected to
+become geoeffective 20 Feb with a slight enhancement possible at this
+time. Waning influences towards nominal conditions are expected 21-22
+Feb.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field has been at quiet to active levels.
+
+.Forecast...
+Active conditions are expected to continue into the early parts of 20
+Feb. The geomagnetic field is expected to trend towards quiet to
+unsettled conditions as effects from the negative CH HSS wane and there
+is a transition to a weak, northern hemispheric CH HSS late 20 Feb.
+Based on the next coronal holes position and polarity, impacts are
+expected to be minimal. Quiet conditions are expected thereafter through
+22 Feb.
+
+
+:Product: 02131230forecast_discussion.txt
+:Issued: 2025 Feb 13 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity increased to R1-Minor levels due to an impulsive M1.0
+flare at 13/1109 UTC from Region 3992 (S06W17, Dai/beta-gamma). This
+region also produced C-class activity. The region continued to develop
+quickly and increase in magnetic complexity. C-class activity was also
+observed from Region 3990 (S09E33, Cko/beta). All other numbered regions
+were stable and quiet.
+
+No Earth directed CMEs were observed in available coronagraph imagery.
+
+.Forecast...
+Solar activity is expected to be low with a chance for (R1-R2,
+Minor-Moderate) activity on 13-15 Feb.
+
+Energetic Particles
+
+.24 hr Summary...
+The greater than 2 MeV electron flux reached high levels with a peak
+flux of 2,050 pfu observed at 12/1745 UTC. The greater than 10 MeV
+proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is likely to remain at moderate
+to high levels through 15 Feb. The greater than 10 MeV proton flux is
+expected to remain below S1 (Minor) levels through 15 Feb.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment was enhanced by negative polarity CH HSS
+influences. Total field Bt remained mostly steady near 6 nT, while the
+Bz component varied between +/-6 nT. Wind speeds remained mostly steady
+between about 500-550 km/s. The Phi angle was predominantly negative.
+
+.Forecast...
+The solar wind environment is expected to be enhanced on 13-15 Feb due
+to onset and influence from the next negative polarity CH HSS.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at unsettled to active levels due to negative
+polarity CH HSS influence.
+
+.Forecast...
+G1 (Minor) storm periods are likely on 13 Feb due to onset of a negative
+polarity CH HSS. Unsettled to active conditions are expected on 14-15 
+Feb as CH influence continues.
+
+
+:Product: 02181230forecast_discussion.txt
+:Issued: 2025 Feb 18 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached moderate levels due to an M1.0 flare at 17/1513
+UTC from Region 3992 (S06W88, Eai/beta-gamma). The region looks to have
+lost much of its intermediate spots but is becoming too difficult to
+analyze as it rotates around the western limb. Region 3998 (S14E47,
+Dai/beta-delta) has been the greatest flare producer throughout the
+period with ten C-Class flares. The region exhibited rapid flux
+emergence and magnetic shear across the intermediate area. Region 3996
+(S16E32, Eko/beta-gamma) also experienced quite a bit of growth with its
+length increasing and both the leader and trailer spots increasing in
+size due to consolidation of interior spots. Regardless of growth, the
+region has been quiet. All other regions have been stable or in slight
+decay.
+
+No Earth-directed CMEs were observed in coronagraph imagery this period.
+
+.Forecast...
+Solar activity is expected to be low with a chance for M-class (R1-R2,
+Minor-Moderate) activity and a slight chance for X-class (R3, Strong)
+activity through 20 Feb.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux at geostationary orbit remains high
+following a CH HSS; electrons reached a peak flux of 4,780 pfu observed
+at 17/1650 UTC. The greater than 10 MeV proton flux was at background
+levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is likely to remain at moderate
+to high levels through 18 Feb possibly into 19 Feb before returning to
+moderate levels thereafter. All active regions in the western hemisphere
+are simple in their magnetic complexity, reducing the chances for
+impactful proton events. Therefore, the greater than 10 MeV proton flux
+is expected to remain below S1 (Minor) levels through 20 Feb.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters continued to reflect influences from the negative
+polarity CH HSS. Total field averaged around 6 nT with a mostly variable
+Bz component between +/- 6 nT. There was a sustained period of southward
+Bz between 1200-1625 UTC but shifted back to variable thereafter. Solar
+wind speeds have been on the gradual decline from 550 km/s to 500 km/s.
+Aside from a few oscillations, the phi angle has remained mostly in the
+negative (towards the Sun) orientation.
+
+.Forecast...
+Negative polarity CH HSS influences are expected to diminish through 18
+Feb. There is a slight chance for a weak glancing blow from a CME that
+left the disk on 15 Feb but confidence is low. If the CME does arrive,
+solar wind parameters will be disturbed into 19 Feb. Effects wane and a
+gradual return to nominal conditions is expected 20 Feb.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet to active levels. 
+
+.Forecast...
+No changes from previous discussion. Unsettled to active conditions are
+expected to continue through 18 Feb as negative polarity CH HSS effects
+wane. There is a chance for G1 (Minor) geomagnetic storming by early to
+mid 18 Feb with any glancing influences from a CME that left the Sun on
+15 Feb. However, this is low confidence. Quiet to unsettled conditions
+are expected to prevail on 19 Feb as any remaining negative polarity CH
+HSS effects end and a possible transition to a weak, positive polarity
+CH HSS regime begins.
+
+
+:Product: 02090030forecast_discussion.txt
+:Issued: 2025 Feb 09 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached moderate levels. Region 3981 (N08W56,
+Eac/beta-delta) maintained a weak delta in its intermediate spots, while
+exhibiting signs of decay. AR 3981 was responsible for an M2.0 flare at
+08/0927 UTC, which was the largest event of the period. Region 3976
+(N11W82, Hsx/alpha) produced a C3.9 flare at 08/0827 UTC as it began its
+transit of the western limb. Region 3984 (N15W56, Dao/beta) produced
+numerous C-class flares, the largest of which included a C7.8 and C8.0
+at 08/1058 UTC and 08/1254 UTC, respectively.
+
+A slow, faint CME associated with the aforementioned M2.0 flare from AR
+3981 was first seen in coronagraph imagery at approximately 08/1000 UTC.
+While a substantial Earth-directed component is not anticipated,
+analysis and modeling is currently underway.
+
+.Forecast...
+Solar activity will likely reach moderate levels (R1-R2,
+Minor-Moderate), with a slight chance for isolated X-Class (R3-Strong)
+events,
+through 11 Feb due to the cluster of sunspot groups in the NW quadrant.
+
+Energetic Particles
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is likely to remain at moderate
+levels through 11 Feb. The greater than 10 MeV proton flux has a slight
+chance of reaching S1 (Minor) levels through 11 Feb primarily due to the
+flare potential of AR 3981.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment was slightly enhanced from what was likely
+glancing influences from the 02 Feb CME event. Total field gradually
+increased to peaks of 13-15 nT. The Bz component underwent a few
+sustained, southward deflections reaching -7 to -8 nT. Solar wind speeds
+ranged ~300 km/s to ~360 km/s and phi was predominantly positive.
+
+.Forecast...
+Enhancements from a recurrent negative polarity CH HSS are anticipated
+to begin on 09 Feb and continue through 11 Feb.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet to unsettled levels with an isolated
+active period.
+
+.Forecast...
+Unsettled to active levels are expected on 09 Feb due to negative
+polarity CH HSS effects. G1 (Minor) geomagnetic storming is likely on 10
+Feb as high speed stream effects continue with a return to primarily
+unsettled to active levels by 11 Feb.
+
+
+:Product: 01200030forecast_discussion.txt
+:Issued: 2025 Jan 20 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached moderate levels. Region 3964 (N06W62,
+Eki/beta-gamma) produced an M2.4 flare (R1-Minor) at 19/0332 UTC, the
+largest event of the period, and continued to slowly decayed. Region
+3961 (S09E06, Ekc/beta-gamma-delta) underwent minor overall growth, but
+some decay was observed among the intermediate spots. New Regions 3968
+(S19W71, Bxo/beta) and 3969 (S06E59, Bxo/beta) were numbered, and the
+remaining regions were stable. No Earth-directed CMEs were detected in
+available imagery.
+
+.Forecast...
+R1-R2 (Minor-Moderate) events are likely, with a slight chance for R3 or
+greater events, over 20-22 Jan.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal and moderate levels
+and the greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be at normal and
+moderate levels through 22 Jan. There is a slight chance for the greater
+than 10 MeV proton flux to reach S1 (Minor) levels over 20-22 Jan.
+
+Solar Wind
+
+.24 hr Summary...
+Negative polarity CH HSS influences prevailed. Total field strength
+slowly increased throughout the period to a peak of 8 nT. The Bz
+component was sustained southward, by was much as -7 nT, for brief
+intervals throughout the period. Solar wind speeds ranged between
+450-550 km/s.
+
+.Forecast...
+Enhanced solar wind conditions and negative polarity CH HSS influences
+are expected to persist through 21 Jan. Background levels are expected
+to return on 22 Jan.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field reached active levels due to negative polarity CH
+HSS influences.
+
+.Forecast...
+Periods of active conditions are likely on 20 Jan, followed by quiet and
+unsettled levels on 21 Jan, due to negative polarity CH HSS influences.
+Quiet conditions are expected to prevail on 22 Jan.
+
+
+:Product: 01141230forecast_discussion.txt
+:Issued: 2025 Jan 14 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was low with only C-class flare activity observed. Region
+3947 (N13W77, Dko/beta-gamma) was responsible for the majority of the
+activity. Region 3959 (N17E45, Cho/beta) continued to rotate into view
+revealing possible small, trailing spots. Region 3961 (S10E83, Dao/beta)
+rotated onto the southeast limb and was numbered during the period.
+
+A narrow CME was observed off the southeast limb beginning around
+14/0048 UTC in association with a filament eruption. Model runs suggest
+it is well ahead and south of the Sun-Earth line.
+
+.Forecast...
+There is a chance for R1-R2 (Minor-Moderate) events over 14-16 Jan, with
+a slight chance for an R3 or greater event, on 14-15 Jan.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels
+and the greater than 10 MeV proton flux was steady at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to continue at normal
+to moderate levels through 15 Jan. The greater than 10 MeV proton flux
+is expected to persist at background levels over 14-16 Jan.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters returned to near background levels. Total field
+was steady between 6-7 nT and the Bz component was variable. Solar wind
+speeds decreased from ~500 km/s to ~410 km/s. Phi was predominantly
+negative.
+
+.Forecast...
+Mildly enhanced solar wind conditions and negative polarity CH HSS
+influences are expected on 14-15 Jan, with a return to nominal levels on
+16 Jan.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to unsettled.
+
+.Forecast...
+Quiet and unsettled conditions are expected to prevail over 14-15 Jan,
+with negative polarity CH HSS influence. A return to mostly quiet
+conditions is expected on 16 Jan.
+
+
+:Product: 01261230forecast_discussion.txt
+:Issued: 2025 Jan 26 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was at low levels with no M-class activity observed. The
+notable event was a filament channel in the SE quadrant that began to
+erupt ~26/0030 UTC. A CME signature was observed in subsequent
+SOHO/LASCO C2 coronagraph imagery. Analysis and modelling of the event
+is underway to determine if an Earth-directed component was produced.
+
+A new region of flux was observed rotating onto the SE limb. Only minor
+changes were observed in the numbered active regions transiting the
+visible disk.
+
+.Forecast...
+There is a chance of M-class flares (R1-R2, Minor-Moderate) on 26-28
+Jan, with a slight chance for an X-class flare (R3, Strong) on 26-27
+Jan, primarily due to flare potential from multiple regions nearing the
+W limb.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be normal to
+moderate levels on 26-28 Jan, with a chance to reach high levels on 26
+Jan. There is a slight chance for the greater than 10 MeV proton flux to
+reach S1 (Minor) levels over 26-27 Jan.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were at nominal levels. Solar wind speeds steadily
+declined from ~380 km/s to 320 km/s over the reporting period. Total
+magnetic field strength was below 5 nT. Phi angle was negatively
+oriented.
+
+.Forecast...
+Solar wind parameters are likely to continue at nominal levels over
+26-28 Jan.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet.
+
+.Forecast...
+The geomagnetic field is likely to be at mostly quiet levels over 26-28
+Jan.
+
+
+:Product: 02100030forecast_discussion.txt
+:Issued: 2025 Feb 10 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was at low levels. Region 3981 (N07W69, Esi/beta-gamma)
+continued to show signs of decay in its intermediate spots while
+continuing its trek towards the western limb. AR 3981 produced a C4.4
+flare and C4.1 flare at 09/0249 UTC and 09/1413 UTC, respectively.
+Region 3983 (N06W07, Cso/beta) developed a simple, trailing spot and 
+Region 3988 (S18W37, Cro/beta-gamma) underwent evolution as its leading
+spot began to develop rudimentary penumbra as well as a gamma magnetic
+configuration in its intermediate area. New spots were noted near S19W34
+and S10E80, but remain unnumbered at this time as we await additional
+solar observatory reports. The remaining numbered regions were stable
+and relatively quiet.
+
+Beginning at approximately 09/1226 UTC, a large filament centered near
+S26W17 became unstable. GOES-16 304 imagery seems to suggest that this
+was a reabsorption event and is corroborated by a lack of ejecta visible
+in coronagraph imagery. No other Earth-directed events were observed in
+available imagery.
+
+.Forecast...
+Solar activity will likely reach moderate levels (R1-R2,
+Minor-Moderate), with a slight chance for isolated X-Class (R3-Strong)
+events, through 11 Feb due to the cluster of sunspot groups in the NW
+quadrant. Activity will likely decrease further on 12 Feb to only a
+isolated chance for R1-2 events as AR 3981 rotates beyond the western
+limb.
+
+Energetic Particles
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is likely to remain at moderate
+levels through 12 Feb. The greater than 10 MeV proton flux has a slight
+chance of reaching S1 (Minor) levels through 11 Feb primarily due to the
+flare potential of AR 3981. Probabilities decrease on 12 Feb as AR 3981
+moves beyond the western limb.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment was enhanced by negative polarity CH HSS
+influences. Total field increased from a range of 3 to 10 nT to peaks of
+22 nT. The Bz component remained primarily northward until approximately
+09/1257 UTC when sustained, southward deflections reaching -10 to -15 nT
+began. Solar wind speeds increased from ~350 km/s to 500-550 km/s. Phi
+became predominantly negative around 09/ 0851 UTC.
+
+.Forecast...
+An enhanced and disturbed solar wind environment is expected to continue
+through 11 Feb due to negative polarity CH HSS influences. HSS
+influences from this particular CH should begin to wane by 12 Feb.
+However, there is a chance for an additional enhancement by late 12 Feb
+due to any glancing influences from a slow, faint CME that left the Sun
+on 08 Feb. Confidence is low in this outcome.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field reached G1 (Minor) geomagnetic storming levels.
+
+.Forecast...
+G1 (Minor) geomagnetic storming is expected on 10 Feb under negative
+polarity CH HSS effects. Quiet to unsettled conditions, with isolated
+active periods, are expected 11-12 Feb as CH HSS effects continue along
+with a chance of glancing influences from the aforementioned 08 Feb CME.
+
+
+:Product: 01251230forecast_discussion.txt
+:Issued: 2025 Jan 25 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached moderate levels due to an M2.7 flare at 24/2104
+UTC from Region 3961 (S10W69, Eki/beta-gamma). Region 3961 continued to
+exhibit decay in its intermediate and trailing spots. Slight growth was
+observed in Region 3971 (N13W56, Dai/beta-gamma). A new region of
+emerging flux was observed near N12E10 but has not yet been assigned an
+active region number. No Earth-directed CMEs were observed.
+
+.Forecast...
+There is a chance of M-class flares (R1-R2, Minor-Moderate), with a
+slight chance for an X-class flare (R3, Strong), on 25-27 Jan.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be normal to
+moderate on 25-27 Jan. There is a slight chance for the greater than 10
+MeV proton flux to reach S1 (Minor) levels over 25-27 Jan.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were near nominal levels. Solar wind speeds
+gradually declined from ~450 km/s to n ~390 km/s by the end of the
+reporting period. Total field ranged from 2-6 nT while the Bz component
+briefly reached -4 nt. Phi angle remained mostly negative.
+
+.Forecast...
+An enhanced solar wind environment is likely on 25 Jan with the
+anticipated passing of a CME that left the Sun on 22 Jan. A transition
+back to nominal conditions is likely over 26 Jan.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet.
+
+.Forecast...
+Unsettled to G1 (Minor) storming, with a chance for G2 (Moderate), is
+likely on 25 Jan with the anticipated arrival of a CME that left the Sun
+on 22 Jan. Unsettled to active levels are expected to persist through 26
+Jan as CME effects wane. Mostly quiet conditions are expected over 27
+Jan.
+
+
+:Product: 02030030forecast_discussion.txt
+:Issued: 2025 Feb 03 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity increased to high levels as the cluster of regions in the
+NE churned out several M-class flares again this period. Region 3977
+(N19W00, Cao/beta-gamma) produced an M5.1 flare, the largest of the
+period, at 02/1404 UTC and an M1.2 at 02/1513 UTC. Region 3981 (N05E24,
+Dsi/beta-gamma-delta) added an M3.0 at 02/1012 UTC and an M1.4 flare at
+02/1250 UTC. Associated with the M3.0 flare was a Type II radio sweep
+(est 664 km/s). This region also produced several C-class flares as it
+exhibited rapid growth in its intermediate and trailer spots. Region
+3982 (N22E19, Cao/beta) developed in the NE and was numbered. The
+remaining active regions on the visible disk were either stable or in
+gradual decay.
+
+Other activity included a Type II radio sweep (est. 736 km/s) beginning
+at 02/0540 UTC. This was likely associated with a halo CME, observed in
+SOHO/LASCO C2 coronagraph imagery, that originated from the Suns far
+side.
+
+.Forecast...
+Solar activity is likely to reach minor levels (R1/R2-Minor/Moderate
+radio blackouts), with a slight chance for isolated X-Class (R3-Strong)
+events, over 03 - 05 Feb as the cluster of spot groups in the NE
+quadrant remains active.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux reached high levels reaching a peak
+value of 1653 pfu at 02/1550 UTC. The greater than 10 MeV proton flux
+was at background levels.
+
+.Forecast...
+The 2 MeV electron flux is likely to reach high levels through 04 Feb
+Feb as the positive polarity coronal hole high speed influence persists,
+yet begins to diminish. The greater than 10 MeV proton levels have a
+slight chance of reaching S1 (Minor) levels over 03 Feb - 05 Feb.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment continued under the influence of a positive
+polarity CH HSS. Total magnetic field strength averaged near 5 nT for
+the first half of the period before seeing a slight increase to peak at
+11 nT at 02/1735 UTC. The Bz component was variable between +/-6 nT
+until approximately 02/1600 UTC when it rotated mostly north. Solar wind
+speeds, as observed at the ACE spacecraft, began the period just under
+700 km/s and then slowly declined through the period to end at just over
+500 km/s. Phi angle was predominantly oriented in the positive sector
+until just after 02/1600 UTC when it rotated into a negative position.
+
+Forecast...
+Enhancements in the solar wind parameters are expected to continue
+through 03-04 Feb with persistent, yet waning positive polarity coronal
+hole influence, coupled with the possible interaction with the 31 Jan
+CME on 04 Feb. Parameters are then expected to return to near background
+levels on 05 Feb as CH/CME influences diminish.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet to active levels due to influence
+from a positive polarity CH HSS.
+
+.Forecast...
+The geomagnetic field is likely to see active levels, with a slight
+chance for isolated G1 (Minor) storm conditions, early on 03 Feb as the
+positive polarity CH HSS influence continues. Late on 04 Feb, active
+conditions are possible again if the CME from 31 Jan passes near enough 
+to the Earth. A return to quiet to unsettled conditions are then
+expected on 05 Feb as CH/CME influences subside.
+
+
+:Product: 01221230forecast_discussion.txt
+:Issued: 2025 Jan 22 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity remained at R1-Minor levels due to an M1.3 flare at
+22/1108 UTC from Region 3961 (S10W14, Ekc/beta-gamma-delta). Associated
+with this flare was a Type II radio sweep with an estimated velocity of
+561 km/s. This region also produced a C7.2 flare observed at 22/0634
+UTC. Slight decay occurred in the intermediate area of Region 3961.
+Slight growth was observed in Region 3967 (S17E19, Eai/beta-gamma). Only
+minor changes were noted in the rest of the spotted regions.
+
+A CME, directly mostly off the SE limb, began at 21/1145 UTC observed in
+GOES/CCOR-1 imagery. This CME was associated with the M3.3/Sf flare
+observed at 21/1039 UTC from Region 3967. Modelling indicated a
+potential glancing blow mid to late on 24 Jan.
+
+.Forecast...
+M-class flares are likely (R1-R2, Minor-Moderate), with a slight chance
+for an X-class flare (R3, Strong), on 22-24 Jan.
+
+Energetic Particles
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be normal to
+moderate with a chance for high levels through 24 Jan. There is a slight
+chance for the greater than 10 MeV proton flux to reach S1 (Minor)
+levels over 22-24 Jan.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind speed continued to decline from approximately 570 km/s to
+near 500 km/s as CH HSS influence waned. Total field ranged from 3-6 nT
+while the Bz component was between +4 to -5 nT. Phi angle was
+predominantly negative until 21/1725 UTC when it became variable between
+positive and negative sectors.
+
+.Forecast...
+A slow return to nominal levels is expected through 23 Jan as HSS
+influence subsides. Around mid to late on 24 Jan, a glancing blow from
+the 21 Jan CME is likely to enhance solar wind parameters.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to unsettled.
+
+.Forecast...
+Quiet to unsettled levels are expected on 22 Jan followed by mostly
+quiet conditions on 23 Jan as HSS influence diminishes. Unsettled to
+active levels, with a chance for G1 (Minor) storm periods, is likely mid
+to late on 24 Jan due to the arrival of a glancing blow from the 21 Jan
+CME.
+
+
+:Product: 02011230forecast_discussion.txt
+:Issued: 2025 Feb 01 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached high levels following an M6.6/1n flare
+(R2-Modereate) at 31/1406 UTC from Region 3976 (N13E20,
+Eac/beta-gamma-delta). Associated with this flare was a Type II radio
+sweep (est. 673 km/s) and a Tenflare (280 sfu). Only minor changes were
+observed among all numbered active regions on the visible disk.
+
+A CME associated with the M6.6/1n flare was first observed in SOHO/LASCO
+C2 coronagraph imagery at 31/1412 UTC. Analysis and modelling of the
+event suggested most of the ejecta would pass behind Earth, with
+influence from the periphery possible on 04 Feb.
+
+.Forecast...
+Solar activity is likely to reach minor levels (R1/R2-Minor/Moderate
+radio blackouts), with a slight chance for isolated X-Class (R3-Strong)
+events, over 01 - 03 Feb, primarily due to potential from an active
+region cluster in the NE quadrant.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux has been at moderate levels. The
+greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux at geostationary orbit is expected
+to remain at normal to moderate levels on 01 Feb. A positive polarity
+coronal hole high speed stream on 01-02 Feb will likely increase the
+chances for the 2 MeV electron flux to reach high levels on 03 Feb.
+The greater than 10 MeV proton levels have a slight chance of reaching
+S1 (Minor) levels over 01 Feb - 03 Feb.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment transitioned into the influence of a positive
+polarity CH HSS over the past 24 hours. Total magnetic field strength
+was elevated, with peak values reaching 18 nT. The Bz component rotated
+as far south as -18 nT around 01/0030 UTC. Solar wind speeds steadily
+increased from ~350 km/s to ~600 km/s by the end of the reporting
+period. Phi angle transitioned to predominantly positive after 31/2230
+UTC.
+
+Forecast...
+Enhancements in the solar wind parameters are expected to continue
+through 01-03 Feb as the positive polarity coronal hole influence
+persists.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet to active levels due to influence
+from a positive polarity CH HSS.
+
+.Forecast...
+The geomagnetic field is likely to reach G1 (Minor) levels on 01 Feb as
+the positive polarity CH HSS influence continues. Active conditions are
+likely over 02 Feb and unsettled conditions over 03 Feb as CH HSS
+conditions wane.
+
+
+:Product: 01080030forecast_discussion.txt
+:Issued: 2025 Jan 08 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar flare activity was at moderate levels due to an M1.1 flare at
+07/2305 UTC, likely from old Region 3939 (S17, L=084) just beyond the SW
+limb. AR 3947 (N12E03, Eki/beta-gamma-delta), AR 3945 (S09W23, Cao/
+eta), and AR 3951 (S13W15, Hsx/alpha) produced C-class activity. AR 3947
+continues to be the largest region on the disk while being stable and
+showing separation between its leader and trailer portions. All other
+regions were stable or in decay.
+
+There were no Earth-directed CMEs observed in available coronagraph
+imagery.
+
+.Forecast...
+R1-R2 (Minor-Moderate) radio blackouts are likely, with a slight chance
+for isolated R3 (Strong) or greater events through 10 Jan. This is based
+on the magnetic complexity and persistent activity of Region 3947.
+
+Energetic Particles
+
+.24 hr Summary...
+The greater than 2 MeV electron flux reached high levels with a peak
+flux of 3,070 Pfu at 07/1850 UTC.
+
+The greater than 10 MeV proton flux continues to trend towards
+background levels following an S1 (Minor) solar radiation storm that
+ended on 05/0940 UTC.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be at moderate to
+high levels on 08-10 Jan.
+
+The greater than 10 MeV proton flux will continue to trend towards
+background levels 08 Jan. A slight chance for S1 (Minor) solar radiation
+storming will persist through 10 Jan as multiple CME producing regions
+transit and exit the western limb.
+
+Solar Wind
+
+.24 hr Summary...
+An enhanced solar wind environment continued due to the effects of
+positive polarity coronal holes in the western hemisphere. The total
+field was between 5-8 nT with a variable Bz component between +/-6 nT.
+The phi angle remained primarily in the positive (away from the Sun)
+orientation throughout the period. Wind speed briefly increased near 640
+km/s between ~07/0440-1300 UTC.
+
+.Forecast...
+The enhanced solar wind environment will persist with gradual weakening
+through 08 Jan with a trend towards ambient levels 09 Jan. There is a
+slight chance for a glancing blow due to a CME that left the disk on 04
+Jan. Confidence is low in its arrival but an enhancement of the field
+for a brief period will follow if it does arrive.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet to unsettled levels.
+
+.Forecast... 
+Quiet to unsettled conditions will continue into 08 Jan as the influence
+of the positive polarity CH HSS decreases. Mostly quiet conditions are
+expected thereafter into 09-10 Jan.
+
+
+:Product: 01161230forecast_discussion.txt
+:Issued: 2025 Jan 16 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was low with only C-class flare activity observed. New
+Region 3964 (N07W15, Dri/beta-gamma) emerged and was numbered during the
+period. It has grown quickly and is developing magnetic complexity as
+well. The Region produced the largest event of the period, a C4.4 at
+16/0726 UTC. Region 3961 (S09E51, Ekc/beta-gamma) and Region 3959
+(N18E35, Dki/beta-gamma-delta) both continued to show growth in aerial
+extent. New Region 3965 (N15E71, Hsx/alpha) was numbered as it rotated
+into view on the northeast limb and produced a C4.2 at 16/0642 UTC.
+
+No Earth-directed CMEs were observed in available coronagraph imagery.
+
+.Forecast...
+There is an increased chance for R1-R2 (Minor-Moderate) radio blackouts,
+with a slight chance for R3 (Strong) radio blackouts over 16-18 Jan as
+several regions continue to show growth and increased magnetic
+complexity.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels,
+reaching a peak of 901 pfu at 15/1810 UTC. The greater than 10 MeV
+proton flux was steady at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be at moderate to
+high levels on 16 Jan and normal to moderate levels on 17-18 Jan. The
+greater than 10 MeV proton flux is expected to persist at background
+levels through 18 Jan.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were slightly enhanced during the period. Total
+field varied between 5-9 nT while the Bz component varied between +7/-8
+nT with several periods of sustained negative/southward orientation.
+Solar wind speed averaged ~475 km/s. Phi was predominantly negative
+throughout the period.
+
+.Forecast...
+Mildly enhanced solar wind conditions due to negative polarity CH HSS
+influence are expected to wane through 16 Jan. A new negative polarity
+CH HSS is expected to enhance solar wind conditions again on 17-18 Jan.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to unsettled due to waning CH HSS
+influence.
+
+.Forecast...
+Conditions are likely to dip to mostly quiet levels, with a chance for
+isolated unsettled periods, on 16 Jan before influence from a new
+negative polarity CH HSS returns on 17 Jan. Mostly unsettled conditions
+are then expected, with a slight chance for isolated active periods,
+through 18 Jan.
+
+
+:Product: 01130030forecast_discussion.txt
+:Issued: 2025 Jan 13 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was low with only C-class flare activity observed. New
+Regions 3957 (N21W40, Bxo/beta), 3958 (S06E49, Axx/alpha), and 3959
+(N19E72, Hsx/alpha) were numbered this period while the remaining
+regions were stable. No Earth-directed CMEs were detected in available
+data.
+
+.Forecast...
+There is a chance for R1-R2 (Minor-Moderate) events, and a slight chance
+for an R3 or greater event, over 13-15 Jan.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels
+and the greater than 10 MeV proton flux was steady at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to continue at normal
+to moderate levels through 15 Jan. The greater than 10 MeV proton flux
+is expected to persist at background levels over 13-15 Jan.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters remained slightly enhanced this period as positive
+polarity CH HSS influences waned. Total field strength reached 10 nT and
+the Bz component varied between +/-6 nT. Solar wind speeds decreased
+from a high of around 450 km/s early in the period to end-of-period
+values near 375-400 km/s.
+
+.Forecast...
+Mildly enhanced solar wind conditions and negative polarity CH HSS
+influences are expected on 14-15 Jan.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet.
+
+.Forecast...
+Quiet and unsettled conditions are expected to prevail over 13-15 Jan,
+with negative polarity CH HSS influences likely on 14-15 Jan.
+
+
+:Product: 01271230forecast_discussion.txt
+:Issued: 2025 Jan 27 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached active levels following an M2.6 (R1-Minor) flare
+at 27/0812 UTC from an area around the NE limb. The regions on the
+visible disk exhibited only minor changes, mostly decay, and were either
+quiet or associated with low-level C-class activity.
+
+Other activity included a filament eruption near S20E50 beginning around
+26/1830 UTC and additional one near S20E10 beginning around 27/0510 UTC.
+A CME was observed in SOHO/LASCO C2 imagery following the first eruption
+but modelling suggested an Earth-directed component was unlikely. No CME
+signatures were identified in coronagraph imagery following the second
+eruption.
+
+.Forecast...
+There is a decreasing chance of M-class flares (R1-R2, Minor-Moderate)
+on 27-29 Jan, with a slight chance for an isolated X-class flare (R3,
+Strong) on 27 Jan. Probabilities continue to decrease as the larger,
+more active spot groups rotate beyond the West limb over the next few
+days.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be at normal to
+moderate levels on 27-29 Jan, with a slight chance to reach high levels
+on 27 Jan. The greater than 10 MeV proton flux is likely to remain below
+S1 (Minor) levels through 29 Jan.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters indicated a minor enhancement in the total
+magnetic field strength (Bt) above 5 nT that was observed after 24/0445
+UTC. Bt reached a peak of 8 nT near 27/1130 UTC. No significant periods
+of southward Bz were observed. Solar wind speeds remained low, with peak
+speeds observed around 335 km/s. Phi angle transitioned from
+predominantly negative to variable after 26/2330 UTC.
+
+.Forecast...
+Solar wind parameters are likely to continue near nominal levels over
+27-28 Jan. Modelling of a filament that erupted from the Sun on 26 Jan
+suggests a chance for enhancements in the solar wind environment late on
+28 Jan to early on 29 Jan.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet.
+
+.Forecast...
+The geomagnetic field is likely to be at mostly quiet levels over 27-28
+Jan. Active levels are possible on 29 Jan if the filament from 26 Jan
+passes close enough to Earth.
+
+
+:Product: 02040030forecast_discussion.txt
+:Issued: 2025 Feb 04 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached high levels with eight R1 (Minor) and two R2
+(Moderate) flares throughout the period. The largest flare was an M8.8
+at 03/0358 UTC from Region (N05E09, Ekc/beta-gamma-delta). This region
+continues to grow and has been responsible for most of the flare
+activity throughout the period. The other flare producing region was
+3978 (N11W02, Dai/beta-gamma). There is a lot of splitting and shearing
+occurring in much of the cluster in the NE. Regions outside of this
+cluster have been stable or in decay.
+
+A filament eruption occurred around 03/1049 UTC centered near S43W54. A
+thin CME can be seen in Lasco C2 coronagraph imagery around 03/1300 UTC.
+The CME was modelled to be too far south to make an impact to Earth.
+There have been no other CMEs detected in imagery as of 03/2200 UTC.
+
+.Forecast...
+Solar activity is expected to reach moderate levels
+(R1/R2-Minor/Moderate radio blackouts), with a slight chance for
+isolated X-Class (R3-Strong) events, over 04 - 06 Feb due to a complex
+cluster of sunspot groups in the northern hemisphere.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electrons at geostationary orbit have been at
+moderate (100 pfu) levels. The injection of particles associated with
+the high speed stream reached a peak of 1653 pfu on 02/1550 UTC but have
+not risen to high levels during the diurnal maxima throughout the
+period. The greater than 10 MeV proton flux was at background.
+
+.Forecast...
+The greater than 2 MeV electron flux is likely to remain at moderate
+levels through 06 Feb. The greater than 10 MeV proton levels have a
+slight chance of reaching S1 (Minor) levels over 04-06 Feb due to the
+magnetically complex regions moving into the western hemisphere.
+
+Solar Wind
+
+.24 hr Summary...
+The coronal hole high speed stream looks to have been disrupted by the
+arrival of a CME between 02/12-1700 UTC. During this time the sheath and
+driver of what was most likely the CME that left the NE part of the Sun
+around 31/1600 UTC. A return to what is most likely the tail end of the
+high speed stream comes back after 03/1800 UTC. Total field has been
+between 7-12 nT with the Bz component remaining in the northward
+direction between 5-10 nT. Solar wind speeds were between 500-600 km/s
+early in the period and have weakened to around 450 km/s. The phi angle
+remained in the positive (away from the Sun) orientation.
+
+.Forecast...
+Waning influences from the coronal hole high speed stream and CME is
+expected 04 Feb. A return to more nominal conditions expected 05-036
+Feb.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field has been at quiet levels. 
+
+.Forecast...
+The geomagnetic field may see another isolated period of active
+conditions as CH/HSS influences wane but is expected to remain mostly at
+quiet to unsettled levels through 06 Feb.
+
+-Bri
+
+
+:Product: 02080030forecast_discussion.txt
+:Issued: 2025 Feb 08 1215 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Product: Forecast Discussion
+Issued: 2025 Feb 08 0030 UTC
+Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction
+Center
+
+.24 hr Summary...
+Solar activity reached high levels. Region 3981 (N08W42, Ekc/beta-gamma)
+produced an M7.5 flare at 7/0921 UTC, the largest event of the period,
+and exhibited signs of decay in its intermediate area. AR 3981 also
+produced an M1.6, M1.1, and M3.1 flares this period. Region 3978
+(N14W53, Cko/beta-gamma) grew in overall extent while producing C-class
+flares. Region 3988 (S20W09, Bxo/beta) was numbered this period, but was
+otherwise unremarkable. A faint, westerly CME associated with the
+aforementioned M-class flares from AR 3981 was observed in C2 imagery
+beginning at 07/0800 UTC. However, this event is not anticipated to have
+a significant Earth-directed component.
+
+.Forecast...
+Solar activity is expected to reach moderate levels (R1-R2,
+Minor-Moderate), with a chance for isolated X-Class (R3-Strong) events,
+through 10 Feb due to the complex cluster of sunspot groups in the NW
+quadrant.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is likely to remain at moderate
+levels through 09 Feb. The greater than 10 MeV proton flux has a chance
+of reaching S1 (Minor) levels through 10 Feb due to the cluster of
+magnetically complex regions in the western hemisphere.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters returned to an ambient-like state. Total field
+gradually decreased to 4-5 nt, and the Bz component was primarily
+northward or neutral. Solar wind speeds decreased to below 400 km/s
+and phi was predominantly positive.
+
+.Forecast...
+The solar wind parameters may undergo a slight enhancement on 08 Feb due
+to the outside chance of glancing influences from a CME that left the
+Sun on 08 Feb. Enhancements from a recurrent negative polarity CH HSS
+are anticipated to begin on 09 Feb and continue through 10 Feb.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet.
+
+.Forecast...
+Quiet to unsettled conditions are expected on 08 Feb due to the
+possibility for glancing effects from the 02 Feb CME. Unsettled to
+active levels are expected on 09 Feb due to negative polarity CH HSS
+effects. G1 (Minor) geomagnetic storming is likely on 10 Feb as high
+speed stream effects continue.
+
+
+:Product: 01030030forecast_discussion.txt
+:Issued: 2025 Jan 03 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was at moderate levels. Region 3939 (S17W33, Cso/beta)
+exhibited decay primarily in its leading spots while producing an M1.1
+flare at 02/1740 UTC, which was the largest of the period. Region 3941
+(S06W26, Cso/beta) exhibited decay as well, but was relatively quiet.
+Regions 3943 (S16E35, Dao/beta) and 3945 (S09E46, Eki/beta-gamma)
+underwent growth as they both gained additional spots. Region 3947
+(N10E71, Dao/beta-gamma) was numbered this period as it rotated into
+view and produced C7.5 and C6.6 flares at 02/0618 and 02/1219 UTC
+respectively. Region 3948 (N23E36, Axx/alpha) was numbered this period
+as well, but was otherwise unremarkable. Additionally, new spots were
+noted near N13W55, but remain unnumbered at this time as we await
+corroborating observatory reports. No Earth-directed CMEs were observed
+in available coronagraph imagery.
+
+.Forecast...
+R1-2 (Minor-Moderate) radio blackouts due to M-class flare activity are
+likely through 05 Jan. Event probabilities increase slightly on days 2
+and 3 (04 & 05 Jan) as ARs 3938 (S19W78, Hsx/alpha), 3940 (S06, L=083),
+3939 and 3946 (S12W53, Dao/beta) approach the western limb.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+There is a chance for the greater than 2 MeV electron flux to reach high
+levels on 03 Jan with post CME influences. Moderate levels are expected
+thereafter. A slight chance for an S1 (Minor) solar radiation storm
+event will persist through 05 Jan given the current total disk potential
+and as AR 3939 approaches the western limb.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment reflected continued, yet waning CME
+influences. Total field reached peaks of 13-14 nT and the Bz component
+underwent several southward deflections reaching -10 to -11 nT. Solar
+wind speeds ranged from ~469 km/s to 560 km/s and phi rotated between
+solar sectors indicating magnetic cloud passage.
+
+.Forecast...
+Additional enhancements are possible by 04 Jan due to glancing CME
+influences from an event that left the Sun on 01 Jan. A further
+disturbance is expected on 05 Jan due to positive polarity CH HSS
+effects.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field reached G1 (Minor) geomagnetic storming levels due
+to CME effects.
+
+.Forecast...
+Unsettled to active levels are expected on 03 Jan due to waning CME
+effects. G1 (Minor) geomagnetic storming is likely 04-05 Jan first due
+to possible, glancing CME effects from an event that left the Sun on 01
+Jan and then to recurrent, positive polarity CH HSS effects.
+
+
+:Product: 02191230forecast_discussion.txt
+:Issued: 2025 Feb 19 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity has been low with C-Class flares throughout the period.
+The primary flare producer was Region 3992 (S06W96, Eai/beta-gamma)
+which was responsible for six flares. The other flare producers were
+Regions 3990 (S09W44, Cko/beta-gamma) and 3998 (S14E34, Dai/beta-delta).
+
+No Earth-directed CMEs were observed in coronagraph imagery this period.
+
+.Forecast...
+Solar activity is expected to be low with a chance for isolated M-class
+(R1-R2, Minor-Moderate) activity and a slight chance for X-class (R3,
+Strong) activity through 21 Feb.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux at geostationary orbit remains high
+following a CH HSS; electrons reached a peak flux of 1,520 pfu observed
+at 18/2200 UTC. The greater than 10 MeV proton flux was at background
+levels.
+
+.Forecast...
+As the CH HSS comes to an end, the greater than 2 MeV electron flux is
+expected to trend back towards normal to moderate levels 19 Feb. There
+remains a slight chance that electrons could cross the 1000 pfu
+threshold during the diurnal maxima but the trend is decreasing and the
+time above threshold, if it does occur, should be shorter than previous
+days.
+
+All active regions in the western hemisphere are simple in their
+magnetic complexity, reducing the chances for impactful proton events.
+Therefore, the greater than 10 MeV proton flux is expected to remain
+below S1 (Minor) levels through 21 Feb.
+
+Solar Wind
+
+.24 hr Summary...
+For much of the period the solar wind regime reflected the tail end of
+the negative polarity CH HSS whose source is moving beyond the western
+limb. The total field was around 6-8 nT with a variable Bz component
+between +/-5 nT. Solar wind speeds averaged around 475 km/s and the phi
+angle remained mostly in the negative component.
+
+Recently, around 18/2000 UTC, there was a shift in the IMF with Bz
+dropping to -8 to -10 nT, a slight rise in the solar winds to 500 km/s
+and the phi angle becoming variable. Total field increased to 10 nT.
+
+.Forecast...
+HSS conditions are expected to persist through early to midday on 19
+Feb. There is a slight chance for a weak glancing blow from a CME that
+left the disk on 15 Feb but confidence is low. If the CME does arrive,
+solar wind parameters will be disturbed into 19 Feb. Effects wane and a
+gradual return to nominal conditions is expected 20-21 Feb.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at quiet to G1 (Minor) storm levels. 
+
+.Forecast...
+Unsettled to G1 (Minor) storming is expected early on 19 Feb as any
+remaining negative polarity CH HSS effects end and a possible transition
+to a weak, positive polarity CH HSS regime begins. Quiet to unsettled
+levels are expected on 20 Feb followed by mostly quiet conditions on 21
+Feb.
+
+
+:Product: 01011230forecast_discussion.txt
+:Issued: 2025 Jan 01 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was at moderate levels due to M-class flaring from
+Regions 3936 (N13W78, Ekc/beta-delta) and 3938 (N19W33, Cai/beta-gamma).
+The largest was an M2.9 flare at 31/2250 UTC from Region 3938. Slight
+decay was observed in Region 3938 and in the trailing spots of Region
+3936. Growth was observed in Region 3944 (S14E26, Dai/beta) and in newly
+numbered Region 3945 (S10E67, Eai/beta).
+
+Other activity included a CME observed off the SW limb at 01/0224 UTC
+likely associated with a filament liftoff at 01/0020 UTC near Region
+3939 (S17W13, Cai/beta). Preliminary analysis indicated potential
+glancing influences around midday on 03 Jan.
+
+.Forecast...
+M-class flares are expected (R1-R2/Minor-Moderate), with a slight chance
+for isolated X-class flares (R3/Strong) through 02 Jan, primarily due to
+the flare potential of Region 3936. M-class flares are likely, with a
+slight chance for X-class flares on 03 Jan as Region 3936 rotates
+further beyond the NW limb.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+There is a chance for the greater than 2 MeV electron flux to reach high
+levels on 01-03 Jan due to CME influence. A slight chance for an S1
+(Minor) solar radiation storm event will persist through 03 Jan given
+the current total disk potential.
+
+Solar Wind
+
+.24 hr Summary...
+A shock arrival was observed in solar wind parameters at 31/1555 UTC.
+Total field increased to around 20 nT, Bz deflected southward to -18 nT
+at 31/1859 UTC briefly, and solar wind speed increased to around 450
+km/s. Total field slowly diminished to 5 nT at 01/0130 UTC before
+increasing once again to 14-26 nT. The Bz component reached a maximum of
+-23 nT at 01/1020 UTC. Solar wind speed increased around the same time
+to between 490-570 km/s, possibly associated with the influence of a
+second CME. Phi angle was mostly positive until 01/0437 UTC when it
+switched into a negative sector.
+
+.Forecast...
+Enhancements in solar wind parameters are expected to continue through
+01 Jan as CME activity persists. A slow return to nominal levels is
+likely on 02 Jan. By midday on 03 Jan, a potential glancing blow from
+the 01 Jan CME is likely to cause another enhancement.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field reached active to G2 (Moderate) geomagnetic storm
+levels as CME activity progressed.
+
+.Forecast...
+Unsettled to G2-G3 (Moderate-Strong) storm levels are expected through
+the rest of the UTC day on 01 Jan as CME activity persists. Quiet to
+active levels are expected on 02 Jan as CME activity slowly wanes. By
+midday on 03 Jan, a glancing blow from the 01 Jan CME is likely to cause
+unsettled to active periods.
+
+
+:Product: 02070030forecast_discussion.txt
+:Issued: 2025 Feb 07 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity reached high levels today with an isolated M7.6/1b at
+06/1104 UTC from Region 3981 (N08W31, Ekc/beta-gamma-delta). A possibly
+associated, faint CME was observed off the W limb at 06/1248 UTC in
+SOHO/LASCO C2 imagery. Coincident with the CME was a northerly eruption
+at 06/1124 UTC which was determined to be far sided. The W limb CME
+could only be observed in a few frames before it dissipated, so there
+will likely not be much of an effect in the solar wind. An additional
+M2.3/1N flare occurred at 06/2327 UTC and appears to have originated
+from
+Region 3978 (N11W41, Hax/alpha).
+
+Slight decay and separation occurred in the trailing spots of Region
+3981, while new spot emergence was observed in the intermediate area.
+New spot emergence was also observed in Region 3984 (N15W41, Cai/beta).
+The rest of the spot groups were relatively stable or in decay.
+
+Region
+
+.Forecast...
+Solar activity is expected to reach moderate levels (R1-R2,
+Minor-Moderate), with a chance for isolated X-Class (R3-Strong) events,
+through 09 Feb due to the complex cluster of sunspot groups in the NW
+Quadrant.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is likely to remain at moderate
+levels through 09 Feb. The greater than 10 MeV proton flux has a chance
+of reaching S1 (Minor) levels through 09 Feb due to the cluster of
+magnetically complex regions moving into the western hemisphere.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were slightly elevated with solar wind speed
+increasing from approximately 380 km/s to near 475 km/s. Total field
+ranged from 2-11 nT while the Bz component was between +/-7 nT. Phi
+angle was mostly positive.
+
+.Forecast...
+The solar wind is expected to become more enhanced on 07 Feb due to a
+glancing blow from the 02 Feb CME. Elevated conditions are expected to
+wane through 08 Feb.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to unsettled.
+
+.Forecast...
+Quiet to active conditions are expected on 07 Feb, followed by quiet to
+unsettled on 08 Feb, with the arrival of the 02 Feb CME. A return to
+mostly quiet conditions is expected by 09 Feb.
+
+
+:Product: 02101230forecast_discussion.txt
+:Issued: 2025 Feb 10 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity increased to moderate levels (R1-Minor). Region 3981
+(N07W78, Esi/beta-gamma) produced a single M1.0 flare at 10/0046 UTC.
+The region continued to show signs of decay in its intermediate spots
+while continuing its trek towards the western limb. Region 3981 produced
+C4.1 flare at 09/1413 UTC. Region 3983 (N06W15, Cso/beta) developed a
+simple, trailing spot and Region 3988 (S18W44, Cro/beta-gamma) underwent
+evolution as its leading spot began to develop rudimentary penumbra as
+well as a gamma magnetic configuration in its intermediate area. New
+Region 3990 (S09E75, Hax/alpha) was numbered near the SE limb. The
+remaining numbered regions were stable and relatively quiet.
+
+Beginning at approximately 09/1226 UTC, a large filament centered near
+S26W17 became unstable. GOES-16 304 imagery seems to suggest that this
+was a reabsorption event and is corroborated by a lack of ejecta visible
+in coronagraph imagery. No other Earth-directed events were observed in
+available imagery.
+
+.Forecast...
+Solar activity will likely reach moderate levels (R1-R2,
+Minor-Moderate), with a slight chance for isolated X-Class (R3-Strong)
+events, through 11 Feb due to the cluster of sunspot groups in the NW
+quadrant. Activity will likely decrease further on 12 Feb to only a
+isolated chance for R1-2 events as AR 3981 rotates beyond the western
+limb.
+
+Energetic Particles
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is likely to remain at moderate
+levels through 12 Feb. The greater than 10 MeV proton flux has a slight
+chance of reaching S1 (Minor) levels through 11 Feb primarily due to the
+flare potential of AR 3981. Probabilities decrease on 12 Feb as AR 3981
+moves beyond the western limb.
+
+Solar Wind
+
+
+.24 hr Summary...
+The solar wind environment was enhanced by negative polarity CH HSS
+influences. Total field peaked at 22 nT early in the period before
+declining to 9-10 nT late. The Bz component remained primarily southward
+to -15 to -18 nT through about 10/0030 UTC. Thereafter, the Bz component
+varied between +3 to -7 nT. Solar wind speeds increased from ~400 km/s
+to 600-650 km/s through most of the period. Phi was predominantly
+negative through the period.
+
+.Forecast...
+An enhanced and disturbed solar wind environment is expected to continue
+through 11 Feb due to negative polarity CH HSS influences. HSS
+influences from this particular CH should begin to wane by 12 Feb.
+However, there is a chance for an additional enhancement by late 12 Feb
+due to any glancing influences from a slow, faint CME that left the Sun
+on 08 Feb. Confidence is low in this outcome.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field reached G1 (Minor) geomagnetic storming levels.
+
+.Forecast...
+G1 (Minor) geomagnetic storming is expected on 10 Feb under negative
+polarity CH HSS effects. Quiet to unsettled conditions, with isolated
+active periods, are expected 11-12 Feb as CH HSS effects continue along
+with a chance of glancing influences from the aforementioned 08 Feb CME.
+
+
+:Product: 01111230forecast_discussion.txt
+:Issued: 2025 Jan 11 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was low. Region 3947 (N11W45, Dko/beta-gamma) produced
+most of the C-class flare activity observed this period the largest of
+which was a C9.8 flare at 10/2246 UTC. Region 3948 (N15W81, Hsx/alpha)
+produced a C2.8 flare at 11/0844 UTC. This event was associated with a
+CME first seen in NASA coronagraph imagery at approximately 11/0912 UTC.
+However, given the source region an Earth-directed is not expected.
+Growth was noted in new Region 3956 (N08E17,Dao/beta), though the region
+remained quiet. The remaining regions were either stable or in decay.
+
+.Forecast...
+There is a chance for R1-R2 (Minor-Moderate) events, and a slight chance
+for R3 or greater events, over 11-13 Jan.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels
+and the greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to continue at normal
+and moderate levels through 13 Jan. There is a slight chance for the
+greater than 10 MeV proton flux to reach S1 (Minor) levels over 11-13
+Jan.
+
+Solar Wind
+
+.24 hr Summary...
+Mildly enhanced solar wind conditions and positive polarity CH HSS
+influences prevailed this period. Total field ranged 6-9 nT. The Bz
+component underwent a southward deflection that reached -8 nT near
+10/2050 UTC. Solar wind speeds were 400 to 450 km/s. Phi was
+predominantly positive.
+
+.Forecast...
+Positive polarity CH HSS influences are expected to continue, but wane
+over 11 Jan. Ambient solar wind conditions are expected to prevail on
+12-13 Jan.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to active due to positive polarity
+CH HSS influences.
+
+.Forecast...
+The geomagnetic field is expected to be quiet and unsettled on 11 Jan
+due to continued, but waning positive polarity CH HSS influences. Mostly
+quiet conditions are expected to prevail over 12-13 Jan with the return
+of an ambient solar wind environment.
+
+
+:Product: 02130030forecast_discussion.txt
+:Issued: 2025 Feb 13 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity remained at low levels with C-class activity from new
+Region 3992 (S06W11, Dai/beta-gamma). The Region continued to develop
+quickly and increase in magnetic complexity. All other numbered regions
+were stable and quiet.
+
+No Earth directed CMEs were observed in available coronagraph imagery.
+
+.Forecast...
+Solar activity is expected to be low with a chance for (R1-R2,
+Minor-Moderate) activity on 13-15 Feb.
+
+Energetic Particles
+
+.24 hr Summary...
+The greater than 2 MeV electron flux reached high levels with a peak
+flux of 2,050 pfu observed at 12/1745 UTC. The greater than 10 MeV
+proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is likely to remain at moderate
+to high levels through 15 Feb. The greater than 10 MeV proton flux is
+expected to remain below S1 (Minor) levels through 15 Feb.
+
+Solar Wind
+
+.24 hr Summary...
+The solar wind environment was enhanced by negative polarity CH HSS
+influences. Total field Bt remained mostly steady near 6 nT, while the
+Bz component varied between +/-6 nT. Wind speeds remained mostly steady
+between about 500-550 km/s. The Phi angle was predominantly negative.
+
+.Forecast...
+The solar wind environment is expected to be enhanced on 13-15 Feb due
+to onset and influence from the next negative polarity CH HSS.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was at unsettled to active levels due to negative
+polarity CH HSS influence.
+
+.Forecast...
+G1 (Minor) storm periods are likely on 13 Feb due to onset of a negative
+polarity CH HSS. Unsettled to active conditions are expected on 14-15 
+Feb as CH influence continues.
+
+
+:Product: 02060030forecast_discussion.txt
+:Issued: 2025 Feb 06 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was moderate. Both Regions 3977 (N18W41, Dai/beta-gamma)
+and 3981 (N07W18, Ekc/beta-gamma-delta) produced low level M-class
+flares. The largest was an M2.7 at 05/0750 UTC from Region 3977.
+Associated with this flare were multiple discreet radio bursts, a type
+II radio sweep (390 km/s), and a possible CME signature off the N limb
+at 05/0824 UTC. Based on the trajectory and lack of a clear signature in
+ST A COR2 imagery, it is unlikely to cause any significant enhancements
+in the solar wind.
+
+Separation and decay was observed in the intermediate and trailing spots
+of Region 3981, while consolidation occurred in its leader spots. New
+flux emergence was observed in the northern part of the group. Regions
+3977 and 3984 (N16W27, Cai/beta) decayed slightly in their southern
+spots while new spots emerged in their northernmost areas.
+
+An 22-degree filament erupted in the south-west quadrant around 05/0120
+UTC. A subsequent CME was observed in LASCO C2 at 05/0224 UTC. Model
+analysis suggests that the bulk of the plasma will pass below Earths
+orbit.
+
+.Forecast...
+Solar activity is expected to reach moderate levels (R1-R2,
+Minor-Moderate), with a chance for isolated X-Class (R3-Strong) events,
+through 08 Feb due to the complex cluster of sunspot groups in the NW
+Quadrant.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is likely to remain at moderate
+levels through 08 Feb. The greater than 10 MeV proton levels have a
+chance of reaching S1 (Minor) levels through 08 Feb due to the cluster
+of magnetically complex regions moving into the western hemisphere.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters were near nominal levels. Total field ranged from
+2-8 nT while the Bz component was between +/-6 nT. Solar wind speed was
+mostly between 360-435 km/s. Phi angle was predominantly positive.
+
+.Forecast...
+The solar wind is expected to remain at or near nominal levels on 06
+Feb. Solar wind parameters are expected to become enhanced on 07 Feb due
+to a glancing blow from the 02 Feb CME.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to unsettled.
+
+.Forecast...
+Quiet to unsettled conditions are expected to continue on 06 Feb.
+Unsettled to active levels are expected on 07 Feb, followed by quiet to
+unsettled conditions on 08 Feb, with the arrival of the 02 Feb CME.
+
+
+:Product: 01290030forecast_discussion.txt
+:Issued: 2025 Jan 29 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity has been at moderate levels due to an M1.7 at 28/1945 UTC
+from Region 3977 (N19E67, Cao/beta-gamma) with multiple C-Class flares
+throughout the period. Region 3977 and Region 3976 (N13E69, Dac/beta)
+have been the primary flare producers and continue to rotate around the
+NE limb into better view. Most other regions that are in the west have
+been in decay or stable.
+
+A Type II radio sweep with a velocity of 580 km/s was observed at
+28/0806 UTC with no Earth-side flare detected. GOES-16 SUVI 195 imagery
+shows a break in the field lines in the SW part of the disk beyond the
+west limb. At about this same time Solar Orbiter observed a C1.8 flare;
+this could be the culprit but its too difficult to tell. A CME was
+observed in SOHO/LASCO imagery and modelled. Analysis shows the bulk of
+the plasma passing ahead of Earth with a weak ripple arriving for a weak
+glancing blow on 31 Jan.
+
+.Forecast...
+Solar flare probabilities remain low but have increased slightly, from
+25% to 35% for M-Class (R1-R2 Minor-Moderate) and 1% to 5% for X-Class
+(R3-Strong) over 29-31 Jan due to enhanced activity coming from Regions
+3976 and 3977.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux has been at moderate levels. The
+greater than 10 MeV proton flux was at background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux at geostationary orbit is expected
+to remain mostly at normal to moderate levels 29-31 Jan with an elevated
+flux possible during diurnal maxima up to high levels. Due to regions in
+the west moving beyond the limb the chances for reaching the S1 (Minor)
+radiation storm levels is low and the greater than 10 MeV protons is
+expected to remain at background levels 29-31 Jan.
+
+Solar Wind
+
+.24 hr Summary...
+Solar wind parameters have remained enhanced throughout the period. This
+may be due to the arrival of the filament eruption that occurred 26 Jan
+that was projected to arrive late 28 Jan into 29 Jan. The total field
+(Bt) was between 8-10 nT with an extended period of the Bz component
+being deflected southward between roughly 28/0800 through 28/1800 UTC,
+dropping as low as -9 nT. Solar wind speeds remained low between
+300-350 km/s. The phi angle was mostly negative (towards the Sun) prior
+to 28/0900 UTC and became highly variable thereafter.
+
+.Forecast...
+An enhanced solar wind regime will likely continue into 29 Jan as
+filament eruptions tend to last longer - if that is whats causing the
+current conditions. A return to nominal levels is likely 30 Jan with
+another enhancement expected 31 Jan from the glancing blow associated
+with the Type II radio sweep discussed in the Solar Activity section.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field reached active levels for the 18-21 synoptic
+period and has been mostly quiet to unsettled otherwise. A K-index = 4
+Warning was issued and remains valid through 26/0600 UTC.
+
+.Forecast...
+The geomagnetic field is expected to remain below the G1 (Minor)
+geomagnetic storm thresholds 29-31 Jan. However, with two weak passing
+blows expected and multiple transients intermixed from small eruptions
+from the disk, confidence is low over the coming days. The field will
+likely be unsettled (Kp=3) with a slight chance for active (Kp=4)
+conditions. Confidence remains especially low for the second passing
+blow associated with the CME described in the Solar Activity section.
+Modelling suggests an arrival on 31 Jan, but this may be overrun by the
+high speed stream from the positive polarity coronal hole that is
+expected to arrive on 01 Feb.
+
+-Bri 
+
+

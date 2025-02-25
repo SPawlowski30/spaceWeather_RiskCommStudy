@@ -52,3 +52,6 @@ for year, files in yearly_files.items():
 df = pd.DataFrame(selected_files, columns=["Year", "File Link"])
 print(f"Total rows in df: {df.shape[0]}")
 print(df.head())
+
+df.to_csv("3_Day_Forecast.csv", index=False)
+print("File links saved to selected_files.csv")

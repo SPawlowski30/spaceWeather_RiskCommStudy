@@ -1,0 +1,3103 @@
+:Product: 05090030three_day_forecast.txt
+:Issued: 2024 May 09 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for May 09-May 11 2024 is 5.67 (NOAA Scale
+G2).
+
+NOAA Kp index breakdown May 09-May 11 2024
+
+             May 09       May 10       May 11
+00-03UT       1.67         3.33         5.67 (G2)
+03-06UT       2.33         4.00         5.33 (G1)
+06-09UT       2.00         4.00         5.33 (G1)
+09-12UT       2.67         4.33         5.00 (G1)
+12-15UT       3.33         4.33         5.00 (G1)
+15-18UT       3.67         5.00 (G1)    5.00 (G1)
+18-21UT       2.67         5.33 (G1)    4.67 (G1)
+21-00UT       2.67         5.33 (G1)    4.67 (G1)
+
+Rationale: G1-2 (Minor-Moderate) geomagnetic storming is likely 10-11
+May due to the arrival of CMEs that left the Sun over the course of
+07-08 May.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for May 09-May 11 2024
+
+              May 09  May 10  May 11
+S1 or greater   25%     25%     25%
+
+Rationale: A chance for S1 (Minor) solar radiation storms will persist
+through the forecast period given the observed activity from AR 3664 in
+particular.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R3 levels were observed over the past 24
+hours. The largest was at May 08 2024 0141 UTC.
+
+Radio Blackout Forecast for May 09-May 11 2024
+
+              May 09        May 10        May 11
+R1-R2           95%           95%           95%
+R3 or greater   60%           60%           60%
+
+Rationale: R3 (Strong) radio blackouts due to X-class flares are likely
+through the forecast period primarily due to the magnetic complexity and
+stature of AR 3634.
+
+
+:Product: 12210030three_day_forecast.txt
+:Issued: 2024 Dec 21 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Dec 21-Dec 23 2024 is 3.00 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Dec 21-Dec 23 2024
+
+             Dec 21       Dec 22       Dec 23
+00-03UT       3.00         1.67         2.33     
+03-06UT       2.00         1.33         2.67     
+06-09UT       3.00         1.33         2.00     
+09-12UT       2.00         1.33         2.00     
+12-15UT       1.67         1.33         1.00     
+15-18UT       1.00         1.67         2.00     
+18-21UT       1.00         1.33         2.00     
+21-00UT       2.33         1.67         2.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Dec 21-Dec 23 2024
+
+              Dec 21  Dec 22  Dec 23
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Dec 20 2024 1118 UTC.
+
+Radio Blackout Forecast for Dec 21-Dec 23 2024
+
+              Dec 21        Dec 22        Dec 23
+R1-R2           65%           60%           60%
+R3 or greater   10%           10%           10%
+
+Rationale: R1 (Minor) or greater radio blackouts are likely on 21-23
+Dec.
+
+
+:Product: 10111230three_day_forecast.txt
+:Issued: 2024 Oct 11 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 9 (NOAA Scale
+G5).
+The greatest expected 3 hr Kp for Oct 11-Oct 13 2024 is 8.00 (NOAA Scale
+G4).
+
+NOAA Kp index breakdown Oct 11-Oct 13 2024
+
+             Oct 11       Oct 12       Oct 13
+00-03UT       8.00 (G4)    5.33 (G1)    3.33     
+03-06UT       7.67 (G4)    5.00 (G1)    2.67     
+06-09UT       8.00 (G4)    4.67 (G1)    2.67     
+09-12UT       7.33 (G3)    4.33         2.33     
+12-15UT       6.67 (G3)    4.33         1.67     
+15-18UT       5.67 (G2)    5.33 (G1)    2.00     
+18-21UT       4.33         4.67 (G1)    2.67     
+21-00UT       5.00 (G1)    4.33         3.33     
+
+Rationale: G4 (Severe) levels occurred early on 11 Oct. G1-G3
+(Minor-Strong) levels are expected for the rest of the UTC day due to
+persistent CME activity. G1 (Minor) levels are expected on 12 Oct due to
+residual CME activity and possible CH HSS.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+above S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Oct 11-Oct 13 2024
+
+              Oct 11  Oct 12  Oct 13
+S1 or greater   85%     20%     20%
+
+Rationale: S1 (Minor) solar radiation storms were observed early in the
+period but have since dropped below threshold.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Oct 10 2024 2230 UTC.
+
+Radio Blackout Forecast for Oct 11-Oct 13 2024
+
+              Oct 11        Oct 12        Oct 13
+R1-R2           70%           70%           70%
+R3 or greater   25%           25%           25%
+
+Rationale: Solar activity is likely to be moderate (R1-R2,
+Minor-Moderate) with a chance for X-class flares (R3, Strong) on 11-13
+Oct.
+
+
+:Product: 07201230three_day_forecast.txt CORRECTION
+:Issued: 2024 Jul 20 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jul 20-Jul 22 2024 is 5.00 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Jul 20-Jul 22 2024
+
+             Jul 20       Jul 21       Jul 22
+00-03UT       2.33         5.00 (G1)    3.00     
+03-06UT       2.00         4.33         2.00     
+06-09UT       2.00         3.33         2.00     
+09-12UT       2.00         2.67         2.00     
+12-15UT       3.67         2.33         2.00     
+15-18UT       4.00         2.00         2.33     
+18-21UT       3.33         2.67         2.00     
+21-00UT       4.33         3.67         2.00     
+
+Rationale: G1 (Minor) storms are likely on 21 Jul, due to the arrival of
+the 16 Jul CMEs.
+
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jul 20-Jul 22 2024
+
+              Jul 20  Jul 21  Jul 22
+S1 or greater   15%     15%     10%
+
+Rationale: There is a slight chance for S1 (Minor) solar radiation
+storms through 22 Jul.
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Jul 19 2024 1806 UTC.
+
+Radio Blackout Forecast for Jul 20-Jul 22 2024
+
+              Jul 20        Jul 21        Jul 22
+R1-R2           55%           55%           55%
+R3 or greater   10%           10%           10%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely through 22
+Jul, with a slight chance for an R3 (Strong) event, due to multiple
+complex regions on the visible disk.
+
+
+:Product: 07190030three_day_forecast.txt CORRECTION
+:Issued: 2024 Jul 19 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jul 19-Jul 21 2024 is 5.00 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Jul 19-Jul 21 2024
+
+             Jul 19       Jul 20       Jul 21
+00-03UT       3.00         3.00         5.00 (G1)
+03-06UT       2.33         2.00         4.33     
+06-09UT       2.00         1.67         3.33     
+09-12UT       1.67         3.33         2.67     
+12-15UT       1.33         4.33         2.33     
+15-18UT       1.67         3.67         2.00     
+18-21UT       2.00         3.00         2.67     
+21-00UT       2.67         2.67         3.67     
+
+Rationale: G1 (Minor) storms are likely on 21 Jul, due to the arrival of
+the 16 Jul CMEs.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jul 19-Jul 21 2024
+
+              Jul 19  Jul 20  Jul 21
+S1 or greater   15%     15%     10%
+
+Rationale: There is a chance for S1 (Minor) solar radiation storms
+over 19-21 Jul.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Jul 18 2024 1014 UTC.
+
+Radio Blackout Forecast for Jul 19-Jul 21 2024
+
+              Jul 19        Jul 20        Jul 21
+R1-R2           60%           60%           55%
+R3 or greater   15%           15%           10%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely over 19-21
+Jul, with a slight chance for R3 (Strong) due to multiple complex
+regions on the visible disk.
+
+
+:Product: 11111230three_day_forecast.txt
+:Issued: 2024 Nov 11 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 5 (NOAA Scale
+G1).
+The greatest expected 3 hr Kp for Nov 11-Nov 13 2024 is 4.00 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Nov 11-Nov 13 2024
+
+             Nov 11       Nov 12       Nov 13
+00-03UT       2.33         3.00         2.67     
+03-06UT       2.00         2.67         4.00     
+06-09UT       3.67         2.67         4.00     
+09-12UT       2.67         2.67         3.00     
+12-15UT       1.00         1.67         2.67     
+15-18UT       1.00         1.67         2.00     
+18-21UT       2.67         1.67         2.00     
+21-00UT       3.67         2.67         2.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Nov 11-Nov 13 2024
+
+              Nov 11  Nov 12  Nov 13
+S1 or greater   15%     15%     15%
+
+Rationale: There is a slight chance for S1 (Minor)  solar radiation
+storms over 11-13 Nov.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Nov 10 2024 2021 UTC.
+
+Radio Blackout Forecast for Nov 11-Nov 13 2024
+
+              Nov 11        Nov 12        Nov 13
+R1-R2           70%           70%           70%
+R3 or greater   30%           30%           30%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a
+chance for R3 (Strong), over 11-13 Nov.
+
+
+:Product: 05071230three_day_forecast.txt
+:Issued: 2024 May 07 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for May 07-May 09 2024 is 4.00 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown May 07-May 09 2024
+
+             May 07       May 08       May 09
+00-03UT       2.00         2.33         2.67     
+03-06UT       2.00         2.67         2.67     
+06-09UT       1.33         2.67         2.33     
+09-12UT       2.00         2.00         2.33     
+12-15UT       2.00         2.00         2.33     
+15-18UT       2.67         1.00         2.33     
+18-21UT       3.00         2.00         2.33     
+21-00UT       4.00         2.00         2.00     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for May 07-May 09 2024
+
+              May 07  May 08  May 09
+S1 or greater   25%     25%     25%
+
+Rationale: There is a chance for S1 (Minor) or greater solar radiation
+storms over the next three days. Primarily due to the potential from ARs
+3663 and 3664.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R2 levels were observed over the past 24
+hours. The largest was at May 07 2024 0616 UTC.
+
+Radio Blackout Forecast for May 07-May 09 2024
+
+              May 07        May 08        May 09
+R1-R2           90%           90%           90%
+R3 or greater   50%           50%           50%
+
+Rationale: R1-2 (Minor-Moderate) radio blackouts due to M-class flare
+activity are expected through 09 May given the evolution of ARs 3663
+and 3664 as well as their recent flare history. In addition, a high
+chance for an isolated R3 (Strong) radio blackout will persist through
+09 May as well given AR 3663s history of X-class flares.
+
+
+:Product: 08141230three_day_forecast.txt
+:Issued: 2024 Aug 14 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Aug 14-Aug 16 2024 is 4.33 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Aug 14-Aug 16 2024
+
+             Aug 14       Aug 15       Aug 16
+00-03UT       4.33         1.67         2.33     
+03-06UT       3.00         1.33         1.67     
+06-09UT       2.00         1.33         2.00     
+09-12UT       1.67         1.33         2.33     
+12-15UT       2.00         1.33         2.33     
+15-18UT       1.33         1.33         2.33     
+18-21UT       1.33         1.67         2.33     
+21-00UT       1.67         1.67         2.33     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Aug 14-Aug 16 2024
+
+              Aug 14  Aug 15  Aug 16
+S1 or greater   20%     10%     10%
+
+Rationale: There is a slight, but increasing chance for S1 (Minor)
+conditions on 14 Aug following the X1 flare from near center disk.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R3 levels were observed over the past 24
+hours. The largest was at Aug 14 2024 0640 UTC.
+
+Radio Blackout Forecast for Aug 14-Aug 16 2024
+
+              Aug 14        Aug 15        Aug 16
+R1-R2           75%           75%           75%
+R3 or greater   25%           25%           25%
+
+Rationale: (R1-R2, Minor-Moderate) radio blackouts are expected, with a
+chance for (R3-Strong) radio blackouts through 16 Aug.
+
+
+:Product: 04111230three_day_forecast.txt
+:Issued: 2024 Apr 11 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Apr 11-Apr 13 2024 is 2.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Apr 11-Apr 13 2024
+
+             Apr 11       Apr 12       Apr 13
+00-03UT       2.33         1.67         2.33     
+03-06UT       2.67         1.33         1.67     
+06-09UT       0.67         1.33         2.00     
+09-12UT       1.00         1.33         1.67     
+12-15UT       2.33         1.33         2.00     
+15-18UT       2.33         1.33         2.33     
+18-21UT       2.33         1.67         2.33     
+21-00UT       2.67         1.67         2.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Apr 11-Apr 13 2024
+
+              Apr 11  Apr 12  Apr 13
+S1 or greater    1%      1%      1%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Apr 11-Apr 13 2024
+
+              Apr 11        Apr 12        Apr 13
+R1-R2           10%           25%           25%
+R3 or greater    1%            5%            5%
+
+Rationale: There is an increasing chance for R1-R2 (Minor-Moderate)
+radio blackouts over the next three days-primarily due to the return of
+old Region 3615.
+
+
+:Product: 10241230three_day_forecast.txt
+:Issued: 2024 Oct 24 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Oct 24-Oct 26 2024 is 4.33 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Oct 24-Oct 26 2024
+
+             Oct 24       Oct 25       Oct 26
+00-03UT       3.00         3.67         2.67     
+03-06UT       4.33         4.33         2.33     
+06-09UT       3.67         3.00         2.00     
+09-12UT       2.00         2.67         1.67     
+12-15UT       2.00         2.33         2.33     
+15-18UT       2.33         2.00         2.00     
+18-21UT       2.33         2.67         2.00     
+21-00UT       3.33         2.67         2.33     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Oct 24-Oct 26 2024
+
+              Oct 24  Oct 25  Oct 26
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R3 levels were observed over the past 24
+hours. The largest was at Oct 24 2024 0357 UTC.
+
+Radio Blackout Forecast for Oct 24-Oct 26 2024
+
+              Oct 24        Oct 25        Oct 26
+R1-R2           60%           60%           60%
+R3 or greater   10%           10%           10%
+
+Rationale: Solar flare activity is expected to be at Minor to Moderate
+(R1-R2) levels 24-26 Oct with a slight chance for R3-Strong levels as
+more magnetically complex regions emerge in the SE part of the disk.
+
+
+:Product: 11220030three_day_forecast.txt
+:Issued: 2024 Nov 22 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Nov 22-Nov 24 2024 is 3.00 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Nov 22-Nov 24 2024
+
+             Nov 22       Nov 23       Nov 24
+00-03UT       2.33         2.33         2.33     
+03-06UT       2.00         3.00         2.67     
+06-09UT       0.67         2.33         2.33     
+09-12UT       1.00         2.00         2.33     
+12-15UT       1.00         1.33         2.00     
+15-18UT       1.33         1.33         2.00     
+18-21UT       1.33         1.67         2.00     
+21-00UT       1.33         2.33         1.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+above S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Nov 22-Nov 24 2024
+
+              Nov 22  Nov 23  Nov 24
+S1 or greater   99%     10%      5%
+
+Rationale: S1 (Minor) or greater solar radiation storms are expected on
+22 Nov, decaying to a slight chance on 23 Nov. No proton events are
+expected on 24 Nov.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Nov 22-Nov 24 2024
+
+              Nov 22        Nov 23        Nov 24
+R1-R2           50%           50%           50%
+R3 or greater   10%           10%           10%
+
+Rationale: Solar activity is expected to be low, with a chance for
+M-class flares (R1/R2-Minor/Moderate) and a slight chance of X-class
+(R3-Strong) events 22-24 Nov.
+
+
+:Product: 11120030three_day_forecast.txt
+:Issued: 2024 Nov 12 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Nov 12-Nov 14 2024 is 4.00 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Nov 12-Nov 14 2024
+
+             Nov 12       Nov 13       Nov 14
+00-03UT       3.00         2.67         4.00     
+03-06UT       2.67         4.00         2.67     
+06-09UT       2.67         4.00         2.67     
+09-12UT       2.67         3.00         2.33     
+12-15UT       1.67         2.67         2.00     
+15-18UT       1.67         2.00         2.00     
+18-21UT       1.67         2.00         2.33     
+21-00UT       2.67         2.67         3.00     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Nov 12-Nov 14 2024
+
+              Nov 12  Nov 13  Nov 14
+S1 or greater   15%     15%     15%
+
+Rationale: There is a slight chance for S1 (Minor)  solar radiation
+storms over 11-13 Nov.
+
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Nov 11 2024 0543 UTC.
+
+Radio Blackout Forecast for Nov 12-Nov 14 2024
+
+              Nov 12        Nov 13        Nov 14
+R1-R2           70%           70%           70%
+R3 or greater   25%           25%           25%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a
+chance for R3 (Strong), over 11-13 Nov.
+
+
+:Product: 11020030three_day_forecast.txt
+:Issued: 2024 Nov 02 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Nov 02-Nov 04 2024 is 3.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Nov 02-Nov 04 2024
+
+             Nov 02       Nov 03       Nov 04
+00-03UT       2.33         2.67         3.67     
+03-06UT       1.33         3.00         2.67     
+06-09UT       1.00         2.67         2.67     
+09-12UT       1.00         2.67         2.00     
+12-15UT       2.33         2.33         1.67     
+15-18UT       2.33         2.67         1.67     
+18-21UT       2.67         3.67         1.67     
+21-00UT       2.67         3.67         2.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+above S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Nov 02-Nov 04 2024
+
+              Nov 02  Nov 03  Nov 04
+S1 or greater   50%     30%     30%
+
+Rationale: There is a chance for the greater than 10 MeV proton flux to
+remain elevated but below threshold over 02-04 Nov.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Nov 01 2024 1431 UTC.
+
+Radio Blackout Forecast for Nov 02-Nov 04 2024
+
+              Nov 02        Nov 03        Nov 04
+R1-R2           75%           75%           75%
+R3 or greater   35%           35%           35%
+
+Rationale: M-class flares (R1-minor) are expected, with a chance for
+X-class (R3-strong), through 04 Nov.
+
+
+:Product: 08200030three_day_forecast.txt
+:Issued: 2024 Aug 20 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Aug 20-Aug 22 2024 is 3.33 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Aug 20-Aug 22 2024
+
+             Aug 20       Aug 21       Aug 22
+00-03UT       1.67         1.67         1.67     
+03-06UT       2.33         1.67         2.67     
+06-09UT       1.67         1.33         3.00     
+09-12UT       1.67         1.33         3.33     
+12-15UT       1.33         0.67         2.67     
+15-18UT       1.00         1.33         2.00     
+18-21UT       1.00         1.67         2.00     
+21-00UT       0.67         1.67         1.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Aug 20-Aug 22 2024
+
+              Aug 20  Aug 21  Aug 22
+S1 or greater   10%     10%     10%
+
+Rationale: There is a slight chance for S1 (Minor) solar radiation
+storms over 20-22 Aug.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Aug 19 2024 2152 UTC.
+
+Radio Blackout Forecast for Aug 20-Aug 22 2024
+
+              Aug 20        Aug 21        Aug 22
+R1-R2           65%           65%           65%
+R3 or greater   20%           20%           20%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a
+slight chance for R3 (Strong) or greater events, over 20-22 Aug.
+
+
+:Product: 03140030three_day_forecast.txt
+:Issued: 2024 Mar 14 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Mar 14-Mar 16 2024 is 3.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Mar 14-Mar 16 2024
+
+             Mar 14       Mar 15       Mar 16
+00-03UT       2.67         3.00         2.67     
+03-06UT       2.33         2.00         2.33     
+06-09UT       2.33         2.00         2.00     
+09-12UT       3.67         2.67         2.00     
+12-15UT       3.67         2.67         2.00     
+15-18UT       2.67         2.67         2.00     
+18-21UT       2.67         2.67         2.00     
+21-00UT       3.00         3.00         2.00     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Mar 14-Mar 16 2024
+
+              Mar 14  Mar 15  Mar 16
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Mar 14-Mar 16 2024
+
+              Mar 14        Mar 15        Mar 16
+R1-R2           15%           15%           15%
+R3 or greater    5%            5%            5%
+
+Rationale: A slight chance for R1-2 (Minor-Moderate) radio blackouts due
+to isolated M-class flare activity will persist through the forecast
+period as AR 3599 exits the western limb.
+
+
+:Product: 12170030three_day_forecast.txt
+:Issued: 2024 Dec 17 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Dec 17-Dec 19 2024 is 4.33 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Dec 17-Dec 19 2024
+
+             Dec 17       Dec 18       Dec 19
+00-03UT       2.00         2.33         1.33     
+03-06UT       2.00         2.00         1.33     
+06-09UT       2.67         2.33         1.33     
+09-12UT       4.33         2.33         1.33     
+12-15UT       4.00         2.33         1.67     
+15-18UT       3.00         2.33         1.67     
+18-21UT       2.33         2.67         1.33     
+21-00UT       2.67         2.67         1.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Dec 17-Dec 19 2024
+
+              Dec 17  Dec 18  Dec 19
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Dec 17-Dec 19 2024
+
+              Dec 17        Dec 18        Dec 19
+R1-R2           40%           30%           30%
+R3 or greater    5%            5%            5%
+
+Rationale: There is a chance for R1-R2 (Minor-Moderate) events over
+17-19 Dec.
+
+
+:Product: 10181230three_day_forecast.txt
+:Issued: 2024 Oct 18 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Oct 18-Oct 20 2024 is 4.00 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Oct 18-Oct 20 2024
+
+             Oct 18       Oct 19       Oct 20
+00-03UT       3.33         4.00         3.67     
+03-06UT       2.67         3.67         3.33     
+06-09UT       1.33         3.33         3.00     
+09-12UT       2.00         2.67         3.00     
+12-15UT       3.00         2.00         2.00     
+15-18UT       3.33         2.00         2.00     
+18-21UT       3.67         2.67         1.67     
+21-00UT       4.00         3.00         1.67     
+
+Rationale: There is a chance of G1 (Minor storm) conditions on 18 Oct
+due to a potential glancing blow from an eruption on the western limb
+associated with the M2 flare from Region 3854 on 15 Oct at 1833 UTC.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Oct 18-Oct 20 2024
+
+              Oct 18  Oct 19  Oct 20
+S1 or greater   10%     10%     10%
+
+Rationale: The greater than 10 MeV proton flux is expected to remain at
+background levels with a slight chance for a solar radiation storm event
+through 20 Oct as Regions 3852 and 3854 transit the western limb.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Oct 18-Oct 20 2024
+
+              Oct 18        Oct 19        Oct 20
+R1-R2           60%           60%           55%
+R3 or greater   10%           10%           10%
+
+Rationale: Solar activity is expected to be at low levels, with moderate
+levels (R1-R2, Minor-Moderate) likely on 18-20 Oct. There is a slight
+chance for X-class flares (R3, Strong) through 20 Oct.
+
+
+:Product: 10121230three_day_forecast.txt
+:Issued: 2024 Oct 12 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 7 (NOAA Scale
+G3).
+The greatest expected 3 hr Kp for Oct 12-Oct 14 2024 is 5.00 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Oct 12-Oct 14 2024
+
+             Oct 12       Oct 13       Oct 14
+00-03UT       3.67         3.67         4.00     
+03-06UT       2.00         2.67         3.33     
+06-09UT       2.67         2.67         2.67     
+09-12UT       5.00 (G1)    2.33         2.33     
+12-15UT       4.33         1.67         2.00     
+15-18UT       4.00         2.00         2.00     
+18-21UT       3.67         2.67         2.00     
+21-00UT       4.00         3.33         2.67     
+
+Rationale: The geomagnetic field is expected to reach G1 (Minor)
+geomagnetic storm levels, with a chance for an isolated G2 (Moderate)
+storm period, on 12 Oct as effects from a CME that left the sun on 09
+Oct continue to wane.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Oct 12-Oct 14 2024
+
+              Oct 12  Oct 13  Oct 14
+S1 or greater   10%     10%     10%
+
+Rationale: The greater than 10 MeV proton flux is expected to remain at
+background levels with a slight chance for a solar radiation storm event
+through 14 Oct as AR 3848 approaches the western limb.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Oct 11 2024 1633 UTC.
+
+Radio Blackout Forecast for Oct 12-Oct 14 2024
+
+              Oct 12        Oct 13        Oct 14
+R1-R2           60%           60%           60%
+R3 or greater   25%           25%           25%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a
+chance for R3 (Strong) events through 14 Oct.
+
+
+:Product: 03091230three_day_forecast.txt
+:Issued: 2024 Mar 09 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Mar 09-Mar 11 2024 is 4.67 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Mar 09-Mar 11 2024
+
+             Mar 09       Mar 10       Mar 11
+00-03UT       4.00         2.67         2.67     
+03-06UT       3.33         2.33         2.00     
+06-09UT       2.67         2.33         2.00     
+09-12UT       2.00         2.00         2.67     
+12-15UT       3.33         2.33         2.67     
+15-18UT       4.67 (G1)    2.33         3.00     
+18-21UT       2.67         2.33         2.67     
+21-00UT       2.33         2.67         3.00     
+
+Rationale: G1 (Minor) geomagnetic storms are likely on 09 Mar due to
+anticipated transient influence.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Mar 09-Mar 11 2024
+
+              Mar 09  Mar 10  Mar 11
+S1 or greater    1%      1%      1%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Mar 08 2024 2126 UTC.
+
+Radio Blackout Forecast for Mar 09-Mar 11 2024
+
+              Mar 09        Mar 10        Mar 11
+R1-R2           20%           20%           20%
+R3 or greater    1%            1%            1%
+
+Rationale: There is a slight chance for R1 (Minor) radio blackouts over
+the next three days.
+
+
+:Product: 08081230three_day_forecast.txt
+:Issued: 2024 Aug 08 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Aug 08-Aug 10 2024 is 6.00 (NOAA Scale
+G2).
+
+NOAA Kp index breakdown Aug 08-Aug 10 2024
+
+             Aug 08       Aug 09       Aug 10
+00-03UT       3.00         1.67         5.00 (G1)
+03-06UT       2.00         1.67         5.67 (G2)
+06-09UT       2.00         3.00         5.67 (G2)
+09-12UT       2.33         3.00         5.00 (G1)
+12-15UT       1.33         4.00         4.00     
+15-18UT       1.67         5.00 (G1)    3.67     
+18-21UT       1.67         5.33 (G1)    3.67     
+21-00UT       2.00         6.00 (G2)    3.33     
+
+Rationale: G1-G2 (Minor-Moderate) geomagnetic storm levels are likely on
+09-10 Aug due to the arrival of two CMEs from 07 Aug.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Aug 08-Aug 10 2024
+
+              Aug 08  Aug 09  Aug 10
+S1 or greater   20%     20%     20%
+
+Rationale: There is a slight chance for S1 (Minor) solar radiation
+storms through 10 Aug.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R2 levels were observed over the past 24
+hours. The largest was at Aug 07 2024 1854 UTC.
+
+Radio Blackout Forecast for Aug 08-Aug 10 2024
+
+              Aug 08        Aug 09        Aug 10
+R1-R2           75%           75%           75%
+R3 or greater   25%           25%           25%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are expected, with a
+chance for R3 (Strong) or greater events, over 08-10 Aug.
+
+
+:Product: 10240030three_day_forecast.txt
+:Issued: 2024 Oct 24 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Oct 24-Oct 26 2024 is 4.33 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Oct 24-Oct 26 2024
+
+             Oct 24       Oct 25       Oct 26
+00-03UT       2.67         3.67         2.67     
+03-06UT       2.33         4.33         2.33     
+06-09UT       2.00         3.00         2.00     
+09-12UT       2.00         2.67         1.67     
+12-15UT       2.00         2.33         2.33     
+15-18UT       2.33         2.00         2.00     
+18-21UT       2.33         2.67         2.00     
+21-00UT       3.33         2.67         2.33     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Oct 24-Oct 26 2024
+
+              Oct 24  Oct 25  Oct 26
+S1 or greater    1%      1%      1%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Oct 24-Oct 26 2024
+
+              Oct 24        Oct 25        Oct 26
+R1-R2           60%           60%           60%
+R3 or greater   10%           10%           10%
+
+Rationale: Solar flare activity is expected to be at Minor to Moderate
+(R1-R2) levels 24-26 Oct with a slight chance for R3-Strong levels as
+more magnetically complex regions emerge in the SE part of the disk.
+
+
+:Product: 04101230three_day_forecast.txt
+:Issued: 2024 Apr 10 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Apr 10-Apr 12 2024 is 3.00 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Apr 10-Apr 12 2024
+
+             Apr 10       Apr 11       Apr 12
+00-03UT       3.00         2.67         1.67     
+03-06UT       1.67         2.33         1.33     
+06-09UT       2.00         2.33         1.33     
+09-12UT       2.00         2.00         1.33     
+12-15UT       2.00         1.33         1.33     
+15-18UT       2.00         1.67         1.33     
+18-21UT       3.00         2.00         1.67     
+21-00UT       3.00         2.33         1.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Apr 10-Apr 12 2024
+
+              Apr 10  Apr 11  Apr 12
+S1 or greater    1%      1%      1%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Apr 10-Apr 12 2024
+
+              Apr 10        Apr 11        Apr 12
+R1-R2           10%           25%           25%
+R3 or greater    1%            5%            5%
+
+Rationale: There is an increasing chance for R1-R2 (Minor-Moderate)
+radio blackouts over the next three days, primarily due to the return of
+old Region 3615.
+
+
+:Product: 07250030three_day_forecast.txt CORRECTION
+:Issued: 2024 Jul 25 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jul 25-Jul 27 2024 is 4.67 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Jul 25-Jul 27 2024
+
+             Jul 25       Jul 26       Jul 27
+00-03UT       3.67         2.33         4.67 (G1)
+03-06UT       3.00         2.00         4.00     
+06-09UT       2.33         2.00         3.67     
+09-12UT       1.67         2.00         3.33     
+12-15UT       2.00         1.33         2.33     
+15-18UT       2.00         2.00         2.33     
+18-21UT       2.00         2.33         2.00     
+21-00UT       2.33         4.33         2.33     
+
+Rationale: G1 (Minor) geomagnetic storm levels are likely on 27 Jul due
+to the arrival of glancing effects from a CME that left the Sun on 23
+Jul.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jul 25-Jul 27 2024
+
+              Jul 25  Jul 26  Jul 27
+S1 or greater   10%     10%     10%
+
+Rationale: There is a slight chance for S1 (Minor) solar radiation
+storms through 27 Jul.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Jul 24 2024 0742 UTC.
+
+Radio Blackout Forecast for Jul 25-Jul 27 2024
+
+              Jul 25        Jul 26        Jul 27
+R1-R2           60%           60%           60%
+R3 or greater   10%           10%           10%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely through 27
+Jul, with a slight chance for an R3 (Strong) event, due to multiple
+complex regions on the visible disk.
+
+
+:Product: 07040030three_day_forecast.txt CORRECTION
+:Issued: 2024 Jul 04 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jul 04-Jul 06 2024 is 2.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jul 04-Jul 06 2024
+
+             Jul 04       Jul 05       Jul 06
+00-03UT       2.00         1.67         1.67     
+03-06UT       1.67         1.67         1.33     
+06-09UT       1.67         1.67         1.33     
+09-12UT       1.67         1.33         1.33     
+12-15UT       2.33         1.33         1.33     
+15-18UT       2.33         1.33         1.33     
+18-21UT       2.67         1.33         1.67     
+21-00UT       2.33         1.33         1.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jul 04-Jul 06 2024
+
+              Jul 04  Jul 05  Jul 06
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Jul 03 2024 0741 UTC.
+
+Radio Blackout Forecast for Jul 04-Jul 06 2024
+
+              Jul 04        Jul 05        Jul 06
+R1-R2           35%           35%           35%
+R3 or greater    5%            5%            5%
+
+Rationale: There is a chance for R1-R2 (Minor-Moderate) radio blackouts
+over 04-06 Jul.
+
+
+:Product: 06201230three_day_forecast.txt
+:Issued: 2024 Jun 20 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jun 20-Jun 22 2024 is 4.00 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jun 20-Jun 22 2024
+
+             Jun 20       Jun 21       Jun 22
+00-03UT       2.00         1.67         4.00     
+03-06UT       1.67         1.33         3.33     
+06-09UT       1.67         1.00         2.33     
+09-12UT       1.67         1.00         2.33     
+12-15UT       1.33         2.33         2.00     
+15-18UT       1.33         3.00         2.00     
+18-21UT       0.67         3.33         2.33     
+21-00UT       1.33         3.33         2.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jun 20-Jun 22 2024
+
+              Jun 20  Jun 21  Jun 22
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Jun 20-Jun 22 2024
+
+              Jun 20        Jun 21        Jun 22
+R1-R2           60%           60%           60%
+R3 or greater   15%           15%           15%
+
+Rationale: R1-R2 (Minor-Moderate) Radio Blackouts are likely over 20-22
+Jun, with a slight chance for X-class flares (R3 or greater), due
+primarily to the flare potential of Regions 3712, 3713 and 3716.
+
+
+:Product: 05121230three_day_forecast.txt
+:Issued: 2024 May 12 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 9 (NOAA Scale
+G5).
+The greatest expected 3 hr Kp for May 12-May 14 2024 is 7.67 (NOAA Scale
+G4).
+
+NOAA Kp index breakdown May 12-May 14 2024
+
+             May 12       May 13       May 14
+00-03UT       6.67 (G3)    5.00 (G1)    4.67 (G1)
+03-06UT       7.00 (G3)    6.67 (G3)    4.33     
+06-09UT       3.67         5.00 (G1)    3.00     
+09-12UT       3.67         5.67 (G2)    3.00     
+12-15UT       5.00 (G1)    4.67 (G1)    2.67     
+15-18UT       6.00 (G2)    3.67         2.00     
+18-21UT       7.67 (G4)    3.00         2.00     
+21-00UT       6.67 (G3)    3.00         3.00     
+
+Rationale: G4 (Extreme) storm levels are expected on 12 May due to CME
+impacts. G3 (Strong) geomagnetic storming is likely to continue into the
+early hours of 13 May. Isolated G1 (Minor) geomagnetic storming is
+likely on 14 May as conditions from the the previous days wane.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+above S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for May 12-May 14 2024
+
+              May 12  May 13  May 14
+S1 or greater   99%     60%     60%
+
+Rationale: S1 (Minor) solar radiation storms are expected through 14 May
+due to activity originating from AR 3634.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R2 levels were observed over the past 24
+hours. The largest was at May 11 2024 1525 UTC.
+
+Radio Blackout Forecast for May 12-May 14 2024
+
+              May 12        May 13        May 14
+R1-R2           95%           95%           95%
+R3 or greater   75%           75%           75%
+
+Rationale: R3 (Strong) or greater radio blackouts are expected all
+three days.
+
+
+:Product: 08060030three_day_forecast.txt
+:Issued: 2024 Aug 06 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Aug 06-Aug 08 2024 is 2.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Aug 06-Aug 08 2024
+
+             Aug 06       Aug 07       Aug 08
+00-03UT       2.67         2.67         1.67     
+03-06UT       2.00         2.33         1.67     
+06-09UT       2.33         1.67         1.67     
+09-12UT       2.33         1.67         1.33     
+12-15UT       2.33         1.67         1.33     
+15-18UT       2.33         1.67         1.33     
+18-21UT       2.33         2.00         1.33     
+21-00UT       2.67         2.33         1.33     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Aug 06-Aug 08 2024
+
+              Aug 06  Aug 07  Aug 08
+S1 or greater   20%     20%     20%
+
+Rationale: There is a slight chance for S1 (Minor) solar radiation
+storms through 08 Aug.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R3 levels were observed over the past 24
+hours. The largest was at Aug 05 2024 1340 UTC.
+
+Radio Blackout Forecast for Aug 06-Aug 08 2024
+
+              Aug 06        Aug 07        Aug 08
+R1-R2           75%           75%           75%
+R3 or greater   25%           25%           25%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are expected, with a
+chance for R3 (Strong) or greater events, over 06-08 Aug.
+
+
+:Product: 11021230three_day_forecast.txt
+:Issued: 2024 Nov 02 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Nov 02-Nov 04 2024 is 4.00 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Nov 02-Nov 04 2024
+
+             Nov 02       Nov 03       Nov 04
+00-03UT       0.67         2.67         3.67     
+03-06UT       1.00         3.00         2.67     
+06-09UT       1.67         2.67         2.67     
+09-12UT       4.00         2.67         2.00     
+12-15UT       4.00         2.33         1.67     
+15-18UT       2.67         2.67         1.67     
+18-21UT       2.67         3.67         1.67     
+21-00UT       3.67         3.67         2.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected. 
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Nov 02-Nov 04 2024
+
+              Nov 02  Nov 03  Nov 04
+S1 or greater   50%     30%     30%
+
+Rationale: There is a chance for the greater than 10 MeV proton flux to
+remain elevated but below the threshold over 02-04 Nov.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Nov 01 2024 1431 UTC.
+
+Radio Blackout Forecast for Nov 02-Nov 04 2024
+
+              Nov 02        Nov 03        Nov 04
+R1-R2           75%           75%           75%
+R3 or greater   35%           35%           35%
+
+Rationale: M-class (R1-minor) are expected, with a chance for X-class
+(R3-strong), through 04 Nov.
+
+
+:Product: 01041230three_day_forecast.txt
+:Issued: 2025 Jan 04 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 5 (NOAA Scale
+G1).
+The greatest expected 3 hr Kp for Jan 04-Jan 06 2025 is 5.00 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Jan 04-Jan 06 2025
+
+             Jan 04       Jan 05       Jan 06
+00-03UT       2.67         3.00         3.00     
+03-06UT       4.67 (G1)    4.67 (G1)    3.67     
+06-09UT       5.00 (G1)    4.00         2.67     
+09-12UT       4.33         3.33         2.33     
+12-15UT       4.67 (G1)    2.67         2.00     
+15-18UT       4.00         2.33         2.33     
+18-21UT       3.67         2.67         2.67     
+21-00UT       3.67         3.00         2.67     
+
+Rationale: Isolated periods of G1 (Minor) geomagnetic storming are
+expected on 04 Jan, first due to lingering CME effects, then to positive
+polarity CH HSS effects. G1 conditions are likely to continue into 05
+Jan as CH HSS influence persists.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 04-Jan 06 2025
+
+              Jan 04  Jan 05  Jan 06
+S1 or greater   10%     10%     10%
+
+Rationale: A slight chance for an S1 (Minor) solar radiation storm event
+will persist through 06 Jan given the current total disk potential.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R3 levels were observed over the past 24
+hours. The largest was at Jan 03 2025 2241 UTC.
+
+Radio Blackout Forecast for Jan 04-Jan 06 2025
+
+              Jan 04        Jan 05        Jan 06
+R1-R2           65%           65%           65%
+R3 or greater   20%           20%           20%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a
+chance for an isolated R3 (Strong) event, through 06 Jan as M-flares
+continue and Region 3947 continues to evolve.
+
+
+:Product: 01051230three_day_forecast.txt
+:Issued: 2025 Jan 05 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 5 (NOAA Scale
+G1).
+The greatest expected 3 hr Kp for Jan 05-Jan 07 2025 is 4.67 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Jan 05-Jan 07 2025
+
+             Jan 05       Jan 06       Jan 07
+00-03UT       3.67         3.00         2.67     
+03-06UT       2.67         3.67         2.33     
+06-09UT       3.00         2.67         2.00     
+09-12UT       3.67         2.33         2.33     
+12-15UT       3.00         2.00         1.33     
+15-18UT       3.33         2.33         2.00     
+18-21UT       3.33         2.67         2.00     
+21-00UT       4.67 (G1)    2.67         2.33     
+
+Rationale: Isolated G1 periods remain likely on 05 Jan as CH HSS effects
+persist.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+above S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 05-Jan 07 2025
+
+              Jan 05  Jan 06  Jan 07
+S1 or greater   99%     25%     10%
+
+Rationale: An S1 (Minor) solar radiation storm is expected to continue
+on 05 Jan. A return to background-like conditions is expected by 06 Jan
+where a slight chance for an event will remain for 07 Jan.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R3 levels were observed over the past 24
+hours. The largest was at Jan 04 2025 1248 UTC.
+
+Radio Blackout Forecast for Jan 05-Jan 07 2025
+
+              Jan 05        Jan 06        Jan 07
+R1-R2           75%           75%           75%
+R3 or greater   25%           25%           25%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are expected, with a
+chance for isolated R3 (Strong) or greater events through 07 Jan, as AR
+3947 continues to mature and a number of active regions approach the
+western limb.
+
+
+:Product: 02181230three_day_forecast.txt
+:Issued: 2025 Feb 18 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Feb 18-Feb 20 2025 is 3.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Feb 18-Feb 20 2025
+
+             Feb 18       Feb 19       Feb 20
+00-03UT       3.67         3.00         2.33     
+03-06UT       3.33         2.67         2.00     
+06-09UT       2.00         2.33         2.00     
+09-12UT       1.00         2.00         2.00     
+12-15UT       2.33         2.00         2.00     
+15-18UT       2.00         2.33         2.00     
+18-21UT       2.33         2.33         2.00     
+21-00UT       3.00         2.67         2.33     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Feb 18-Feb 20 2025
+
+              Feb 18  Feb 19  Feb 20
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Feb 17 2025 1513 UTC.
+
+Radio Blackout Forecast for Feb 18-Feb 20 2025
+
+              Feb 18        Feb 19        Feb 20
+R1-R2           45%           45%           45%
+R3 or greater   10%           10%           10%
+
+Rationale: Solar activity is expected to be low with a chance for
+M-class (R1-R2, Minor-Moderate) activity and a slight chance for X-class
+(R3, Strong) activity through 20 Feb.
+
+
+:Product: 01150030three_day_forecast.txt
+:Issued: 2025 Jan 15 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 15-Jan 17 2025 is 3.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jan 15-Jan 17 2025
+
+             Jan 15       Jan 16       Jan 17
+00-03UT       3.00         2.00         2.33     
+03-06UT       3.33         1.67         2.33     
+06-09UT       2.67         1.33         1.67     
+09-12UT       2.33         1.00         1.67     
+12-15UT       2.33         1.00         2.00     
+15-18UT       2.33         1.00         2.33     
+18-21UT       2.67         1.67         2.33     
+21-00UT       2.00         1.67         2.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 15-Jan 17 2025
+
+              Jan 15  Jan 16  Jan 17
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Jan 15-Jan 17 2025
+
+              Jan 15        Jan 16        Jan 17
+R1-R2           35%           35%           35%
+R3 or greater    5%            5%            5%
+
+Rationale: There is a chance for R1-R2 (Minor-Moderate) radio blackout
+events over 15-17 Jan.
+
+
+:Product: 01030030three_day_forecast.txt
+:Issued: 2025 Jan 03 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 5 (NOAA Scale
+G1).
+The greatest expected 3 hr Kp for Jan 03-Jan 05 2025 is 4.67 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Jan 03-Jan 05 2025
+
+             Jan 03       Jan 04       Jan 05
+00-03UT       3.33         2.00         3.00     
+03-06UT       3.00         3.67         4.67 (G1)
+06-09UT       3.00         4.67 (G1)    4.00     
+09-12UT       2.67         4.00         3.33     
+12-15UT       2.33         3.00         2.67     
+15-18UT       2.33         2.33         2.33     
+18-21UT       2.33         2.67         2.67     
+21-00UT       2.33         3.00         3.00     
+
+Rationale: Active to G1 (Minor) storm levels are expected on 04-05 Jan
+due to CME effects on 04 and 05 Jan and CH HSS effects on 05 Jan.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 03-Jan 05 2025
+
+              Jan 03  Jan 04  Jan 05
+S1 or greater   10%     15%     15%
+
+Rationale: A slight chance for an S1 (Minor) solar radiation storm event
+will persist through 05 Jan given the current total disk potential.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Jan 02 2025 1740 UTC.
+
+Radio Blackout Forecast for Jan 03-Jan 05 2025
+
+              Jan 03        Jan 04        Jan 05
+R1-R2           55%           60%           60%
+R3 or greater   10%           15%           15%
+
+Rationale: M-class flares (R1-R2/Minor-Moderate) are likely, with a
+slight chance for isolated X-class flares (R3/Strong) through 05 Jan,
+primarily due to the flare potential of Regions 3939 and 3945. 
+
+
+:Product: 01050030three_day_forecast.txt
+:Issued: 2025 Jan 05 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 5 (NOAA Scale
+G1).
+The greatest expected 3 hr Kp for Jan 05-Jan 07 2025 is 4.67 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Jan 05-Jan 07 2025
+
+             Jan 05       Jan 06       Jan 07
+00-03UT       4.33         3.00         2.67     
+03-06UT       4.67 (G1)    3.67         2.33     
+06-09UT       4.67 (G1)    2.67         2.00     
+09-12UT       3.33         2.33         2.33     
+12-15UT       2.67         2.00         1.33     
+15-18UT       2.33         2.33         2.00     
+18-21UT       3.67         2.67         2.00     
+21-00UT       4.00         2.67         2.33     
+
+Rationale: Isolated periods of G1 (Minor) geomagnetic storming are
+expected on 05 Jan, first due to lingering CME effects, then to positive
+polarity CH HSS effects. More ambient conditions are likely on 05-06 Jan
+as CH HSS influence persists.
+
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+above S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 05-Jan 07 2025
+
+              Jan 05  Jan 06  Jan 07
+S1 or greater   99%     25%     10%
+
+Rationale: S1 (Minor) or greater solar radiation storms are currently
+observed at the 10 MeV threshold. Radiation storms are expected to
+continue into 05 Jan and decay to a chance on 06 Jan and a slight chance
+on 07 Jan.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R3 levels were observed over the past 24
+hours. The largest was at Jan 04 2025 1248 UTC.
+
+Radio Blackout Forecast for Jan 05-Jan 07 2025
+
+              Jan 05        Jan 06        Jan 07
+R1-R2           75%           75%           75%
+R3 or greater   25%           25%           25%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are expected, with a
+chance for an isolated R3 (Strong) event, through 07 Jan as M-flares
+continue and Region 3947 continues to evolve.
+
+
+:Product: 02020030three_day_forecast.txt
+:Issued: 2025 Feb 02 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Feb 02-Feb 04 2025 is 4.67 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Feb 02-Feb 04 2025
+
+             Feb 02       Feb 03       Feb 04
+00-03UT       4.00         2.33         2.00     
+03-06UT       3.67         2.67         2.00     
+06-09UT       3.67         3.00         3.00     
+09-12UT       3.67         2.67         4.00     
+12-15UT       4.00         2.00         4.00     
+15-18UT       4.33         2.33         3.33     
+18-21UT       4.33         2.00         3.33     
+21-00UT       4.67 (G1)    2.00         3.67     
+
+Rationale: G1 (Minor) geomagnetic storms are likely on 02 Feb due to
+influence from a CH HSS.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Feb 02-Feb 04 2025
+
+              Feb 02  Feb 03  Feb 04
+S1 or greater   10%     10%     10%
+
+Rationale: There is a slight chance for S1 (Minor) or greater solar
+radiation storms over 01-03 Feb.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Feb 01 2025 1319 UTC.
+
+Radio Blackout Forecast for Feb 02-Feb 04 2025
+
+              Feb 02        Feb 03        Feb 04
+R1-R2           55%           55%           55%
+R3 or greater   15%           15%           15%
+
+Rationale: Solar activity is likely to reach moderate levels
+(R1/R2-Minor/Moderate radio blackouts), with a slight chance for
+isolated X-Class (R3-Strong) events, over 02 - 04 Feb, primarily due to
+potential from an active region cluster in the NE quadrant.
+
+
+:Product: 02021230three_day_forecast.txt
+:Issued: 2025 Feb 02 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Feb 02-Feb 04 2025 is 4.33 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Feb 02-Feb 04 2025
+
+             Feb 02       Feb 03       Feb 04
+00-03UT       3.67         2.33         2.00     
+03-06UT       4.00         2.67         2.00     
+06-09UT       3.67         3.00         3.00     
+09-12UT       3.33         2.67         4.00     
+12-15UT       4.00         2.00         4.00     
+15-18UT       3.67         2.33         3.33     
+18-21UT       4.33         2.00         3.33     
+21-00UT       4.00         2.00         3.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected. 
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Feb 02-Feb 04 2025
+
+              Feb 02  Feb 03  Feb 04
+S1 or greater   15%     15%     15%
+
+Rationale: There is a slight chance for S1 (Minor) or greater solar
+radiation storms over the next three days.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Feb 02 2025 1012 UTC.
+
+Radio Blackout Forecast for Feb 02-Feb 04 2025
+
+              Feb 02        Feb 03        Feb 04
+R1-R2           55%           55%           55%
+R3 or greater   15%           15%           15%
+
+Rationale: Solar activity is likely to reach moderate levels
+(R1/R2-Minor/Moderate radio blackouts), with a slight chance for
+isolated X-Class (R3-Strong) events, over 02 - 04 Feb, primarily due to
+potential from an active region cluster in the Suns NE quadrant.
+
+
+:Product: 02060030three_day_forecast.txt
+:Issued: 2025 Feb 06 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Feb 06-Feb 08 2025 is 3.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Feb 06-Feb 08 2025
+
+             Feb 06       Feb 07       Feb 08
+00-03UT       2.00         1.67         2.67     
+03-06UT       3.00         1.33         3.00     
+06-09UT       2.67         3.00         3.00     
+09-12UT       2.00         3.67         2.33     
+12-15UT       1.67         2.67         2.00     
+15-18UT       1.33         2.33         1.67     
+18-21UT       1.67         2.33         1.33     
+21-00UT       2.00         3.00         2.00     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Feb 06-Feb 08 2025
+
+              Feb 06  Feb 07  Feb 08
+S1 or greater   25%     25%     25%
+
+Rationale: There is a slight chance for the greater than 10 MeV protons
+to cross the S1 (Minor) or greater solar radiation storm alert
+threshold.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Feb 05 2025 0750 UTC.
+
+Radio Blackout Forecast for Feb 06-Feb 08 2025
+
+              Feb 06        Feb 07        Feb 08
+R1-R2           85%           85%           85%
+R3 or greater   25%           25%           25%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackout events are expected,
+with a slight chance for R3 (Strong) events.
+
+
+:Product: 01160030three_day_forecast.txt
+:Issued: 2025 Jan 16 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 16-Jan 18 2025 is 2.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jan 16-Jan 18 2025
+
+             Jan 16       Jan 17       Jan 18
+00-03UT       2.33         2.33         2.33     
+03-06UT       1.67         2.33         2.00     
+06-09UT       1.67         1.67         2.33     
+09-12UT       1.00         1.67         2.67     
+12-15UT       1.00         2.00         2.33     
+15-18UT       1.00         2.33         2.33     
+18-21UT       2.33         2.33         2.33     
+21-00UT       2.33         2.67         2.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 16-Jan 18 2025
+
+              Jan 16  Jan 17  Jan 18
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Jan 16-Jan 18 2025
+
+              Jan 16        Jan 17        Jan 18
+R1-R2           35%           35%           35%
+R3 or greater    5%            5%            5%
+
+Rationale: There is a chance for R1-R2 (Minor-Moderate) radio blackout
+events over 16-18 Jan.
+
+
+:Product: 01031230three_day_forecast.txt
+:Issued: 2025 Jan 03 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 03-Jan 05 2025 is 4.67 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Jan 03-Jan 05 2025
+
+             Jan 03       Jan 04       Jan 05
+00-03UT       3.33         2.00         3.00     
+03-06UT       3.00         3.67         4.67 (G1)
+06-09UT       2.67         4.67 (G1)    4.00     
+09-12UT       1.67         4.00         3.33     
+12-15UT       2.33         3.00         2.67     
+15-18UT       2.33         2.33         2.33     
+18-21UT       2.00         2.67         2.67     
+21-00UT       1.67         3.00         3.00     
+
+Rationale: G1 (Minor) geomagnetic storming is likely 04-05 Jan, first
+due to possible glancing CME effects from an event that left the Sun on
+01 Jan and then to recurrent, positive polarity CH HSS effects.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 03-Jan 05 2025
+
+              Jan 03  Jan 04  Jan 05
+S1 or greater   10%     15%     15%
+
+Rationale: A slight chance for an S1 (Minor) solar radiation storm event
+will persist through 05 Jan given the current total disk potential and
+as AR 3939 approaches the western limb.
+
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R3 levels were observed over the past 24
+hours. The largest was at Jan 03 2025 1139 UTC.
+
+Radio Blackout Forecast for Jan 03-Jan 05 2025
+
+              Jan 03        Jan 04        Jan 05
+R1-R2           55%           60%           60%
+R3 or greater   15%           15%           15%
+
+Rationale: R1-2 (Minor-Moderate) radio blackouts due to M-class flare
+activity are likely through 05 Jan. Event probabilities increase
+slightly on days 2 and 3 (04 & 05 Jan) as ARs 3938 (N16W61, Cao/beta),
+3940 (S06, L=083), 3939 and 3946 (S10W62, Dao/beta) approach the western
+limb.
+
+
+:Product: 01310030three_day_forecast.txt
+:Issued: 2025 Jan 31 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 31-Feb 02 2025 is 4.67 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Jan 31-Feb 02 2025
+
+             Jan 31       Feb 01       Feb 02
+00-03UT       2.00         3.67         3.00     
+03-06UT       1.67         4.67 (G1)    3.67     
+06-09UT       2.00         4.67 (G1)    3.67     
+09-12UT       2.00         4.00         2.67     
+12-15UT       2.00         3.33         2.00     
+15-18UT       2.33         3.33         2.00     
+18-21UT       2.67         3.00         2.00     
+21-00UT       4.67 (G1)    2.67         2.67     
+
+Rationale: G1 (Minor) or greater geomagnetic storms are likely late on
+31 Jan through 01 Feb due to possible transient effects. No significant
+transient or recurrent solar wind features are forecast for 02 Feb.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 31-Feb 02 2025
+
+              Jan 31  Feb 01  Feb 02
+S1 or greater    1%      1%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Jan 31-Feb 02 2025
+
+              Jan 31        Feb 01        Feb 02
+R1-R2           45%           50%           60%
+R3 or greater    5%            5%           10%
+
+Rationale: There is a chance for R1-R2 (Minor-Moderate) radio blackout
+events through 01 Feb increasing to likely on 02 Feb.
+
+
+:Product: 02050030three_day_forecast.txt
+:Issued: 2025 Feb 05 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Feb 05-Feb 07 2025 is 2.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Feb 05-Feb 07 2025
+
+             Feb 05       Feb 06       Feb 07
+00-03UT       2.00         1.33         2.33     
+03-06UT       2.67         1.67         2.00     
+06-09UT       2.67         1.33         2.33     
+09-12UT       2.00         1.67         1.67     
+12-15UT       2.33         1.33         2.00     
+15-18UT       2.00         1.33         2.33     
+18-21UT       2.00         1.33         2.00     
+21-00UT       1.67         1.67         2.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Feb 05-Feb 07 2025
+
+              Feb 05  Feb 06  Feb 07
+S1 or greater   15%     15%     15%
+
+Rationale: There is a slight chance for S1 (Minor) or greater solar
+radiation storms 04-07 Feb.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Feb 04 2025 1121 UTC.
+
+Radio Blackout Forecast for Feb 05-Feb 07 2025
+
+              Feb 05        Feb 06        Feb 07
+R1-R2           85%           85%           85%
+R3 or greater   20%           20%           20%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackout events are expected
+04-06 Feb, with a slight chance for R3 (Strong) events.
+
+
+:Product: 02070030three_day_forecast.txt
+:Issued: 2025 Feb 07 0455 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Feb 07-Feb 09 2025 is 3.00 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Feb 07-Feb 09 2025
+
+             Feb 07       Feb 08       Feb 09
+00-03UT       0.67         2.67         1.67     
+03-06UT       0.67         3.00         1.33     
+06-09UT       1.67         3.00         1.33     
+09-12UT       2.00         2.33         1.33     
+12-15UT       3.67         2.00         1.33     
+15-18UT       2.67         1.67         1.33     
+18-21UT       2.67         1.33         1.67     
+21-00UT       3.00         2.00         1.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Feb 07-Feb 09 2025
+
+              Feb 07  Feb 08  Feb 09
+S1 or greater   25%     25%     25%
+
+Rationale: There is a chance for S1 (Minor) or greater solar radiation
+storms due to the complex cluster of sunspot groups in the NW
+Quadrant rotating closer to the western limb and thus a better potential
+magnetic connection with Earth.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R2 levels were observed over the past 24
+hours. The largest was at Feb 06 2025 1104 UTC.
+
+Radio Blackout Forecast for Feb 07-Feb 09 2025
+
+              Feb 07        Feb 08        Feb 09
+R1-R2           80%           80%           80%
+R3 or greater   25%           25%           25%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are expected through
+09 Feb, with a chance for R3 (Strong) events, due to several
+magnetically complex sunspot groups.
+
+
+:Product: 01200030three_day_forecast.txt
+:Issued: 2025 Jan 20 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 20-Jan 22 2025 is 3.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jan 20-Jan 22 2025
+
+             Jan 20       Jan 21       Jan 22
+00-03UT       3.00         2.67         1.33     
+03-06UT       3.67         2.67         1.33     
+06-09UT       2.67         2.00         1.67     
+09-12UT       2.67         2.00         1.33     
+12-15UT       3.67         1.33         1.33     
+15-18UT       2.00         1.33         1.33     
+18-21UT       1.00         2.00         1.67     
+21-00UT       1.00         2.00         1.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 20-Jan 22 2025
+
+              Jan 20  Jan 21  Jan 22
+S1 or greater   10%     10%     10%
+
+Rationale: There is a slight chance for S1 (Minor) or greater solar
+radiation storms over 20-22 Jan due to multiple complex regions on the
+visible disk.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Jan 19 2025 0332 UTC.
+
+Radio Blackout Forecast for Jan 20-Jan 22 2025
+
+              Jan 20        Jan 21        Jan 22
+R1-R2           60%           60%           60%
+R3 or greater   20%           20%           20%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a
+chance for R3 (Strong), over 20-22 Jan due to the flare potential
+of multiple complex regions on the visible disk.
+
+
+:Product: 01270030three_day_forecast.txt
+:Issued: 2025 Jan 27 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 1 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 27-Jan 29 2025 is 2.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jan 27-Jan 29 2025
+
+             Jan 27       Jan 28       Jan 29
+00-03UT       1.33         1.33         2.67     
+03-06UT       1.33         1.33         2.00     
+06-09UT       1.67         1.33         2.33     
+09-12UT       1.67         1.33         2.67     
+12-15UT       1.67         1.67         2.33     
+15-18UT       1.33         1.67         2.33     
+18-21UT       1.33         1.67         2.33     
+21-00UT       1.33         1.33         2.33     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 27-Jan 29 2025
+
+              Jan 27  Jan 28  Jan 29
+S1 or greater   10%      5%      1%
+
+Rationale: There is a slight chance for S1 (Minor) or greater solar
+radiation storms over 26-27 Jun.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Jan 27-Jan 29 2025
+
+              Jan 27        Jan 28        Jan 29
+R1-R2           45%           35%           30%
+R3 or greater   10%            5%            1%
+
+Rationale: There is a chance for R1-R2 (Minor-Moderate) radio blackout
+events on 26-28 Jan, with slight chance for R2 (Strong) events over
+26-27 Jan, due to the flare potential of multiple regions on the visible
+disk.
+
+
+:Product: 01061230three_day_forecast.txt
+:Issued: 2025 Jan 06 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 06-Jan 08 2025 is 4.67 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Jan 06-Jan 08 2025
+
+             Jan 06       Jan 07       Jan 08
+00-03UT       3.33         4.00         2.33     
+03-06UT       4.00         3.33         2.67     
+06-09UT       3.00         2.67         2.67     
+09-12UT       2.67         2.33         1.67     
+12-15UT       3.33         2.00         1.67     
+15-18UT       3.33         2.00         1.67     
+18-21UT       3.33         2.00         2.00     
+21-00UT       4.67 (G1)    2.67         2.33     
+
+Rationale: G1 (Minor) geomagnetic storming is likely, with a chance for
+an isolated G2 (Moderate) period, by late on 06 Jan due to glancing
+effects from the periphery of the 04 Jan CME.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+above S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 06-Jan 08 2025
+
+              Jan 06  Jan 07  Jan 08
+S1 or greater   15%     15%     15%
+
+Rationale: A slight chance for S1 (Minor) solar radiation storming will
+persist on 07 Jan and through 08 Jan as multiple CME producing regions
+transit and exit the western limb.
+
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Jan 06 2025 0152 UTC.
+
+Radio Blackout Forecast for Jan 06-Jan 08 2025
+
+              Jan 06        Jan 07        Jan 08
+R1-R2           75%           75%           60%
+R3 or greater   25%           25%           15%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are expected, with a
+chance for isolated R3 (Strong) or greater events through 07 Jan, as AR
+3947 continues to mature and a number of active regions approach the
+western limb. Probabilities decrease slightly on 08 Jan as multiple
+regions transit and exit the western limb, but AR 3947 remains.
+
+
+:Product: 01151230three_day_forecast.txt
+:Issued: 2025 Jan 15 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 15-Jan 17 2025 is 3.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jan 15-Jan 17 2025
+
+             Jan 15       Jan 16       Jan 17
+00-03UT       3.67         2.00         2.33     
+03-06UT       3.67         1.67         2.33     
+06-09UT       3.33         1.33         1.67     
+09-12UT       2.67         1.00         1.67     
+12-15UT       2.33         1.00         2.00     
+15-18UT       2.33         1.00         2.33     
+18-21UT       2.67         1.67         2.33     
+21-00UT       2.33         1.67         2.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 15-Jan 17 2025
+
+              Jan 15  Jan 16  Jan 17
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Jan 15-Jan 17 2025
+
+              Jan 15        Jan 16        Jan 17
+R1-R2           35%           35%           35%
+R3 or greater    5%            5%            5%
+
+Rationale: There is a chance for R1-R2 (Minor-Moderate) radio blackout
+events over 15-17 Jan.
+
+
+:Product: 02030030three_day_forecast.txt
+:Issued: 2025 Feb 03 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Feb 03-Feb 05 2025 is 4.00 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Feb 03-Feb 05 2025
+
+             Feb 03       Feb 04       Feb 05
+00-03UT       3.33         2.00         2.00     
+03-06UT       3.67         2.00         2.67     
+06-09UT       3.00         3.00         2.67     
+09-12UT       3.00         4.00         2.00     
+12-15UT       3.00         4.00         2.33     
+15-18UT       2.67         3.33         2.00     
+18-21UT       2.33         3.33         2.00     
+21-00UT       2.00         3.67         1.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Feb 03-Feb 05 2025
+
+              Feb 03  Feb 04  Feb 05
+S1 or greater   15%     15%     15%
+
+Rationale: There is a slight chance for S1 (Minor) or greater solar
+radiation storms over the next three days.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R2 levels were observed over the past 24
+hours. The largest was at Feb 02 2025 1404 UTC.
+
+Radio Blackout Forecast for Feb 03-Feb 05 2025
+
+              Feb 03        Feb 04        Feb 05
+R1-R2           60%           60%           60%
+R3 or greater   15%           15%           15%
+
+Rationale: Solar activity is likely to reach moderate levels
+(R1/R2-Minor/Moderate radio blackouts), with a slight chance for
+isolated X-Class (R3-Strong) events, over 03 - 05 Feb, primarily due to
+potential from an active region cluster in the Suns NE quadrant.
+
+
+:Product: 01180030three_day_forecast.txt
+:Issued: 2025 Jan 18 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 18-Jan 20 2025 is 3.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jan 18-Jan 20 2025
+
+             Jan 18       Jan 19       Jan 20
+00-03UT       2.67         2.67         2.00     
+03-06UT       3.67         3.00         2.67     
+06-09UT       2.67         2.67         2.67     
+09-12UT       2.67         2.67         2.00     
+12-15UT       3.67         2.00         2.00     
+15-18UT       2.67         1.67         1.67     
+18-21UT       2.67         1.67         2.00     
+21-00UT       3.00         2.67         2.33     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected. 
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 18-Jan 20 2025
+
+              Jan 18  Jan 19  Jan 20
+S1 or greater   15%     15%     15%
+
+Rationale: There is a slight chance for S1 (Minor) or greater solar
+radiation storms over 18-20 Jan due to multiple complex regions on the
+visible disk.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R2 levels were observed over the past 24
+hours. The largest was at Jan 17 2025 1335 UTC.
+
+Radio Blackout Forecast for Jan 18-Jan 20 2025
+
+              Jan 18        Jan 19        Jan 20
+R1-R2           70%           70%           70%
+R3 or greater   30%           30%           30%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a
+chance for R3 (Strong), over 18-19 Jan due to multiple complex regions
+on the visible disk.
+
+
+:Product: 02131230three_day_forecast.txt
+:Issued: 2025 Feb 13 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Feb 13-Feb 15 2025 is 4.67 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Feb 13-Feb 15 2025
+
+             Feb 13       Feb 14       Feb 15
+00-03UT       3.33         3.33         2.33     
+03-06UT       4.33         2.00         2.00     
+06-09UT       3.67         2.00         2.67     
+09-12UT       4.00         3.00         2.33     
+12-15UT       3.33         3.00         2.33     
+15-18UT       3.33         3.00         2.33     
+18-21UT       3.67         3.33         2.33     
+21-00UT       4.67 (G1)    4.00         2.67     
+
+Rationale: G1 (Minor) storm periods are likely on 13 Feb due to onset of
+a subsequent negative polarity CH HSS.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Feb 13-Feb 15 2025
+
+              Feb 13  Feb 14  Feb 15
+S1 or greater    5%      1%      1%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Feb 13 2025 1109 UTC.
+
+Radio Blackout Forecast for Feb 13-Feb 15 2025
+
+              Feb 13        Feb 14        Feb 15
+R1-R2           40%           40%           40%
+R3 or greater    5%            5%            5%
+
+Rationale: Solar activity is expected to be low with a chance for
+(R1-R2, Minor-Moderate) activity on 13-15 Feb.
+
+
+:Product: 01090030three_day_forecast.txt
+:Issued: 2025 Jan 09 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 09-Jan 11 2025 is 2.33 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jan 09-Jan 11 2025
+
+             Jan 09       Jan 10       Jan 11
+00-03UT       1.33         1.33         2.33     
+03-06UT       1.33         1.33         2.33     
+06-09UT       1.67         1.33         2.00     
+09-12UT       1.33         1.33         2.00     
+12-15UT       1.33         1.33         2.33     
+15-18UT       1.33         1.67         2.00     
+18-21UT       1.67         1.67         2.00     
+21-00UT       1.67         1.67         2.00     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 09-Jan 11 2025
+
+              Jan 09  Jan 10  Jan 11
+S1 or greater   10%     10%     10%
+
+Rationale: A slight chance for S1 (Minor) solar radiation storming will
+persist through 11 Jan as multiple CME producing regions transit and
+exit the western limb.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Jan 09-Jan 11 2025
+
+              Jan 09        Jan 10        Jan 11
+R1-R2           60%           60%           60%
+R3 or greater   15%           15%           15%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a
+slight chance for isolated R3 (Strong) or greater events through 11 Jan.
+This is based on the magnetic complexity and persistent activity of
+Region 3947.
+
+
+:Product: 01140030three_day_forecast.txt
+:Issued: 2025 Jan 14 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 14-Jan 16 2025 is 2.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jan 14-Jan 16 2025
+
+             Jan 14       Jan 15       Jan 16
+00-03UT       1.67         2.67         2.00     
+03-06UT       2.00         2.67         2.00     
+06-09UT       1.67         2.67         1.67     
+09-12UT       1.67         2.33         1.67     
+12-15UT       2.00         2.33         1.67     
+15-18UT       2.33         2.33         1.67     
+18-21UT       2.67         2.00         2.00     
+21-00UT       2.67         2.67         1.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 14-Jan 16 2025
+
+              Jan 14  Jan 15  Jan 16
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Jan 14-Jan 16 2025
+
+              Jan 14        Jan 15        Jan 16
+R1-R2           40%           40%           35%
+R3 or greater   10%           10%            5%
+
+Rationale: There is a chance for R1-R2 (Minor-Moderate) events over
+14-16 Jan, with a slight chance for an R3 or greater event, on 14-15
+Jan.
+
+
+:Product: 01081230three_day_forecast.txt
+:Issued: 2025 Jan 08 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 08-Jan 10 2025 is 3.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jan 08-Jan 10 2025
+
+             Jan 08       Jan 09       Jan 10
+00-03UT       3.67         1.33         1.33     
+03-06UT       2.33         1.33         1.33     
+06-09UT       1.67         1.67         1.33     
+09-12UT       0.67         1.33         1.33     
+12-15UT       1.67         1.33         1.33     
+15-18UT       1.67         1.33         1.67     
+18-21UT       2.00         1.67         1.67     
+21-00UT       2.33         1.67         1.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 08-Jan 10 2025
+
+              Jan 08  Jan 09  Jan 10
+S1 or greater   10%     10%     10%
+
+Rationale: A slight chance for S1 (Minor) solar radiation storming will
+persist through 10 Jan as multiple CME producing regions transit and
+exit the western limb.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R1 levels were observed over the past 24
+hours. The largest was at Jan 07 2025 2305 UTC.
+
+Radio Blackout Forecast for Jan 08-Jan 10 2025
+
+              Jan 08        Jan 09        Jan 10
+R1-R2           55%           55%           55%
+R3 or greater   15%           15%           15%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a
+slight chance for isolated R3 (Strong) or greater events through 10 Jan.
+This is based on the magnetic complexity and persistent activity of
+Region 3947.
+
+
+:Product: 02160030three_day_forecast.txt
+:Issued: 2025 Feb 16 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 5 (NOAA Scale
+G1).
+The greatest expected 3 hr Kp for Feb 16-Feb 18 2025 is 4.67 (NOAA Scale
+G1).
+
+NOAA Kp index breakdown Feb 16-Feb 18 2025
+
+             Feb 16       Feb 17       Feb 18
+00-03UT       4.33         2.67         2.67     
+03-06UT       3.67         3.00         4.00     
+06-09UT       2.67         2.67         4.33     
+09-12UT       2.67         2.33         3.00     
+12-15UT       2.67         2.33         2.33     
+15-18UT       4.67 (G1)    2.33         2.00     
+18-21UT       4.00         2.67         2.33     
+21-00UT       3.33         3.00         3.00     
+
+Rationale: G1 (Minor) geomagnetic storming is likely on 16 Feb.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Feb 16-Feb 18 2025
+
+              Feb 16  Feb 17  Feb 18
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Feb 16-Feb 18 2025
+
+              Feb 16        Feb 17        Feb 18
+R1-R2           45%           45%           45%
+R3 or greater   10%           10%           10%
+
+Rationale: There is a chance for R1-R2 (Minor-Moderate) radio blackouts
+over 16-18 Feb.
+
+
+:Product: 01121230three_day_forecast.txt
+:Issued: 2025 Jan 12 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 12-Jan 14 2025 is 2.67 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jan 12-Jan 14 2025
+
+             Jan 12       Jan 13       Jan 14
+00-03UT       1.33         1.67         1.67     
+03-06UT       2.00         2.67         2.00     
+06-09UT       2.00         1.67         2.67     
+09-12UT       1.67         1.33         2.67     
+12-15UT       1.67         1.33         2.00     
+15-18UT       1.00         1.33         2.33     
+18-21UT       1.67         1.33         1.67     
+21-00UT       2.00         1.33         2.00     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 12-Jan 14 2025
+
+              Jan 12  Jan 13  Jan 14
+S1 or greater    5%      5%      5%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Jan 12-Jan 14 2025
+
+              Jan 12        Jan 13        Jan 14
+R1-R2           40%           40%           40%
+R3 or greater   10%           10%           10%
+
+Rationale: There remains a chance for R1-R2 (Minor-Moderate) radio
+blackouts, with a slight chance for R3 (Strong), over 12-14 Jan.
+
+
+:Product: 01201230three_day_forecast.txt
+:Issued: 2025 Jan 20 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Jan 20-Jan 22 2025 is 4.00 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Jan 20-Jan 22 2025
+
+             Jan 20       Jan 21       Jan 22
+00-03UT       4.00         4.00         1.33     
+03-06UT       3.33         3.00         1.33     
+06-09UT       3.00         2.00         1.67     
+09-12UT       3.00         2.33         1.33     
+12-15UT       3.67         2.33         1.33     
+15-18UT       2.00         2.00         1.33     
+18-21UT       1.00         2.67         1.67     
+21-00UT       2.67         2.67         1.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Jan 20-Jan 22 2025
+
+              Jan 20  Jan 21  Jan 22
+S1 or greater   15%     15%     15%
+
+Rationale: There is a slight chance for S1 (Minor) or greater solar
+radiation storms over 20-22 Jan due to multiple complex regions on the
+visible disk.
+
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Jan 20-Jan 22 2025
+
+              Jan 20        Jan 21        Jan 22
+R1-R2           60%           60%           60%
+R3 or greater   20%           20%           20%
+
+Rationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a
+chance for R3 (Strong), over 20-22 Jan due to the flare potential
+of multiple complex regions on the visible disk.
+
+
+:Product: 02240030three_day_forecast.txt
+:Issued: 2025 Feb 24 0030 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Feb 24-Feb 26 2025 is 3.33 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Feb 24-Feb 26 2025
+
+             Feb 24       Feb 25       Feb 26
+00-03UT       2.67         1.67         1.67     
+03-06UT       2.33         3.33         2.67     
+06-09UT       2.00         3.00         1.67     
+09-12UT       2.00         2.00         1.67     
+12-15UT       1.33         1.67         1.67     
+15-18UT       1.33         1.67         0.67     
+18-21UT       2.33         1.33         1.67     
+21-00UT       2.67         1.00         1.67     
+
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-18 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Feb 24-Feb 26 2025
+
+              Feb 24  Feb 25  Feb 26
+S1 or greater   10%     10%     10%
+
+Rationale: There is a slight chance for the greater than 10 MeV proton
+flux to reach S1 (Minor) storm levels over 24-26 Feb.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+Radio blackouts reaching the R3 levels were observed over the past 24
+hours. The largest was at Feb 23 2025 1927 UTC.
+
+Radio Blackout Forecast for Feb 24-Feb 26 2025
+
+              Feb 24        Feb 25        Feb 26
+R1-R2           65%           60%           60%
+R3 or greater   15%           10%           10%
+
+Rationale: R1-R2 (Minor-Moderate) events are likely, with a slight
+chance for R3 (Strong) or greater events, over 24-26 Feb.
+
+
