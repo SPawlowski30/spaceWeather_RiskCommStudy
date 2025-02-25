@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 from pypdf import PdfReader
-import fitz
 import requests
 import re
 import nltk
@@ -8,8 +7,8 @@ from nltk.corpus import stopwords
 
 def main():
     # EMAIL ALERTS (data type: .txt)
-    forecastDiscussion = open('../../01_Data//TextBasedData/Email_Alerts/ForecastDiscussion.txt', "r")
-    forecastDiscussionContent = forecastDiscussion.read()
+    #forecastDiscussion = open('../../01_Data/TextBasedData/Email_Alerts/ForecastDiscussion.txt', "r")
+    #forecastDiscussionContent = forecastDiscussion.read()
     #print(forecastDiscussionContent)
 
     # ACADEMIC ARTICLES (data type: .pdf)
@@ -19,12 +18,12 @@ def main():
     for page in range(7, 108): # 7-108 are the actual desired pages; this excludes everything before preface and appendixes
         currPage = futureSpaceWeatherOpsResearch.pages[page]
         pageText = currPage.extract_text()
+
         futureSpaceWeatherOpsResearchFull += pageText
         #print(pageText)
-    print(futureSpaceWeatherOpsResearchFull)
 
-    #test = standardPreprocess(futureSpaceWeatherOpsResearchFull)
-    #print(test)
+    test = standardPreprocess(futureSpaceWeatherOpsResearchFull)
+    print(test)
 
     # NEWS ARTICLES (data type: url -> text with HTML)
     mitUrl = 'https://news.mit.edu/2013/space-weather-effects-on-satellites-0917'
@@ -44,8 +43,8 @@ def standardPreprocess(text):
     # remove any URLs
     preprocessedText = re.sub(r'http\S+', '', preprocessedText)
 
-    # remove numeric vals
-    preprocessedText = re.sub(r'[0-9]+', '', preprocessedText)
+    # remove numeric values and any other items that are not characters; remove rest of punctuation after split into sentences
+    preprocessedText = re.sub(r'[^a-zA-Z\s.,;:!?\'\"()-]', '', preprocessedText)
 
     # remove command characters: new line, tab, return
     patternsToRemove = ['\n', '\t', '\r']
