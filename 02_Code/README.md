@@ -1,0 +1,1 @@
+This directory is where we preprocess our data. Our preprocessing is divided into two main categories: numerical and text-based sources for NLP.  

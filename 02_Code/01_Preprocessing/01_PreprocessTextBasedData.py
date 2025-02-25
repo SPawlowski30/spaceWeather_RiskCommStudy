@@ -1,27 +1,62 @@
 from bs4 import BeautifulSoup
 from pypdf import PdfReader
+import fitz
 import requests
+import re
+import nltk
+from nltk.corpus import stopwords
 
-# EMAIL ALERTS
-# update to look at all alerts from past 5 years...if that's possible?
-forecastDiscussion = open('../../01_Data/Email_Alerts/ForecastDiscussion.txt', "r")
-forecastDiscussionContent = forecastDiscussion.read()
-print(forecastDiscussionContent)
+def main():
+    # EMAIL ALERTS (data type: .txt)
+    forecastDiscussion = open('../../01_Data//TextBasedData/Email_Alerts/ForecastDiscussion.txt', "r")
+    forecastDiscussionContent = forecastDiscussion.read()
+    #print(forecastDiscussionContent)
 
-# ACADEMIC ARTICLES
-futureSpaceWeatherOpsResearch = PdfReader('../../01_Data/Academic_Articles/PlanningFutureSpaceWeatherOpsAndResearch.pdf')
-for page in range(7, 108): # 7-108 are the actual desired pages; this excludes everything before preface and appendixes
-    currPage = futureSpaceWeatherOpsResearch.pages[page]
-    pageText = currPage.extract_text()
-    print(pageText)
+    # ACADEMIC ARTICLES (data type: .pdf)
+    futureSpaceWeatherOpsResearch = PdfReader('../../01_Data/TextBasedData/Academic_Articles/PlanningFutureSpaceWeatherOpsAndResearch.pdf')
+    futureSpaceWeatherOpsResearchFull = ""
 
-# NEWS ARTICLES
-mitUrl = 'https://news.mit.edu/2013/space-weather-effects-on-satellites-0917'
-mitArticle = requests.get(mitUrl)
-mitArticleSoup = BeautifulSoup(mitArticle.text, 'html.parser')
+    for page in range(7, 108): # 7-108 are the actual desired pages; this excludes everything before preface and appendixes
+        currPage = futureSpaceWeatherOpsResearch.pages[page]
+        pageText = currPage.extract_text()
+        futureSpaceWeatherOpsResearchFull += pageText
+        #print(pageText)
+    print(futureSpaceWeatherOpsResearchFull)
 
-# collect text only from the div that contains the body of the article; strip of HTML
-for mitData in mitArticleSoup.find_all('div',{'class':'paragraph'}):
-    print(mitData.text.strip())
-    # TO-DO: split data into sentences, append each sentence to dataframe
+    #test = standardPreprocess(futureSpaceWeatherOpsResearchFull)
+    #print(test)
+
+    # NEWS ARTICLES (data type: url -> text with HTML)
+    mitUrl = 'https://news.mit.edu/2013/space-weather-effects-on-satellites-0917'
+    mitArticle = requests.get(mitUrl)
+    mitArticleSoup = BeautifulSoup(mitArticle.text, 'html.parser')
+    mitArticleFull = ""
+
+    # collect text only from the div that contains the body of the article; strip of HTML
+    for mitData in mitArticleSoup.find_all('div',{'class':'paragraph'}):
+        mitArticleFull += mitData.text.strip()
+        #print(mitData.text.strip())
+
+def standardPreprocess(text):
+    # ensure that text is an all lowercase sentence
+    preprocessedText = str(text.lower())
+
+    # remove any URLs
+    preprocessedText = re.sub(r'http\S+', '', preprocessedText)
+
+    # remove numeric vals
+    preprocessedText = re.sub(r'[0-9]+', '', preprocessedText)
+
+    # remove command characters: new line, tab, return
+    patternsToRemove = ['\n', '\t', '\r']
+    for pattern in patternsToRemove:
+        preprocessedText = preprocessedText.replace(pattern, '')
+
+    # remove stop words if length of 3 or less (4 maybe?); commented out for now because we want to test sentence encoding before + after
+    # only do this if text is tokenized first
+    #filtered_words = [w for w in preprocessedText if len(w) > 3 if not w in stopwords.words('english')]
+
+    return preprocessedText
+
+main()
 

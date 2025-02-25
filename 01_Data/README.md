@@ -1,0 +1,1 @@
+This directory is where we will collect our raw data. We have directories for numerical data related to space weather and source text for sentiment analysis. Our source text is subdivided into alerts from the Space Weather Prediction Center (SWPC), academic articles, and news articles.
