@@ -34,7 +34,6 @@ def main():
     spaceWeatherOpsResearchText = compilePdfText('../../01_Data/TextBasedData/Academic_Articles/PlanningFutureSpaceWeatherOpsAndResearch.pdf', 7, 108)
     spaceWeatherOpsResearchClean = standardPreprocess(spaceWeatherOpsResearchText)
     spaceWeatherOpsResearchSentences = splitSentencesToDataFrame(spaceWeatherOpsResearchClean, "SpaceWeatherOpsResearch", "pdf")
-    #print(spaceWeatherOpsResearchSentences)
 
     # NEWS ARTICLES (data type: url -> text with HTML)
     mitUrl = 'https://news.mit.edu/2013/space-weather-effects-on-satellites-0917'
@@ -49,7 +48,6 @@ def main():
 
     mitArticleClean = standardPreprocess(mitArticleFull)
     mitArticleSentences = splitSentencesToDataFrame(mitArticleClean, "MitNews", "url")
-    #print(mitArticleSentences)
 
     # remove items in parentheses? lots of citations in some of these...
     # also some words end up getting meshed together...ex: "workshopcopyright" - should we remove words not in the english language?
@@ -72,6 +70,7 @@ def compilePdfText(path, startPage, endPage):
     return text
 
 def splitSentencesToDataFrame(text, title, sourceTextType):
+    # each row will contain a single sentence from the input text string
     sentences = nltk.sent_tokenize(text)
     df = pd.DataFrame({'Sentence': sentences, 'Title': title, 'SourceTextType': sourceTextType})
     return df
