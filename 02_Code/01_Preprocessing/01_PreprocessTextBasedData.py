@@ -7,23 +7,16 @@ from nltk.corpus import stopwords
 
 def main():
     # EMAIL ALERTS (data type: .txt)
-    #forecastDiscussion = open('../../01_Data/TextBasedData/Email_Alerts/ForecastDiscussion.txt', "r")
-    #forecastDiscussionContent = forecastDiscussion.read()
-    #print(forecastDiscussionContent)
+    threeDayForecastClean = preprocessTextFile('../../01_Data/TextBasedData/Email_Alerts/Txt_Compiler/Txt_3_Day_Forecast.txt')
+    alertsWarningsWatchClean = preprocessTextFile('../../01_Data/TextBasedData/Email_Alerts/Txt_Compiler/Txt_Alerts_Warnings_Watch.txt')
+    forecastDiscussionClean = preprocessTextFile('../../01_Data/TextBasedData/Email_Alerts/Txt_Compiler/Txt_Forecast_Discussion.txt')
+    solarGeophysicalActivity = preprocessTextFile('../../01_Data/TextBasedData/Email_Alerts/Txt_Compiler/Txt_Report_Forecast_Solar_Geophysical_Activity.txt')
+    weeklyClean = preprocessTextFile('../../01_Data/TextBasedData/Email_Alerts/Txt_Compiler/Txt_The_Weekly.txt')
 
     # ACADEMIC ARTICLES (data type: .pdf)
-    futureSpaceWeatherOpsResearch = PdfReader('../../01_Data/TextBasedData/Academic_Articles/PlanningFutureSpaceWeatherOpsAndResearch.pdf')
-    futureSpaceWeatherOpsResearchFull = ""
-
-    for page in range(7, 108): # 7-108 are the actual desired pages; this excludes everything before preface and appendixes
-        currPage = futureSpaceWeatherOpsResearch.pages[page]
-        pageText = currPage.extract_text()
-
-        futureSpaceWeatherOpsResearchFull += pageText
-        #print(pageText)
-
-    test = standardPreprocess(futureSpaceWeatherOpsResearchFull)
-    print(test)
+    spaceWeatherOpsResearchText = compilePdfText('../../01_Data/TextBasedData/Academic_Articles/PlanningFutureSpaceWeatherOpsAndResearch.pdf', 7, 108)
+    spaceWeatherOpsResearchClean = standardPreprocess(spaceWeatherOpsResearchText)
+    #print(spaceWeatherOpsResearchClean)
 
     # NEWS ARTICLES (data type: url -> text with HTML)
     mitUrl = 'https://news.mit.edu/2013/space-weather-effects-on-satellites-0917'
@@ -35,6 +28,22 @@ def main():
     for mitData in mitArticleSoup.find_all('div',{'class':'paragraph'}):
         mitArticleFull += mitData.text.strip()
         #print(mitData.text.strip())
+
+def preprocessTextFile(path):
+    textFile = open(path, "r")
+    text = textFile.read()
+    preprocessedText = standardPreprocess(text)
+    return preprocessedText
+
+def compilePdfText(path, startPage, endPage):
+    pdf = PdfReader(path)
+    text = ""
+    for page in range(startPage, endPage):
+        currPage = pdf.pages[page]
+        pageText = currPage.extract_text()
+        text += pageText
+
+    return text
 
 def standardPreprocess(text):
     # ensure that text is an all lowercase sentence

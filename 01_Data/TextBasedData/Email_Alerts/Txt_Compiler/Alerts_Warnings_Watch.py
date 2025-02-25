@@ -22,7 +22,7 @@ if response.status_code == 200:
         print("total number of unique alerts: " + str(len(unique_alerts_list)))
 
         #save to a txt file
-        output_file = "TxT_Alerts_Warnings_Watch.txt"
+        output_file = "Txt_Alerts_Warnings_Watch.txt"
         with open(output_file, "w", encoding="utf-8") as f:
             for alert in unique_alerts_list:
                 f.write(json.dumps(alert, indent=4) + "\n\n")
