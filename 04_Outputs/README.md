@@ -1,0 +1,1 @@
+Our outputs directory contains our final data products as well as a final technical report with a written analysis/summary of the project, a poster for the Undergraduate Research Celebration, and the dashboard we will use to display our simplified space weather data and the messaging we have determined to be the most relevant and have the highest positive sentiment.
