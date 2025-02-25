@@ -51,4 +51,9 @@ for year, files in yearly_files.items():
 # Now create the DataFrame correctly
 df = pd.DataFrame(selected_files, columns=["Year", "File Link"])
 print(f"Total rows in df: {df.shape[0]}")
-print(df.head())
+print(df)
+
+df.to_csv("The_Weekly.csv", index=False)
+print("File links saved to selected_files.csv")
+
+
