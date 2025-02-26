@@ -55,7 +55,19 @@ def main():
     bbcNorthernLightsArticleFull = retrieveUrlText('https://www.bbc.com/news/articles/cy437gnp28zo', 'p', ['sc-eb7bd5f6-0', 'fYAfXe'])
     bbcNorthernLightsArticleClean = standardPreprocess(bbcNorthernLightsArticleFull)
     nprNorthernLightsArticleSentences = splitSentencesToDataFrame(bbcNorthernLightsArticleClean,"BbcNorthernLightsNews", "url")
-    print(bbcNorthernLightsArticleClean)
+
+    astronomyEnsembleForecastingArticleFull = retrieveUrlText('https://www.astronomy.com/observing/space-weather-center-to-add-worlds-first-ensemble-forecasting-capability/', 'div', 'content')
+    astronomyEnsembleForecastingArticleClean = standardPreprocess(astronomyEnsembleForecastingArticleFull)
+    astronomyEnsembleForecastingArticleSentences = splitSentencesToDataFrame(astronomyEnsembleForecastingArticleClean,"AstronomyEnsembleForecastingNews", "url")
+
+    astronomySolarStormsArticleFull = retrieveUrlText('https://www.astronomy.com/science/solar-storms-can-easily-destroy-satellites-a-space-weather-expert-explains-the-science/', 'div', 'content')
+    astronomySolarStormsArticleClean = standardPreprocess(astronomySolarStormsArticleFull)
+    astronomySolarStormsArticleSentences = splitSentencesToDataFrame(astronomySolarStormsArticleClean,"AstronomySolarStormsNews", "url")
+
+    astronomySevereSpaceWeatherArticleFull = retrieveUrlText('https://www.astronomy.com/science/new-study-reveals-hazards-of-severe-space-weather/', 'div', 'content')
+    astronomySevereSpaceWeatherArticleClean = standardPreprocess(astronomySevereSpaceWeatherArticleFull)
+    astronomySevereSpaceWeatherArticleSentences = splitSentencesToDataFrame(astronomySevereSpaceWeatherArticleClean,"AstronomySevereSpaceWeatherNews", "url")
+    print(astronomySevereSpaceWeatherArticleClean)
     # remove items in parentheses? lots of citations in some of these...
     # also some words end up getting meshed together...ex: "workshopcopyright" - should we remove words not in the english language?
 
@@ -97,6 +109,7 @@ def standardPreprocess(text):
     # ensure that text is an all lowercase sentence
     preprocessedText = str(text.lower())
 
+    # To-DO: update so that puncuation attached to numbers is removed
     # remove numeric values, URLS, and any other items that are not characters; remove rest of punctuation after split into sentences
     preprocessedText = re.sub(r'http\S+|https\S+|[^a-zA-Z\s.,;:!?\'\"()-]', '', preprocessedText)
     # remove excessive whitespace
