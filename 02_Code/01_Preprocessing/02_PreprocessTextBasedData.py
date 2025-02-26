@@ -13,11 +13,11 @@ from nltk.tokenize import sent_tokenize
 def main():
     # EMAIL ALERTS (data type: .txt)
     # preprocess text files
-    threeDayForecastClean = preprocessTextFile('../../01_Data/TextBasedData/Email_Alerts/Txt_Compiler/Txt_3_Day_Forecast.txt')
-    alertsWarningsWatchClean = preprocessTextFile('../../01_Data/TextBasedData/Email_Alerts/Txt_Compiler/Txt_Alerts_Warnings_Watch.txt')
-    forecastDiscussionClean = preprocessTextFile('../../01_Data/TextBasedData/Email_Alerts/Txt_Compiler/Txt_Forecast_Discussion.txt')
-    solarGeophysicalActivity = preprocessTextFile('../../01_Data/TextBasedData/Email_Alerts/Txt_Compiler/Txt_Report_Forecast_Solar_Geophysical_Activity.txt')
-    weeklyClean = preprocessTextFile('../../01_Data/TextBasedData/Email_Alerts/Txt_Compiler/Txt_The_Weekly.txt')
+    threeDayForecastClean = preprocessTextFile('01_Txt_Compiler/Txt_3_Day_Forecast.txt')
+    alertsWarningsWatchClean = preprocessTextFile('01_Txt_Compiler/Txt_Alerts_Warnings_Watch.txt')
+    forecastDiscussionClean = preprocessTextFile('01_Txt_Compiler/Txt_Forecast_Discussion.txt')
+    solarGeophysicalActivity = preprocessTextFile('01_Txt_Compiler/Txt_Report_Forecast_Solar_Geophysical_Activity.txt')
+    weeklyClean = preprocessTextFile('01_Txt_Compiler/Txt_The_Weekly.txt')
 
     # convert text files to dataframes
     threeDayForecastDf = splitSentencesToDataFrame(threeDayForecastClean, "3DayForecast", "txt")
@@ -28,7 +28,7 @@ def main():
 
     # vertically combine all text file dfs
     textFileSentences = pd.concat([threeDayForecastDf, alertsWarningsWatchDf, forecastDiscussionDf, solarGeophysicalActivityDf, weeklyDf])
-    #print(textFileSentences)
+    print(textFileSentences)
 
     # ACADEMIC ARTICLES (data type: .pdf)
     spaceWeatherOpsResearchText = compilePdfText('../../01_Data/TextBasedData/Academic_Articles/PlanningFutureSpaceWeatherOpsAndResearch.pdf', 7, 108)
@@ -67,7 +67,10 @@ def main():
     astronomySevereSpaceWeatherArticleFull = retrieveUrlText('https://www.astronomy.com/science/new-study-reveals-hazards-of-severe-space-weather/', 'div', 'content')
     astronomySevereSpaceWeatherArticleClean = standardPreprocess(astronomySevereSpaceWeatherArticleFull)
     astronomySevereSpaceWeatherArticleSentences = splitSentencesToDataFrame(astronomySevereSpaceWeatherArticleClean,"AstronomySevereSpaceWeatherNews", "url")
-    print(astronomySevereSpaceWeatherArticleClean)
+
+    cnnSolarStormGpsArticleFull = retrieveUrlText('https://www.cnn.com/2024/05/10/business/sunspots-disrupt-phones-gps-scn/index.html', 'div', 'content')
+    cnnSolarStormGpsArticleClean = standardPreprocess(cnnSolarStormGpsArticleFull)
+    cnnSolarStormGpsArticleSentences = splitSentencesToDataFrame(cnnSolarStormGpsArticleClean,"CnnSolarStormGpsNews", "url")
     # remove items in parentheses? lots of citations in some of these...
     # also some words end up getting meshed together...ex: "workshopcopyright" - should we remove words not in the english language?
 
