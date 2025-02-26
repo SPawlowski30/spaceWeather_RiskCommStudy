@@ -1,4 +1,4 @@
-"""This scripts takes JSON data that contains Alerts, Warnings, and Watchs from 01/27/25 - 02/25/25 it
+"""This scripts takes JSON data that contains Alerts, Warnings, and Watches from 01/27/25 - 02/25/25 it
  filters out duplicates and returns the unique entries in a txt file"""
 
 import requests

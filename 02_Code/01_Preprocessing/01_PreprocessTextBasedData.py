@@ -28,7 +28,7 @@ def main():
 
     # vertically combine all text file dfs
     textFileSentences = pd.concat([threeDayForecastDf, alertsWarningsWatchDf, forecastDiscussionDf, solarGeophysicalActivityDf, weeklyDf])
-    print(textFileSentences)
+    #print(textFileSentences)
 
     # ACADEMIC ARTICLES (data type: .pdf)
     spaceWeatherOpsResearchText = compilePdfText('../../01_Data/TextBasedData/Academic_Articles/PlanningFutureSpaceWeatherOpsAndResearch.pdf', 7, 108)
@@ -36,21 +36,39 @@ def main():
     spaceWeatherOpsResearchSentences = splitSentencesToDataFrame(spaceWeatherOpsResearchClean, "SpaceWeatherOpsResearch", "pdf")
 
     # NEWS ARTICLES (data type: url -> text with HTML)
-    mitUrl = 'https://news.mit.edu/2013/space-weather-effects-on-satellites-0917'
-    mitArticle = requests.get(mitUrl)
-    mitArticleSoup = BeautifulSoup(mitArticle.text, 'html.parser')
-    mitArticleFull = ""
-
-    # collect text only from the div that contains the body of the article; strip of HTML
-    for mitData in mitArticleSoup.find_all('div',{'class':'paragraph'}):
-        mitArticleFull += mitData.text.strip()
-        #print(mitData.text.strip())
-
+    mitArticleFull = retrieveUrlText('https://news.mit.edu/2013/space-weather-effects-on-satellites-0917', 'div', 'paragraph')
     mitArticleClean = standardPreprocess(mitArticleFull)
     mitArticleSentences = splitSentencesToDataFrame(mitArticleClean, "MitNews", "url")
 
+    nasaArticleFull = retrieveUrlText('https://www.nasa.gov/technology/five-questions-about-space-weather-and-its-effects-on-earth-answered/', 'div', 'entry-content')
+    nasaArticleClean = standardPreprocess(nasaArticleFull)
+    nasaArticleSentences = splitSentencesToDataFrame(nasaArticleClean, "NasaNews", "url")
+
+    nprPlanesPowerGridsArticleFull = retrieveUrlText('https://www.npr.org/2012/01/27/145990089/how-space-weather-affects-planes-and-power-grids', 'div', 'storytext')
+    nprPlanesPowerGridsArticleClean = standardPreprocess(nprPlanesPowerGridsArticleFull)
+    nprPlanesPowerGridsArticleSentences = splitSentencesToDataFrame(nprPlanesPowerGridsArticleClean, "NprPlanesPowerGridsNews", "url")
+
+    nprSolarStormArticleFull = retrieveUrlText('https://www.npr.org/2024/10/10/g-s1-27384/solar-storm-power-grids-hurricanes', 'div', 'storytext')
+    nprSolarStormArticleClean = standardPreprocess(nprSolarStormArticleFull)
+    nprSolarStormArticleSentences = splitSentencesToDataFrame(nprSolarStormArticleClean,"NprSolarStormNews", "url")
+
+    bbcNorthernLightsArticleFull = retrieveUrlText('https://www.bbc.com/news/articles/cy437gnp28zo', 'p', ['sc-eb7bd5f6-0', 'fYAfXe'])
+    bbcNorthernLightsArticleClean = standardPreprocess(bbcNorthernLightsArticleFull)
+    nprNorthernLightsArticleSentences = splitSentencesToDataFrame(bbcNorthernLightsArticleClean,"BbcNorthernLightsNews", "url")
+    print(bbcNorthernLightsArticleClean)
     # remove items in parentheses? lots of citations in some of these...
     # also some words end up getting meshed together...ex: "workshopcopyright" - should we remove words not in the english language?
+
+def retrieveUrlText(url, tag, className):
+    article = requests.get(url)
+    articleSoup = BeautifulSoup(article.text, 'html.parser')
+    articleFull = ""
+
+    # collect text only from the div that contains the body of the article; strip of HTML
+    for articleData in articleSoup.find_all(tag,{'class':className}):
+            articleFull += articleData.text.strip()
+
+    return articleFull
 
 def preprocessTextFile(path):
     textFile = open(path, "r")
@@ -89,9 +107,9 @@ def standardPreprocess(text):
     for pattern in patternsToRemove:
         preprocessedText = preprocessedText.replace(pattern, '')
 
-    # remove stop words if length of 3 or less (4 maybe?); commented out for now because we want to test sentence encoding before + after
+    # future TO-DO: remove stop words if length of 3 or less (4 maybe?); commented out for now because we want to test sentence encoding before + after
     # only do this if text is tokenized first
-    #filtered_words = [w for w in preprocessedText if len(w) > 3 if not w in stopwords.words('english')]
+    # filtered_words = [w for w in preprocessedText if len(w) > 3 if not w in stopwords.words('english')]
 
     return preprocessedText
 
