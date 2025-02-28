@@ -25,7 +25,11 @@ if response.status_code == 200:
         output_file = "Txt_Alerts_Warnings_Watch.txt"
         with open(output_file, "w", encoding="utf-8") as f:
             for alert in unique_alerts_list:
-                f.write(json.dumps(alert, indent=4) + "\n\n")
+                alert_text = json.dumps(alert, indent = 4)
+                clean_text = "\n".join(
+                    line for line in alert_text.split("\n")
+                    if '"product_id"' not in line and '"issue_datetime"' not in line)
+                f.write(clean_text+ "\n\n")
         print("txt file saved successfully")
 else:
     print(f"Error: Failed to fetch JSON. HTTP Status Code: {response.status_code}")
