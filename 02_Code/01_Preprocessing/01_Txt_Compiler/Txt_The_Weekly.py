@@ -26,9 +26,10 @@ with open(output_filename, "w", encoding="utf-8") as outfile:
 
             if len(doc) > 0:  # Ensure the PDF has at least one page
                 first_page_text = doc[0].get_text("text")
-
+                lines = first_page_text.splitlines()
+                lines_to_write = lines[6:]
                 # Write to output file with a separator
-                outfile.write(first_page_text)
+                outfile.write("\n".join(lines_to_write))
                 outfile.write("\n\n")
             doc.close()
 

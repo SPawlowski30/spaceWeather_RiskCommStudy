@@ -1,9 +1,3 @@
-SWPC PRF 2344 03 August 2020
-1
-Space Weather Highlights
-27 July - 02 August 2020
-SWPC PRF 2344
-03 August 2020
 Solar activity was very low throughout the period. Three spotted regions populated the disk at
 various times during the summary period. Region 2767 (S21, L=200, class/area Hsx/120 on 26
 Jul) maintained an H-type configuration through the period and was quiet and stable. Region
@@ -34,13 +28,6 @@ unsettled levels are expected on 04 Aug as HSS effects persist. Unsettled levels
 once again on 29 Aug. Quiet levels are expected to prevail for the remainder of the period, 05-28
 Aug.
 
-
-SWPC PRF 2321 24 February 2020
-1
-Space Weather Highlights
-17 February - 23 February 2020
-SWPC PRF 2321
-24 February 2020
 Solar activity was very low. No active regions with sunspots were observed and no apparent
 earth-directed CMEs were detected this period.
 No proton events were observed at geosynchronous orbit.
@@ -63,13 +50,6 @@ due to the infuences of multiple recurrent CH HSSs. Generally quiet or quiet to 
 conditions are expected to prevail throughout the rest of the outlook period under a nominal solar
 wind regime.
 
-
-SWPC PRF 2361 30 November 2020
-1
-Space Weather Highlights
-23 November - 29 November 2020
-SWPC PRF 2361
-30 November 2020
 Solar activity reached moderate levels. The largest event was an M4 X-ray flare from a region
 just around the SE limb. Associated with the flare was a Type II radio sweep (765 km/s), a
 tenflare (240 sfu) and a CME signature first observed in SOHO/LASCO C2 imagery at 29/1325
@@ -104,13 +84,6 @@ conditions around 01-02 Dec. Coronal hole influence is expected to produce activ
 20 Dec. Weak interaction with the current sheet is likely to produce unsettled conditions on
 23-25 Dec. The remainder of the outlook period is expected to be quiet.
 
-
-SWPC PRF 2354 12 October 2020
-1
-Space Weather Highlights
-05 October - 11 October 2020
-SWPC PRF 2354
-12 October 2020
 Solar activity was very low. Regions 2774 (S25, L=308, class/area Axx/010 on 09 Oct) and 2775
 (S24, L=272, class/area Cro/050 on 10 Oct) were absent of significant flare activity and
 unremarkable throughout the period. No Earth-directed CMEs were observed.
@@ -133,13 +106,6 @@ with G1 (Minor) geomagnetic storms likely on 21-24 Oct, due to recurrent, positi
 HSS influence. Active conditions are expected on 20, 26-28 Oct. Quiet to unsettled levels are
 expected throughout the remainder of the outlook period.
 
-
-SWPC PRF 2379 05 April 2021
-1
-Space Weather Highlights
-29 March - 04 April 2021
-SWPC PRF 2379
-05 April 2021
 Solar activity was very low throughout the highlight period, with only B-class flare activity. No
 Earth-directed CMEs were observed in available imagery.
 No proton events were observed at geosynchronous orbit.
@@ -159,13 +125,6 @@ Geomagnetic field activity is likely to reach G1 (Minor) geomagnetic storm level
 with active conditions on 17 April due to recurrent, negative-polarity CH HSS influence. Quiet
 to unsettled conditions are expected throughout the remainder of the outlook period.
 
-
-SWPC PRF 2387 31 May 2021
-1
-Space Weather Highlights
-24 May - 30 May 2021
-SWPC PRF 2387
-31 May 2021
 Solar activity was at very low levels on 24-25 and 30 May while an increase to low levels
 occurred on 26-29 May. The majority of the flare activity was from Regions 2824 (N20, L=196,
 class/area Dho/250 on 27 May) and 2826 (N24, L=215, class/area Dko/280 on 27 May). The
@@ -200,13 +159,6 @@ The greater than 2 MeV electron flux at geosynchronous orbit is expected to reac
 18-22 Jun due to coronal hole high speed stream (CH HSS) influence.
 Geomagnetic field activity is expected to reach unsettled to active levels on 01-04 Jun due to a
 
-
-SWPC PRF 2397 09 August 2021
-1
-Space Weather Highlights
-02 August - 08 August 2021
-SWPC PRF 2397
-09 August 2021
 Solar activity was at very low levels. An isolated C1 flare peaked at 09/0004 UTC just after the
 reporting period from new Region 2853 (N23, L=192, class/area Axx/010 on 08 Aug). The
 single spot just appeared late on 08 Aug but was preceded by an area of active plage which
@@ -236,13 +188,6 @@ moderate levels.
 Geomagnetic field activity is expected to reach unsettled levels on 09-10 Aug, 16-18 Aug, 23-25
 Aug, and 02-04 Sep and reach active levels on 24 Aug and 03 Sep due to CH HSS activity.
 
-
-SWPC PRF 2396 02 August 2021
-1
-Space Weather Highlights
-26 July - 01 August 2021
-SWPC PRF 2396
-02 August 2021
 Solar activity was very low under a mostly spotless disk. No Earth-directed CMEs were
 observed.
 No proton events were observed at geosynchronous orbit.
@@ -265,13 +210,6 @@ moderate levels on 02-28 Aug.
 Geomagnetic field activity is expected to reach unsettled levels on 05-06, 10-11, 16-18, 23-25
 Aug and active levels on 10, 24 Aug due to CH HSS activity.
 
-
-SWPC PRF 2463 14 November 2022
-1
-Space Weather Highlights
-07 November - 13 November 2022
-SWPC PRF 2463
-14 November 2022
 Solar activity was at low to high levels. Low levels were observed on 08-10 Nov and again on 13
 Nov. Moderate levels occurred on 11-12 Nov due to M1 flare activity from Region 3141 (N14,
 L=318, class/area Eki/610 on 11 Nov). These flares were an M1/1f at 11/0714 UTC, an M1/Sn at
@@ -307,13 +245,6 @@ The greater than 2 MeV electron flux at geosynchronous orbit is expected to reac
 21-29 Nov and again on 02-05 Dec due to recurrent CH HSS influence.
 Geomagnetic field activity is expected to reach unsettled to active levels on 15-16 Nov, 20-22
 
-
-SWPC PRF 2456 26 September 2022
-1
-Space Weather Highlights
-19 September - 25 September 2022
-SWPC PRF 2456
-26 September 2022
 Solar activity reached moderate levels this week with three M-class flares observed during the
 period. Region 3102 (S25, L=298, class/area Eki/320 on 18 Sep) produced an M1.0/1n flare at
 20/1122 UTC. Region 3107 (S25, L=113, class/area Fai/240 on 24 Sep) produced an M1.0 at
@@ -348,13 +279,6 @@ October, 16-17 October, with active levels possible on 01-05 October and 20-21 O
 (Minor-Moderate) levels are possible on 01-04 October as well. This enhanced activity is due to
 CH HSS influences.
 
-
-SWPC PRF 2452 29 August 2022
-1
-Space Weather Highlights
-22 August - 28 August 2022
-SWPC PRF 2452
-29 August 2022
 Solar activity ranged from very low to low levels on 22-24 Aug with a majority of the flare
 activity originating from Region 3085 (S24, L=041, class/area Dko/280 on 25 Aug). Activity
 levels picked up on 25 Aug with weak M-class (R1-Minor) activity recorded from Regions 3088
@@ -389,13 +313,6 @@ The is a slight chance for a proton event on 29 Aug and from 11-24 Sep after the
 Rgn 3088.
 The greater than 2 MeV electron flux at geosynchronous orbit is expected to be at moderate to
 
-
-SWPC PRF 2422 31 January 2022
-1
-Space Weather Highlights
-24 January - 30 January 2022
-SWPC PRF 2422
-31 January 2022
 Solar activity reached moderate levels due to a long duration M1 flare observed at 29/2332 UTC
 from Region 2936 (N17, L=116, class/area Ekc/720 on 30 Jan). Associated with this event was a
 10cm (320 sfu) radio event and assymetric full halo CME, first visible in LASCO C2 imagery at
@@ -426,13 +343,6 @@ on 05 Feb due to influences from a recurrent CH HSS. Active levels are expected 
 and 25 Feb all due to recurrent CH HSS activity. Quiet to unsettled levels are expected on the
 remaining days of the period.
 
-
-SWPC PRF 2476 13 February 2023
-1
-Space Weather Highlights
-06 February - 12 February 2023
-SWPC PRF 2476
-13 February 2023
 Solar activity was at low to high levels during the period. Numerous C-class flares were
 observed from Regions 3211 (S17, L=295, class/area Dao/100 on 06 Feb), 3213 (N30, L=223,
 class/area Fki/480 on 12 Feb) and 3214 (N12, L=205, class/area Dki/380 on 11 Feb). 07 Feb
@@ -467,13 +377,6 @@ exists throughout the period from the more complex, magnetically active regions.
 The greater than 2 MeV electron flux at geosynchronous orbit is expected to be at high levels on
 13-15 Feb and 07-11 Mar. Normal to moderate levels are expected on 16 Feb - 06 Mar.
 
-
-SWPC PRF 2477 20 February 2023
-1
-Space Weather Highlights
-13 February - 19 February 2023
-SWPC PRF 2477
-20 February 2023
 Solar activity was at low to high levels during the period. M-class (R1-Minor) activity was
 predominate during 13-16 Feb with weak M-class flares observed from Regions 3213 (N30,
 L=223, class/area Fki/480 on 12 Feb), 3226 (N11, L=113, class/area Dki/480 on 14 Feb) and
@@ -507,13 +410,6 @@ Active to G1-Minor levels are expected on 20-21 Feb due to CME effects. Unsettle
 conditions are expected on 22-24 and 27-28 Feb, 02, 05-08 and 15-17 Mar due to CH HSS
 effects.
 
-
-SWPC PRF 2504 28 August 2023
-1
-Space Weather Highlights
-21 August - 27 August 2023
-SWPC PRF 2504
-28 August 2023
 Solar activity ranged from low to moderate. Region 3415 (S09, L=79, class/area=Dko/350 on 24
 Aug) produced the strongest flare of the period, a long-duration M1.4/1n at 25/0109 UTC. Lower
 M-class X-ray flares (R1 - Minor) were observed from Region 3405 (N10, L=183,
@@ -541,13 +437,6 @@ likely on 14 Sep, with unsettled conditions likely on 28-19 Aug, 06-08 Sep, 15-1
 Sep. All elevations in geomagnetic activity are anticipated due to recurrent CH HSS features.
 The remainder of the outlook period is expected to be at quiet levels.
 
-
-SWPC PRF 2519 11 December 2023
-1
-Space Weather Highlights
-04 December - 10 December 2023
-SWPC PRF 2519
-11 December 2023
 Solar activity ranged from low to high levels this period with Regions 3511 (S22, L=216,
 class/area=Fsi/180 on 09 Dec) and 3513 (N19, L=220, class/area=Eai/220 on 10 Dec) being the
 primary sources of flare activity. The largest event observed was an M5.4/1b flare
@@ -579,13 +468,6 @@ Dec-02 Jan, with active conditions likely on 01 Jan, due to negative polarity CH
 Quiet levels and background solar wind conditions are expected to prevail throughout the
 remainder of the period.
 
-
-SWPC PRF 2523 08 January 2024
-1
-Space Weather Highlights
-01 January - 07 January 2024
-SWPC PRF 2523
-08 January 2024
 Solar activity was at low to moderate levels. Moderate activity (R1/Minor) was observed from
 Region 3536 (N06, L=151, class/area Eko/250 on 03 Jan) on 01, 02 and 04 Jan. The largest of
 these M flares was an M4.7 observed at 01/1225 UTC. This region also produced a total of 35
@@ -619,13 +501,6 @@ Feb.
 Geomagnetic field activity is expected to be at unsettled periods on 08-09 Jan and 28-30 Jan due
 to geoeffective CH HSS flow. The remainder of the outlook period is likely to be mostly quiet.
 
-
-SWPC PRF 2548 01 July 2024
-1
-Space Weather Highlights
-24 June - 30 June 2024
-SWPC PRF 2548
-01 July 2024
 Solar activity reached moderate levels on 24-25 Jun. The largest flare was an M1.8 flare from
 Region 3712 (S26 L=170, class/area=Eao/220) at 24/0417 UTC. Other M1 flares were observed
 from Regions 3713 (S14 L=153, class/area=Ekc/360), 3720 (S06 L=54, class/area=Dai/150), and
@@ -651,13 +526,6 @@ possible glancing influences from multiple CMEs. Unsettled to active levels are 
 14-16 Jul due to influence from a recurrent, positive polarity coronal hole high speed stream (CH
 HSS). Quiet to unsettled levels are expected on 05-13 Jul and 17-27 Jul.
 
-
-SWPC PRF 2547 24 June 2024
-1
-Space Weather Highlights
-17 June - 23 June 2024
-SWPC PRF 2547
-24 June 2024
 Solar activity ranged from low to high levels. Region 3723 (S18, L=011, class/area=Dao/150 on
 23 Jun) produced the strongest event of the period, an impulsive M9.3/1b flare (R2-Moderate) at
 23/1301 UTC. Region 3719 (S15, L=067, class/area=Dao/230 on 23 Jun) also produced an R2
@@ -687,13 +555,6 @@ Geomagnetic field activity is expected to reach unsettled levels on 24 Jun, 14-1
 due to anticipated influence from multiple, recurrent, CH HSSs. The remainder of the outlook
 period is likely to be at mostly quiet levels.
 
-
-SWPC PRF 2553 05 August 2024
-1
-Space Weather Highlights
-29 July - 04 August 2024
-SWPC PRF 2553
-05 August 2024
 Solar activity was at high levels throughout the period. A total of 63 M-flares (51 R1-Minor
 events, 12 R2-Moderate events) and one X-flare (R3-Strong event) were observed during the
 course of the week from 13 unique regions. The largest event was an impulsive X1.5/2b flare at
@@ -714,13 +575,6 @@ moderate levels.
 An Isolated period of G1 (Minor) storms are possible on 05 Aug due to waning CME influences.
 Geomagnetic field activity is expected to be mostly quiet and quiet to unsettled over 06-31 Aug.
 
-
-SWPC PRF 2578 27 January 2025
-1
-Space Weather Highlights
-20 January - 26 January 2025
-SWPC PRF 2578
-27 January 2025
 Solar activity ranged from low to moderate levels (R1-Minor). Moderate levels were observed on
 21 Jan from Region 3967 (S14, L=148, class/area Eai/110 on 21 Jan) with an M3.3/Sf observed
 at 21/1039 UTC. This flare also produced a Type II sweep with an estimated shock velocity of
@@ -753,13 +607,6 @@ elevations in geomagnetic activity were attributed to influence from multiple, n
 CH HSSs.
 <pre style="color: rgb(0, 0, 0); overflow-wrap: break-word; text-wrap-mode: wrap;"> </pre>
 
-
-SWPC PRF 2580 10 February 2025
-1
-Space Weather Highlights
-03 February - 09 February 2025
-SWPC PRF 2580
-10 February 2025
 Solar activity reached high levels. Region 3981 (N07, L=341, class/area=Ekc/430 on 05 Feb)
 was the most active region on the disk. AR 3981 produced an M8.8 flare at 03/0358 UTC, the
 largest event of the period, in addition to several R1 and R2 events throughout the course of the
@@ -781,13 +628,6 @@ Geomagnetic field activity is expected to reach G1 (Minor) storm levels on 10, 1
 and active levels are expected on 11-12 Feb, and 01 Mar due to CH HSS influences. Quiet and
 quiet to unsettled conditions are likely to prevail throughout the remainder of the period.
 
-
-SWPC PRF 2579 03 February 2025
-1
-Space Weather Highlights
-27 January - 02 February 2025
-SWPC PRF 2579
-03 February 2025
 Solar activity ranged from low to moderate levels (R2-Moderate). Minor (R1-Minor) levels were
 observed on 27-29 Jan, 31 Jan and 01-02 Feb. Moderate (R2-Moderate) levels were observed on
 31 Jan and 02 Feb. Region 3976 (N13, L=001, class/area Ekc/260 on 02 Feb) produced 31
@@ -822,13 +662,6 @@ levels are expected on 05-17 Feb and 20-26 Feb.
 Geomagnetic field activity is expected to be at unsettled to active levels on 03-05 Feb due to a
 combination of positive polarity CH HSS and weak CME effects. Unsettled to active levels are
 
-
-SWPC PRF 2577 20 January 2025
-1
-Space Weather Highlights
-13 January - 19 January 2025
-SWPC PRF 2577
-20 January 2025
 Solar activity ranged from low to high levels (R1-R2/Minor-Moderate). High levels were
 observed on 17 Jan following an M7.4 (R2) flare at 17/1335 UTC from Region 3964 (N06,
 L=247, class/area=Dki/475 on 17 Jan). The region also produced ten R1 (Minor) events over
@@ -859,5 +692,4 @@ conditions are likely on 31 Jan - 02 Feb, 11 Feb, and 13 Feb. Active conditions 
 Jan, 03-05 Feb, 10 Feb, 12 Feb, and 14-15 Feb. Unsettle levels are likely over 21 Jan, 06 Feb,
 and 09 Feb. All elevations in geomagnetic activity are anticipated due to multiple, recurrent CH
 HSSs. The remainder of the outlook period is expected to be at mostly quiet levels.
-
 
