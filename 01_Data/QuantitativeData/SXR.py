@@ -4,7 +4,7 @@ matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-# Load the data from the JSON file
+# Loads data from the JSON file
 url = "https://services.swpc.noaa.gov/json/goes/primary/xrays-1-day.json"
 response = requests.get(url)
 data = response.json()
@@ -14,7 +14,7 @@ filtered_data = [entry for entry in data if entry.get("energy") == "0.1-0.8nm"]
 times = [datetime.strptime(entry.get("time_tag"), "%Y-%m-%dT%H:%M:%SZ") for entry in filtered_data]
 fluxes = [entry.get("flux") for entry in filtered_data]
 
-# Plot flux vs time
+# Plots flux vs time
 plt.figure(figsize=(10, 6))
 plt.plot(times, fluxes)
 plt.xlabel('Time')
