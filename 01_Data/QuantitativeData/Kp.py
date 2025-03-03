@@ -38,18 +38,19 @@ def plot_k_index(timestamps, k_index_values):
     ax.set_xlabel('Time')
     ax.set_ylabel('NOAA Kp Index')
     ax.set_title('Estimated Planetary K index (3 hour data)')
-    ax.xaxis.set_major_locator(mdates.DayLocator(interval=1))  # Show every 3rd hour
-    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %d'))  # Show only hour:minute
+    ax.xaxis.set_major_locator(mdates.DayLocator(interval=1))  # Show every day
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %d')) #month/day
     plt.xticks(rotation=45, ha='right')
     ax.grid(axis = 'y', alpha = 0.5)
 
+    #sets colors for the different kp index warning levels
     legend_patches = [
-        mpatches.Patch(color='lightgreen', label='Kp < 5'),
-        mpatches.Patch(color='yellow', label='5 ≤ Kp < 6'),
-        mpatches.Patch(color='gold', label='6 ≤ Kp < 7'),
-        mpatches.Patch(color='orange', label= '7 ≤ Kp < 8'),
-        mpatches.Patch(color='red', label='8 ≤ Kp < 9'),
-        mpatches.Patch(color='darkred', label=' Kp < 9')
+        mpatches.Patch(color='lightgreen', label='Kp < 5'), #none
+        mpatches.Patch(color='yellow', label='5 ≤ Kp < 6'), #G1
+        mpatches.Patch(color='gold', label='6 ≤ Kp < 7'), #G2
+        mpatches.Patch(color='orange', label= '7 ≤ Kp < 8'), #G3
+        mpatches.Patch(color='red', label='8 ≤ Kp < 9'), #G4
+        mpatches.Patch(color='darkred', label=' Kp < 9') #G5
     ]
     ax.legend(handles=legend_patches, title="K-Index Levels", loc='center left',
               bbox_to_anchor=(1.02, 0.5), frameon=False, handletextpad=1.5)
