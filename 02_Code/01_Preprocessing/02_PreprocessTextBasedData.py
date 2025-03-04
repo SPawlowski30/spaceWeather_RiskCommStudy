@@ -8,7 +8,6 @@ nltk.download('words')
 nltk.download('punkt_tab')
 from nltk.corpus import stopwords
 from nltk.corpus import words
-from nltk.tokenize import sent_tokenize
 
 def main():
     # EMAIL ALERTS (data type: .txt)
@@ -16,72 +15,107 @@ def main():
     threeDayForecastClean = preprocessTextFile('01_Txt_Compiler/Txt_3_Day_Forecast.txt')
     alertsWarningsWatchClean = preprocessTextFile('01_Txt_Compiler/Txt_Alerts_Warnings_Watch.txt')
     forecastDiscussionClean = preprocessTextFile('01_Txt_Compiler/Txt_Forecast_Discussion.txt')
-    solarGeophysicalActivity = preprocessTextFile('01_Txt_Compiler/Txt_Report_Forecast_Solar_Geophysical_Activity.txt')
+    solarGeophysicalActivityClean = preprocessTextFile('01_Txt_Compiler/Txt_Report_Forecast_Solar_Geophysical_Activity.txt')
     weeklyClean = preprocessTextFile('01_Txt_Compiler/Txt_The_Weekly.txt')
 
     # convert text files to dataframes
-    threeDayForecastDf = splitSentencesToDataFrame(threeDayForecastClean, "3DayForecast", "txt")
-    alertsWarningsWatchDf = splitSentencesToDataFrame(alertsWarningsWatchClean, "AlertsWarningsWatch", "txt")
-    forecastDiscussionDf = splitSentencesToDataFrame(forecastDiscussionClean, "ForecastDiscussion", "txt")
-    solarGeophysicalActivityDf = splitSentencesToDataFrame(solarGeophysicalActivity, "SolarGeophysicalActivity", "txt")
-    weeklyDf = splitSentencesToDataFrame(weeklyClean, "Weekly", "txt")
+    threeDayForecastDf = splitSentencesToDataFrame(threeDayForecastClean, "3DayForecast", "emailAlert")
+    alertsWarningsWatchDf = splitSentencesToDataFrame(alertsWarningsWatchClean, "AlertsWarningsWatch", "emailAlert")
+    forecastDiscussionDf = splitSentencesToDataFrame(forecastDiscussionClean, "ForecastDiscussion", "emailAlert")
+    solarGeophysicalActivityDf = splitSentencesToDataFrame(solarGeophysicalActivityClean, "SolarGeophysicalActivity", "emailAlert")
+    weeklyDf = splitSentencesToDataFrame(weeklyClean, "Weekly", "emailAlert")
 
-    # vertically combine all text file dfs
-    textFileSentences = pd.concat([threeDayForecastDf, alertsWarningsWatchDf, forecastDiscussionDf, solarGeophysicalActivityDf, weeklyDf])
-    #print(textFileSentences)
+    # combine all text into one variable, vertically combine all dfs
+    emailAlertWords = " ".join([threeDayForecastClean, alertsWarningsWatchClean, forecastDiscussionClean, solarGeophysicalActivityClean, weeklyClean])
+    emailAlertSentences = pd.concat([threeDayForecastDf, alertsWarningsWatchDf, forecastDiscussionDf, solarGeophysicalActivityDf, weeklyDf])
+    emailAlertSentences = emailAlertSentences['Sentence'].apply(removePunctuation)
+
+    # export .txt and .csv files for email alerts
+    print("Exporting text and csv files for email alerts...")
+    with open('emailAlertWords.txt', 'w') as f:
+        f.write(emailAlertWords)
+    emailAlertSentences.to_csv("emailAlertSentences.csv", index=False)
 
     # ACADEMIC ARTICLES (data type: .pdf)
     spaceWeatherOpsResearchText = compilePdfText('../../01_Data/TextBasedData/Academic_Articles/PlanningFutureSpaceWeatherOpsAndResearch.pdf', 7, 108)
     spaceWeatherOpsResearchClean = standardPreprocess(spaceWeatherOpsResearchText)
-    spaceWeatherOpsResearchSentences = splitSentencesToDataFrame(spaceWeatherOpsResearchClean, "SpaceWeatherOpsResearch", "pdf")
+    spaceWeatherOpsResearchSentences = splitSentencesToDataFrame(spaceWeatherOpsResearchClean, "SpaceWeatherOpsResearch", "academicArticle")
+
+    spaceWeatherEffectsSatellitesMdpi = retrieveUrlText('https://www.mdpi.com/2674-0346/2/3/12', 'div', {'class':'html-body'})
+    spaceWeatherEffectsSatellitesMdpiClean = standardPreprocess(spaceWeatherEffectsSatellitesMdpi)
+    spaceWeatherEffectsSatellitesMdpiSentences = splitSentencesToDataFrame(spaceWeatherEffectsSatellitesMdpiClean, "SpacecastSpaceWeatherImpactsOnSatellites", "academicArticle")
+
+    # combine all text into one variable, vertically combine all dfs
+    academicArticleWords = " ".join([spaceWeatherOpsResearchClean, spaceWeatherEffectsSatellitesMdpiClean])
+    academicArticleSentences = pd.concat([spaceWeatherOpsResearchSentences, spaceWeatherEffectsSatellitesMdpiSentences])
+    academicArticleSentences = academicArticleSentences['Sentence'].apply(removePunctuation)
+
+    # export .txt and .csv files for academic articles
+    print("Exporting text and csv files for academic articles...")
+    with open('academicArticleWords.txt', 'w') as f:
+        f.write(academicArticleWords)
+    academicArticleSentences.to_csv("academicArticleSentences.csv", index=False)
 
     # NEWS ARTICLES (data type: url -> text with HTML)
     mitArticleFull = retrieveUrlText('https://news.mit.edu/2013/space-weather-effects-on-satellites-0917', 'div', {'class':'paragraph'})
     mitArticleClean = standardPreprocess(mitArticleFull)
-    mitArticleSentences = splitSentencesToDataFrame(mitArticleClean, "MitNews", "url")
+    mitArticleSentences = splitSentencesToDataFrame(mitArticleClean, "MitNews", "newsArticle")
 
     nasaArticleFull = retrieveUrlText('https://www.nasa.gov/technology/five-questions-about-space-weather-and-its-effects-on-earth-answered/', 'div', {'class':'entry-content'})
     nasaArticleClean = standardPreprocess(nasaArticleFull)
-    nasaArticleSentences = splitSentencesToDataFrame(nasaArticleClean, "NasaNews", "url")
+    nasaArticleSentences = splitSentencesToDataFrame(nasaArticleClean, "NasaNews", "newsArticle")
 
     nprPlanesPowerGridsArticleFull = retrieveUrlText('https://www.npr.org/2012/01/27/145990089/how-space-weather-affects-planes-and-power-grids', 'div', {'class':'storytext'})
     nprPlanesPowerGridsArticleClean = standardPreprocess(nprPlanesPowerGridsArticleFull)
-    nprPlanesPowerGridsArticleSentences = splitSentencesToDataFrame(nprPlanesPowerGridsArticleClean, "NprPlanesPowerGridsNews", "url")
+    nprPlanesPowerGridsArticleSentences = splitSentencesToDataFrame(nprPlanesPowerGridsArticleClean, "NprPlanesPowerGridsNews", "newsArticle")
 
     nprSolarStormArticleFull = retrieveUrlText('https://www.npr.org/2024/10/10/g-s1-27384/solar-storm-power-grids-hurricanes', 'div', {'class':'storytext'})
     nprSolarStormArticleClean = standardPreprocess(nprSolarStormArticleFull)
-    nprSolarStormArticleSentences = splitSentencesToDataFrame(nprSolarStormArticleClean,"NprSolarStormNews", "url")
+    nprSolarStormArticleSentences = splitSentencesToDataFrame(nprSolarStormArticleClean,"NprSolarStormNews", "newsArticle")
 
     bbcNorthernLightsArticleFull = retrieveUrlText('https://www.bbc.com/news/articles/cy437gnp28zo', 'p', {'class':['sc-eb7bd5f6-0', 'fYAfXe']})
     bbcNorthernLightsArticleClean = standardPreprocess(bbcNorthernLightsArticleFull)
-    nprNorthernLightsArticleSentences = splitSentencesToDataFrame(bbcNorthernLightsArticleClean,"BbcNorthernLightsNews", "url")
+    nprNorthernLightsArticleSentences = splitSentencesToDataFrame(bbcNorthernLightsArticleClean,"BbcNorthernLightsNews", "newsArticle")
 
     astronomyEnsembleForecastingArticleFull = retrieveUrlText('https://www.astronomy.com/observing/space-weather-center-to-add-worlds-first-ensemble-forecasting-capability/', 'div', {'class':'content'})
     astronomyEnsembleForecastingArticleClean = standardPreprocess(astronomyEnsembleForecastingArticleFull)
-    astronomyEnsembleForecastingArticleSentences = splitSentencesToDataFrame(astronomyEnsembleForecastingArticleClean,"AstronomyEnsembleForecastingNews", "url")
+    astronomyEnsembleForecastingArticleSentences = splitSentencesToDataFrame(astronomyEnsembleForecastingArticleClean,"AstronomyEnsembleForecastingNews", "newsArticle")
 
     astronomySolarStormsArticleFull = retrieveUrlText('https://www.astronomy.com/science/solar-storms-can-easily-destroy-satellites-a-space-weather-expert-explains-the-science/', 'div', {'class':'content'})
     astronomySolarStormsArticleClean = standardPreprocess(astronomySolarStormsArticleFull)
-    astronomySolarStormsArticleSentences = splitSentencesToDataFrame(astronomySolarStormsArticleClean,"AstronomySolarStormsNews", "url")
+    astronomySolarStormsArticleSentences = splitSentencesToDataFrame(astronomySolarStormsArticleClean,"AstronomySolarStormsNews", "newsArticle")
 
     astronomySevereSpaceWeatherArticleFull = retrieveUrlText('https://www.astronomy.com/science/new-study-reveals-hazards-of-severe-space-weather/', 'div', {'class':'content'})
     astronomySevereSpaceWeatherArticleClean = standardPreprocess(astronomySevereSpaceWeatherArticleFull)
-    astronomySevereSpaceWeatherArticleSentences = splitSentencesToDataFrame(astronomySevereSpaceWeatherArticleClean,"AstronomySevereSpaceWeatherNews", "url")
+    astronomySevereSpaceWeatherArticleSentences = splitSentencesToDataFrame(astronomySevereSpaceWeatherArticleClean,"AstronomySevereSpaceWeatherNews", "newsArticle")
 
     cnnSolarStormGpsArticleFull = retrieveUrlText('https://www.cnn.com/2024/05/10/business/sunspots-disrupt-phones-gps-scn/index.html', 'p', {'class':'paragraph'})
     cnnSolarStormGpsArticleClean = standardPreprocess(cnnSolarStormGpsArticleFull)
-    cnnSolarStormGpsArticleSentences = splitSentencesToDataFrame(cnnSolarStormGpsArticleClean,"CnnSolarStormGpsNews", "url")
+    cnnSolarStormGpsArticleSentences = splitSentencesToDataFrame(cnnSolarStormGpsArticleClean,"CnnSolarStormGpsNews", "newsArticle")
 
     cnnSatelliteArticleFull = retrieveUrlText('https://edition.cnn.com/2024/06/25/science/goes-u-nasa-noaa-weather-satellite-launch-scn/index.html', 'p', {'class':'paragraph'})
     cnnSatelliteArticleClean = standardPreprocess(cnnSatelliteArticleFull)
-    cnnSatelliteArticleSentences = splitSentencesToDataFrame(cnnSatelliteArticleClean,"CnnSatelliteNews", "url")
+    cnnSatelliteArticleSentences = splitSentencesToDataFrame(cnnSatelliteArticleClean,"CnnSatelliteNews", "newsArticle")
 
     foxSpaceWeatherSatellitesArticleFull = retrieveUrlText('https://www.foxweather.com/earth-space/spacex-satellite-storm-forecast', 'p', {"data-v-438398f6": True})
     foxSpaceWeatherSatellitesArticleClean = standardPreprocess(foxSpaceWeatherSatellitesArticleFull)
-    foxSpaceWeatherSatellitesArticleSentences = splitSentencesToDataFrame(foxSpaceWeatherSatellitesArticleClean,"FoxSpaceWeatherSatellitesNews", "url")
-    print(foxSpaceWeatherSatellitesArticleClean)
-    # remove items in parentheses? lots of citations in some of these...
+    foxSpaceWeatherSatellitesArticleSentences = splitSentencesToDataFrame(foxSpaceWeatherSatellitesArticleClean,"FoxSpaceWeatherSatellitesNews", "newsArticle")
+
+    # combine all text into one variable, vertically combine all dfs
+    newsArticleWords = " ".join([mitArticleClean, nasaArticleClean, nprPlanesPowerGridsArticleClean, nprSolarStormArticleClean, bbcNorthernLightsArticleClean, astronomyEnsembleForecastingArticleClean, astronomySolarStormsArticleClean, astronomySevereSpaceWeatherArticleClean, cnnSolarStormGpsArticleClean, cnnSatelliteArticleClean, foxSpaceWeatherSatellitesArticleClean])
+    newsArticleSentences = pd.concat([mitArticleSentences, nasaArticleSentences, nprPlanesPowerGridsArticleSentences, nprSolarStormArticleSentences, nprNorthernLightsArticleSentences, astronomyEnsembleForecastingArticleSentences, astronomySolarStormsArticleSentences, astronomySevereSpaceWeatherArticleSentences, cnnSolarStormGpsArticleSentences, cnnSatelliteArticleSentences, foxSpaceWeatherSatellitesArticleSentences])
+    newsArticleSentences = newsArticleSentences['Sentence'].apply(removePunctuation)
+
+    # export .txt and .csv files for academic articles
+    print("Exporting text and csv files for news articles...")
+    with open('newsArticleWords.txt', 'w') as f:
+        f.write(newsArticleWords)
+    newsArticleSentences.to_csv("newsArticleSentences.csv", index=False)
+    # TO-DO: remove items in parentheses? lots of citations in some of these...
     # also some words end up getting meshed together...ex: "workshopcopyright" - should we remove words not in the english language?
+
+def removePunctuation(text):
+    return re.sub(r'[^\w\s]', '', text)
 
 def retrieveUrlText(url, tag, condition):
     article = requests.get(url)
