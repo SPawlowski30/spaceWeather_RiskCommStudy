@@ -6,8 +6,6 @@ import re
 import nltk
 nltk.download('words')
 nltk.download('punkt_tab')
-from nltk.corpus import stopwords
-from nltk.corpus import words
 
 def main():
     # EMAIL ALERTS (data type: .txt)
@@ -26,7 +24,7 @@ def main():
     weeklyDf = splitSentencesToDataFrame(weeklyClean, "Weekly", "emailAlert")
 
     # combine all text into one variable, vertically combine all dfs
-    emailAlertWords = " ".join([threeDayForecastClean, alertsWarningsWatchClean, forecastDiscussionClean, solarGeophysicalActivityClean, weeklyClean])
+    emailAlertWords = removePunctuation(" ".join([threeDayForecastClean, alertsWarningsWatchClean, forecastDiscussionClean, solarGeophysicalActivityClean, weeklyClean]))
     emailAlertSentences = pd.concat([threeDayForecastDf, alertsWarningsWatchDf, forecastDiscussionDf, solarGeophysicalActivityDf, weeklyDf])
     emailAlertSentences = emailAlertSentences['Sentence'].apply(removePunctuation)
 
@@ -46,7 +44,7 @@ def main():
     spaceWeatherEffectsSatellitesMdpiSentences = splitSentencesToDataFrame(spaceWeatherEffectsSatellitesMdpiClean, "SpacecastSpaceWeatherImpactsOnSatellites", "academicArticle")
 
     # combine all text into one variable, vertically combine all dfs
-    academicArticleWords = " ".join([spaceWeatherOpsResearchClean, spaceWeatherEffectsSatellitesMdpiClean])
+    academicArticleWords = removePunctuation(" ".join([spaceWeatherOpsResearchClean, spaceWeatherEffectsSatellitesMdpiClean]))
     academicArticleSentences = pd.concat([spaceWeatherOpsResearchSentences, spaceWeatherEffectsSatellitesMdpiSentences])
     academicArticleSentences = academicArticleSentences['Sentence'].apply(removePunctuation)
 
