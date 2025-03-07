@@ -10,6 +10,8 @@ import seaborn as sns
 
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('words')
+nltk.download('names')
 
 def main():
     # open text files
@@ -23,7 +25,7 @@ def main():
     newsArticleWordsText = newsArticleWords.read()
 
     # use 'ngramRange' to decide how many words to group together
-    ngramRange = 1
+    ngramRange = 3
     ngramVal = "" # word to be displayed in plots
 
     if(ngramRange == 1):
@@ -36,9 +38,9 @@ def main():
         ngramVal = f"Groups of {ngramRange} Words"
 
     # preprocessing specifically necessary for TF-IDF
-    emailAlertsTfidf = tfidfPreprocess(emailAlertWordsText, ngramRange)
-    academicArticlesTfidf = tfidfPreprocess(academicArticleWordsText, ngramRange)
-    newsArticlesTfidf = tfidfPreprocess(newsArticleWordsText, ngramRange)
+    emailAlertsTfidf = tfidfPreprocess(emailAlertWordsText)
+    academicArticlesTfidf = tfidfPreprocess(academicArticleWordsText)
+    newsArticlesTfidf = tfidfPreprocess(newsArticleWordsText)
 
     # merge docs (each compilation of source text types) into a single corpus for TF-IDF
     documents = [emailAlertsTfidf, academicArticlesTfidf, newsArticlesTfidf]
@@ -79,12 +81,13 @@ def main():
     plt.tight_layout()
     plt.show()
 
+    # TO-DO: FIND TOP 50 OVERLAPPING?
     # PLOT OVERALL TOP <insert # here> WORDS (BASED ON TF-IDF SCORE) ACROSS ALL SOURCE TEXTS
     topWordsDf = tfidfDf.nlargest(topNumber, "TfidfValue")
     print(topWordsDf)
 
     # Set figure size
-    plt.figure(figsize=(14, 12))
+    plt.figure(figsize=(18, 12))
     palette = sns.color_palette("rocket", n_colors=tfidfDf["Document"].nunique())
 
     # Create the stacked barplot - as of now, will be skewed based on which source texts we have more text
@@ -108,7 +111,7 @@ def main():
     # Show plot
     plt.show()
 
-def tfidfPreprocess(text, ngramRange):
+def tfidfPreprocess(text):
     # remove punctuation, words that are <= 2 characters long
     # some 'words' pop up that are either abbreviations for things or were part of some numerical value unit and are therefore unnecessary
     noPunctuation = re.sub(r'[^\w\s]|\s\w{1,2}\s', '', text)
@@ -118,13 +121,15 @@ def tfidfPreprocess(text, ngramRange):
 
     # remove stop words + customized list of words that are common but unimportant for our purposes
     stopWords = set(stopwords.words('english'))
+    words = set(nltk.corpus.words.words())
+    names = set(nltk.corpus.names.words())
     #print("STOP WORDS")
-    stopWords = stopWords.union(['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 'monday', 'tuesday', 'wednesday', 'friday', 'copyright', 'also', 'that', 'hathaway', 'doug', 'biesecker'])
+    stopWords = stopWords.union(['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 'monday', 'tuesday', 'wednesday', 'friday', 'thats', 'said', 'also', 'copyright', 'one', 'two', 'three'])
     #print(stopWords)
 
     wordTokens = word_tokenize(noPunctuation)
     # only keep words that are not stop words; lemmatize each word during the process
-    filteredSentence = [wnl.lemmatize(w) for w in wordTokens if not w in stopWords]
+    filteredSentence = [wnl.lemmatize(w) for w in wordTokens if (not w in stopWords) and (w in words) and (not w in names)]
 
     # Join the filtered words to form a clean text
     cleanText = ' '.join(filteredSentence)
