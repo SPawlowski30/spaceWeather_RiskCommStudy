@@ -23,7 +23,7 @@ def main():
     newsArticleWordsText = newsArticleWords.read()
 
     # use 'ngramRange' to decide how many words to group together
-    ngramRange = 3
+    ngramRange = 2
     ngramVal = "" # word to be displayed in plots
 
     if(ngramRange == 1):
@@ -72,7 +72,7 @@ def main():
     for i, category in enumerate(documentNames):
         subset = tfidfDf[tfidfDf["Document"] == category].nlargest(topNumber, "TfidfValue")
         sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], palette="rocket", hue="Word", legend=False)
-        axes[i].set_title(f"Top {ngramVal} in {category}")
+        axes[i].set_title(f"Top {topNumber} {ngramVal} in {category}")
         axes[i].set_xlabel("TF-IDF Score")
         axes[i].set_ylabel("Words")
 
