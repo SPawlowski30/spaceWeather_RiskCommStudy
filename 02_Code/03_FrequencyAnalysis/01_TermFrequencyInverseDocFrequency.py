@@ -23,7 +23,7 @@ def main():
     newsArticleWordsText = newsArticleWords.read()
 
     # use 'ngramRange' to decide how many words to group together
-    ngramRange = 2
+    ngramRange = 1
     ngramVal = "" # word to be displayed in plots
 
     if(ngramRange == 1):
@@ -98,7 +98,7 @@ def main():
     )
 
     # Add legend
-    plt.legend(title="Document Category")
+    plt.legend(title="Source Text Type")
 
     # Labels and title
     plt.xlabel("TF-IDF Score")
