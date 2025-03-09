@@ -1,11 +1,16 @@
 import re
 import nltk
+import numpy as np
+
+from medium_src.src.a05_word_difficulty_ml import WordDifficultyML
 import pandas as pd
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+import matplotlib.cm as cm
 import seaborn as sns
 
 nltk.download('stopwords')
@@ -14,7 +19,6 @@ nltk.download('words')
 nltk.download('names')
 
 def main():
-    # open text files
     emailAlertWords = open("../01_Preprocessing/emailAlertWords.txt", "r")
     emailAlertWordsText = emailAlertWords.read()
 
@@ -25,7 +29,7 @@ def main():
     newsArticleWordsText = newsArticleWords.read()
 
     # use 'ngramRange' to decide how many words to group together
-    ngramRange = 3
+    ngramRange = 1
     ngramVal = "" # word to be displayed in plots
 
     if(ngramRange == 1):
@@ -37,11 +41,12 @@ def main():
     else:
         ngramVal = f"Groups of {ngramRange} Words"
 
-    # preprocessing specifically necessary for TF-IDF
-    emailAlertsTfidf = tfidfPreprocess(emailAlertWordsText)
-    academicArticlesTfidf = tfidfPreprocess(academicArticleWordsText)
-    newsArticlesTfidf = tfidfPreprocess(newsArticleWordsText)
+    # preprocessing specifically necessary for single word, bigram and trigram analysis
+    emailAlertsTfidf = wordAnalysisPreprocess(emailAlertWordsText)
+    academicArticlesTfidf = wordAnalysisPreprocess(academicArticleWordsText)
+    newsArticlesTfidf = wordAnalysisPreprocess(newsArticleWordsText)
 
+    # TF-IDF ANALYSIS
     # merge docs (each compilation of source text types) into a single corpus for TF-IDF
     documents = [emailAlertsTfidf, academicArticlesTfidf, newsArticlesTfidf]
     documentNames = ["Email Alerts", "Academic Articles", "News Articles"]
@@ -54,7 +59,7 @@ def main():
     coordinateMatrix = tfidfValues.tocoo()
 
     # create a df with each word's tf-idf value for each document type
-    tfidfDf = pd.DataFrame({
+    wordScoresDf = pd.DataFrame({
         "Document": [documentNames[doc] for doc in coordinateMatrix.row], # document name corresponding to index
         "Word": [featureNames[word] for word in coordinateMatrix.col],  # word corresponding to index
         "DocumentIndex": coordinateMatrix.row,
@@ -62,56 +67,116 @@ def main():
         "TfidfValue": coordinateMatrix.data
     })
 
-    print(tfidfDf)
-    tfidfDf.to_csv("tfidfScores.csv", index=False)
+    # PLOT TF-IDF DATA
+    topNumber = 60
 
+    # WORD DIFFICULTY ANALYSIS
+    # Source code: https://github.com/dusking/medium_src/tree/main/src
+    # Article source: https://python.plainenglish.io/estimating-word-difficulty-in-english-using-machine-learning-ml-5d366c0f0700
+    # less than .55 = easy, > .55 = hard
+    word_difficulty = WordDifficultyML()
+    word_difficulty.set_model()
+
+    wordScoresDf['WordDifficultyScore'] = wordScoresDf['Word'].apply(lambda x: word_difficulty.eval_word(x))
+    wordScoresDf['WordDifficulty'] = np.where(wordScoresDf['WordDifficultyScore'] < .55, "easy", "hard")
+
+    wordScoresDf.to_csv("wordScoresDf.csv", index=False)
+
+    # PLOT TF-IDF, WORD DIFFICULTY DATA
+    plotTopNumPerSourceTfidf(topNumber, ngramVal, wordScoresDf, documentNames)
+    plotAvgWordScores(wordScoresDf)
+    plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf)
+
+def plotTopNumPerSourceTfidf(topNumber, ngramVal, wordScoresDf, documentNames):
     # PLOT TOP <insert # here> WORDS (BASED ON TF-IDF SCORE) PER TYPE OF SOURCE TEXT
-    topNumber = 50
-
     sns.set_theme(style="whitegrid")
-    fig, axes = plt.subplots(1, 3, figsize=(18, 8), sharey=False)
+    fig, axes = plt.subplots(1, 3, figsize=(18, 10), sharey=False)
 
     for i, category in enumerate(documentNames):
-        subset = tfidfDf[tfidfDf["Document"] == category].nlargest(topNumber, "TfidfValue")
-        sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], palette="rocket", hue="Word", legend=False)
-        axes[i].set_title(f"Top {topNumber} {ngramVal} in {category}")
+        subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue").sort_values(by='WordDifficultyScore', ascending=True)
+        sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], palette="rocket_r", hue="WordDifficultyScore", legend=False)
+        axes[i].set_title(f"Top {topNumber} {ngramVal} (based on TF-IDF Score) in {category}")
         axes[i].set_xlabel("TF-IDF Score")
         axes[i].set_ylabel("Words")
+        fig.tight_layout()
 
-    plt.tight_layout()
+    # Create a colorbar legend
+    norm = mcolors.Normalize(vmin=wordScoresDf["WordDifficultyScore"].min(),
+                             vmax=wordScoresDf["WordDifficultyScore"].max())
+    sm = cm.ScalarMappable(cmap=sns.color_palette("rocket_r", as_cmap=True), norm=norm)
+    sm.set_array([])
+
+    # Add colorbar to the figure
+    cbar = fig.colorbar(sm, ax=axes, orientation='horizontal', fraction=0.03, pad=0.12)
+    cbar.set_label("Word Difficulty")
+    cbar.set_ticks([wordScoresDf["WordDifficultyScore"].min(), wordScoresDf["WordDifficultyScore"].max()])
+    cbar.set_ticklabels(["Easy", "Hard"])
+
+    plt.savefig("TopNumPerSourceTfidf.png", transparent=False)
     plt.show()
 
-    # TO-DO: FIND TOP 50 OVERLAPPING?
+def plotAvgWordScores(wordScoresDf):
     # PLOT OVERALL TOP <insert # here> WORDS (BASED ON TF-IDF SCORE) ACROSS ALL SOURCE TEXTS
-    topWordsDf = tfidfDf.nlargest(topNumber, "TfidfValue")
-    print(topWordsDf)
+    avgWordDifficultyDf = pd.DataFrame(wordScoresDf.groupby("Document")["WordDifficultyScore"].mean())
+    print(avgWordDifficultyDf)
 
     # Set figure size
     plt.figure(figsize=(18, 12))
-    palette = sns.color_palette("rocket", n_colors=tfidfDf["Document"].nunique())
+    palette = sns.color_palette("rocket", n_colors=wordScoresDf["Document"].nunique())
 
     # Create the stacked barplot - as of now, will be skewed based on which source texts we have more text
     sns.barplot(
-        data=topWordsDf,
-        x="TfidfValue",
-        y="Word",
+        data=avgWordDifficultyDf,
+        x="Document",
+        y="WordDifficultyScore",
         hue="Document",
-        dodge=False,
         palette=palette
     )
 
-    # Add legend
-    plt.legend(title="Source Text Type")
-
     # Labels and title
-    plt.xlabel("TF-IDF Score")
-    plt.ylabel("Word")
-    plt.title(f"Top 50 {ngramVal} by TF-IDF Score")
+    plt.xlabel("Source Text Type")
+    plt.ylabel("Word Difficulty Score")
+    plt.title(f"Average Word Difficulty by Source Text Type")
 
-    # Show plot
+    plt.savefig("AvgWordScores.png", transparent=False)
     plt.show()
 
-def tfidfPreprocess(text):
+def plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf):
+    fig, ax = plt.subplots(figsize=(18, 12))
+    cmap = sns.color_palette("rocket_r", as_cmap=True)
+
+    sns.barplot(
+        data=wordScoresDf.nlargest(topNumber, "TfidfValue").sort_values(by='WordDifficultyScore', ascending=True),
+        x="TfidfValue",
+        y="Word",
+        hue="WordDifficultyScore",
+        palette=cmap,
+        ax=ax
+    )
+
+    ax.set_xlabel("TF-IDF Score")
+    ax.set_ylabel("Word")
+    ax.set_title(f"Top {topNumber} {ngramVal} by TF-IDF Score")
+
+    # Remove the default legend
+    ax.legend([], [], frameon=False)
+
+    # Create a colorbar as a gradient legend
+    norm = mcolors.Normalize(vmin=wordScoresDf["WordDifficultyScore"].min(),
+                             vmax=wordScoresDf["WordDifficultyScore"].max())
+    sm = cm.ScalarMappable(cmap=cmap.reversed(), norm=norm)
+    sm.set_array([])
+
+    cbar = fig.colorbar(sm, ax=ax, orientation="vertical")
+    cbar.set_label("Word Difficulty")
+
+    cbar.set_ticks([wordScoresDf["WordDifficultyScore"].min(), wordScoresDf["WordDifficultyScore"].max()])
+    cbar.set_ticklabels(["Hard", "Easy"])
+
+    plt.savefig("OverallTopTfidf.png", transparent=False)
+    plt.show()
+
+def wordAnalysisPreprocess(text):
     # remove punctuation, words that are <= 2 characters long
     # some 'words' pop up that are either abbreviations for things or were part of some numerical value unit and are therefore unnecessary
     noPunctuation = re.sub(r'[^\w\s]|\s\w{1,2}\s', '', text)
@@ -123,9 +188,7 @@ def tfidfPreprocess(text):
     stopWords = set(stopwords.words('english'))
     words = set(nltk.corpus.words.words())
     names = set(nltk.corpus.names.words())
-    #print("STOP WORDS")
-    stopWords = stopWords.union(['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 'monday', 'tuesday', 'wednesday', 'friday', 'thats', 'said', 'also', 'copyright', 'one', 'two', 'three'])
-    #print(stopWords)
+    stopWords = stopWords.union(['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 'monday', 'tuesday', 'wednesday', 'friday', 'thats', 'said', 'also', 'copyright', 'one', 'two', 'three', 'would', 'within', 'yeah', 'dont'])
 
     wordTokens = word_tokenize(noPunctuation)
     # only keep words that are not stop words; lemmatize each word during the process
@@ -134,8 +197,5 @@ def tfidfPreprocess(text):
     # Join the filtered words to form a clean text
     cleanText = ' '.join(filteredSentence)
     return cleanText
-
-    #print(wordTokens)
-    #print(filteredSentence)
 
 main()
