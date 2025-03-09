@@ -11,10 +11,9 @@ data_list = []
 all_files = [f for f in os.listdir(folder_path) if f.endswith(".txt")]
 all_files.sort(key=lambda x: int(''.join(filter(str.isdigit, x.split('Q')[0]))))
 # Exclude the first three files
-files_to_process = all_files[3:]
 
 #Loop through the files to process
-for filename in files_to_process:
+for filename in all_files:
     file_path = os.path.join(folder_path, filename)
 
     # Read file content, starting from line 13
@@ -26,18 +25,21 @@ for filename in files_to_process:
 
     for line in lines_to_process:
         # Split line by whitespace (or another delimiter, adjust as needed)
-        values = line.strip().split()  # Use .split(',') for CSV-like files
-
+        line = line.replace("-", " ")  # Use .split(',') for CSV-like files
+        values = line.strip().split()
         # Add 'NA' for any missing values in the line
-        row = values + ['NA'] * (35 - len(values))
+        row = values + ['NA'] * (31 - len(values))
 
         # Append the row to the data list
         data_list.append(row)
 
 # Convert list to DataFrame (no column names specified)
 df = pd.DataFrame(data_list)
+df.drop(df.columns[3:22], axis=1, inplace=True)
+custom_headers = ["day", "month", "year", "00:00:00", "0300", "0600", "0900",
+                  "1200", "1500", "1800", "2100", "Buffer"]
+df.columns = custom_headers
 
-# Display the DataFrame
 print(df)
 output_csv = "kp_output_file.csv"  # Specify the name for the CSV file
 df.to_csv(output_csv, index=False)
