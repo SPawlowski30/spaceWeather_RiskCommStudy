@@ -2,7 +2,7 @@ import re
 import nltk
 import numpy as np
 
-from medium_src.src.a05_word_difficulty_ml import WordDifficultyML
+from wordDifficulty.src.a05_word_difficulty_ml import WordDifficultyML
 import pandas as pd
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
