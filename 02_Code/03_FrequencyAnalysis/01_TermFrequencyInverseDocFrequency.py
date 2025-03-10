@@ -90,27 +90,29 @@ def main():
 def plotTopNumPerSourceTfidf(topNumber, ngramVal, wordScoresDf, documentNames):
     # PLOT TOP <insert # here> WORDS (BASED ON TF-IDF SCORE) PER TYPE OF SOURCE TEXT
     sns.set_theme(style="whitegrid")
-    fig, axes = plt.subplots(1, 3, figsize=(18, 10), sharey=False)
+    fig, axes = plt.subplots(1, 3, figsize=(22, 10), sharey=False)
 
     for i, category in enumerate(documentNames):
-        subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue").sort_values(by='WordDifficultyScore', ascending=True)
-        sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], palette="rocket_r", hue="WordDifficultyScore", legend=False)
+        #subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue").sort_values(by='WordDifficultyScore', ascending=True)
+        #sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], palette="rocket_r", hue="WordDifficultyScore", legend=False)
+        subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue")
+        sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], color=sns.color_palette("rocket")[0], legend=False)
         axes[i].set_title(f"Top {topNumber} {ngramVal} (based on TF-IDF Score) in {category}")
         axes[i].set_xlabel("TF-IDF Score")
         axes[i].set_ylabel("Words")
         fig.tight_layout()
 
     # Create a colorbar legend
-    norm = mcolors.Normalize(vmin=wordScoresDf["WordDifficultyScore"].min(),
-                             vmax=wordScoresDf["WordDifficultyScore"].max())
-    sm = cm.ScalarMappable(cmap=sns.color_palette("rocket_r", as_cmap=True), norm=norm)
-    sm.set_array([])
-
-    # Add colorbar to the figure
-    cbar = fig.colorbar(sm, ax=axes, orientation='horizontal', fraction=0.03, pad=0.12)
-    cbar.set_label("Word Difficulty")
-    cbar.set_ticks([wordScoresDf["WordDifficultyScore"].min(), wordScoresDf["WordDifficultyScore"].max()])
-    cbar.set_ticklabels(["Easy", "Hard"])
+    # norm = mcolors.Normalize(vmin=wordScoresDf["WordDifficultyScore"].min(),
+    #                          vmax=wordScoresDf["WordDifficultyScore"].max())
+    # sm = cm.ScalarMappable(cmap=sns.color_palette("rocket_r", as_cmap=True), norm=norm)
+    # sm.set_array([])
+    #
+    # # Add colorbar to the figure
+    # cbar = fig.colorbar(sm, ax=axes, orientation='horizontal', fraction=0.03, pad=0.12)
+    # cbar.set_label("Word Difficulty")
+    # cbar.set_ticks([wordScoresDf["WordDifficultyScore"].min(), wordScoresDf["WordDifficultyScore"].max()])
+    # cbar.set_ticklabels(["Easy", "Hard"])
 
     plt.savefig("TopNumPerSourceTfidf.png", transparent=False)
     plt.show()
@@ -146,11 +148,13 @@ def plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf):
     cmap = sns.color_palette("rocket_r", as_cmap=True)
 
     sns.barplot(
-        data=wordScoresDf.nlargest(topNumber, "TfidfValue").sort_values(by='WordDifficultyScore', ascending=True),
+        #data=wordScoresDf.nlargest(topNumber, "TfidfValue").sort_values(by='WordDifficultyScore', ascending=True),
+        data=wordScoresDf.nlargest(topNumber, "TfidfValue"),
         x="TfidfValue",
         y="Word",
-        hue="WordDifficultyScore",
-        palette=cmap,
+        #hue="WordDifficultyScore",
+        #palette=cmap,
+        color = sns.color_palette("rocket")[1],
         ax=ax
     )
 
@@ -162,16 +166,16 @@ def plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf):
     ax.legend([], [], frameon=False)
 
     # Create a colorbar as a gradient legend
-    norm = mcolors.Normalize(vmin=wordScoresDf["WordDifficultyScore"].min(),
-                             vmax=wordScoresDf["WordDifficultyScore"].max())
-    sm = cm.ScalarMappable(cmap=cmap.reversed(), norm=norm)
-    sm.set_array([])
-
-    cbar = fig.colorbar(sm, ax=ax, orientation="vertical")
-    cbar.set_label("Word Difficulty")
-
-    cbar.set_ticks([wordScoresDf["WordDifficultyScore"].min(), wordScoresDf["WordDifficultyScore"].max()])
-    cbar.set_ticklabels(["Hard", "Easy"])
+    # norm = mcolors.Normalize(vmin=wordScoresDf["WordDifficultyScore"].min(),
+    #                          vmax=wordScoresDf["WordDifficultyScore"].max())
+    # sm = cm.ScalarMappable(cmap=cmap.reversed(), norm=norm)
+    # sm.set_array([])
+    #
+    # cbar = fig.colorbar(sm, ax=ax, orientation="vertical")
+    # cbar.set_label("Word Difficulty")
+    #
+    # cbar.set_ticks([wordScoresDf["WordDifficultyScore"].min(), wordScoresDf["WordDifficultyScore"].max()])
+    # cbar.set_ticklabels(["Hard", "Easy"])
 
     plt.savefig("OverallTopTfidf.png", transparent=False)
     plt.show()
@@ -188,7 +192,7 @@ def wordAnalysisPreprocess(text):
     stopWords = set(stopwords.words('english'))
     words = set(nltk.corpus.words.words())
     names = set(nltk.corpus.names.words())
-    stopWords = stopWords.union(['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 'monday', 'tuesday', 'wednesday', 'friday', 'thats', 'said', 'also', 'copyright', 'one', 'two', 'three', 'would', 'within', 'yeah', 'dont'])
+    stopWords = stopWords.union(['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 'monday', 'tuesday', 'wednesday', 'friday', 'thats', 'said', 'also', 'copyright', 'one', 'two', 'three', 'would', 'within', 'yeah', 'dont', 'go'])
 
     wordTokens = word_tokenize(noPunctuation)
     # only keep words that are not stop words; lemmatize each word during the process
