@@ -26,7 +26,7 @@ def main():
     # combine all text into one variable, vertically combine all dfs
     emailAlertWords = removePunctuation(" ".join([threeDayForecastClean, alertsWarningsWatchClean, forecastDiscussionClean, solarGeophysicalActivityClean, weeklyClean]))
     emailAlertSentences = pd.concat([threeDayForecastDf, alertsWarningsWatchDf, forecastDiscussionDf, solarGeophysicalActivityDf, weeklyDf])
-    emailAlertSentences = emailAlertSentences['Sentence'].apply(removePunctuation)
+    emailAlertSentences['Sentence'] = pd.DataFrame(emailAlertSentences['Sentence'].apply(removePunctuation))
 
     # export .txt and .csv files for email alerts
     print("Exporting text and csv files for email alerts...")
@@ -46,7 +46,7 @@ def main():
     # combine all text into one variable, vertically combine all dfs
     academicArticleWords = removePunctuation(" ".join([spaceWeatherOpsResearchClean, spaceWeatherEffectsSatellitesMdpiClean]))
     academicArticleSentences = pd.concat([spaceWeatherOpsResearchSentences, spaceWeatherEffectsSatellitesMdpiSentences])
-    academicArticleSentences = academicArticleSentences['Sentence'].apply(removePunctuation)
+    academicArticleSentences['Sentence'] = academicArticleSentences['Sentence'].apply(removePunctuation)
 
     # export .txt and .csv files for academic articles
     print("Exporting text and csv files for academic articles...")
@@ -102,7 +102,7 @@ def main():
     # combine all text into one variable, vertically combine all dfs
     newsArticleWords = " ".join([mitArticleClean, nasaArticleClean, nprPlanesPowerGridsArticleClean, nprSolarStormArticleClean, bbcNorthernLightsArticleClean, astronomyEnsembleForecastingArticleClean, astronomySolarStormsArticleClean, astronomySevereSpaceWeatherArticleClean, cnnSolarStormGpsArticleClean, cnnSatelliteArticleClean, foxSpaceWeatherSatellitesArticleClean])
     newsArticleSentences = pd.concat([mitArticleSentences, nasaArticleSentences, nprPlanesPowerGridsArticleSentences, nprSolarStormArticleSentences, nprNorthernLightsArticleSentences, astronomyEnsembleForecastingArticleSentences, astronomySolarStormsArticleSentences, astronomySevereSpaceWeatherArticleSentences, cnnSolarStormGpsArticleSentences, cnnSatelliteArticleSentences, foxSpaceWeatherSatellitesArticleSentences])
-    newsArticleSentences = newsArticleSentences['Sentence'].apply(removePunctuation)
+    newsArticleSentences['Sentence'] = newsArticleSentences['Sentence'].apply(removePunctuation)
 
     # export .txt and .csv files for academic articles
     print("Exporting text and csv files for news articles...")
