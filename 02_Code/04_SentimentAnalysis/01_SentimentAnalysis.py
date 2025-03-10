@@ -2,6 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from transformers import pipeline
 
+sentimentPipeline = pipeline("sentiment-analysis", model="ProsusAI/finbert") # allows for global use of pipeline
+
 def main():
     emailAlertSentences = pd.read_csv("../01_Preprocessing/emailAlertSentences.csv")
     academicArticleSentences = pd.read_csv("../01_Preprocessing/academicArticleSentences.csv")
@@ -16,8 +18,6 @@ def main():
 
 def analyzeSentiment(sentence):
     # Load pre-trained sentiment analysis pipeline
-    sentimentPipeline = pipeline("sentiment-analysis", model ="ProsusAI/finbert")
-
     result = sentimentPipeline(sentence)[0]
     print(result)
     return pd.Series([result['label'], result['score']])

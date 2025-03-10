@@ -38,45 +38,13 @@ def main():
     documents = [emailAlertsTfidf, academicArticlesTfidf, newsArticlesTfidf]
     documentNames = ["Email Alerts", "Academic Articles", "News Articles"]
 
-    tfidf = TfidfVectorizer(ngram_range=(ngramRange, ngramRange))
-    tfidfValues = tfidf.fit_transform(documents)
-    featureNames = tfidf.get_feature_names_out()
-
-    # convert matrix to coordinate format
-    coordinateMatrix = tfidfValues.tocoo()
-
-    # create a df with each word's tf-idf value for each document type
-    wordScoresDf = pd.DataFrame({
-        "Document": [documentNames[doc] for doc in coordinateMatrix.row], # document name corresponding to index
-        "Word": [featureNames[word] for word in coordinateMatrix.col],  # word corresponding to index
-        "DocumentIndex": coordinateMatrix.row,
-        "WordIndex": coordinateMatrix.col,
-        "TfidfValue": coordinateMatrix.data
-    })
-
-    # PLOT TF-IDF DATA
-
-    # WORD DIFFICULTY ANALYSIS
-    # Source code: https://github.com/dusking/medium_src/tree/main/src
-    # Article source: https://python.plainenglish.io/estimating-word-difficulty-in-english-using-machine-learning-ml-5d366c0f0700
-    # less than .55 = easy, > .55 = hard
-    word_difficulty = WordDifficultyML()
-    word_difficulty.set_model()
-
-    wordScoresDf['WordDifficultyScore'] = wordScoresDf['Word'].apply(lambda x: word_difficulty.eval_word(x))
-    wordScoresDf['WordDifficulty'] = np.where(wordScoresDf['WordDifficultyScore'] < .55, "easy", "hard")
-
-    wordScoresDf.to_csv("wordScoresDf.csv", index=False)
-
-    # PLOT TF-IDF, WORD DIFFICULTY DATA
     # use 'ngramRange' to decide how many words to group together
     ngramRange = 1
-    ngramVal = "Words" # word to be displayed in plots
+    ngramVal = ""  # word to be displayed in plots
 
-    plotAvgWordScores(wordScoresDf)
-    plotOverallTopTfidf(60, ngramVal, wordScoresDf)
     for i in range(1, 4):
         ngramRange = i
+
         if (ngramRange == 1):
             ngramVal = "Words"
         elif (ngramRange == 2):
@@ -86,39 +54,73 @@ def main():
         else:
             ngramVal = f"Groups of {ngramRange} Words"
 
-        plotTopNumPerSourceTfidf(20, ngramVal, wordScoresDf, documentNames)
+        tfidf = TfidfVectorizer(ngram_range=(ngramRange, ngramRange))
+        tfidfValues = tfidf.fit_transform(documents)
+        featureNames = tfidf.get_feature_names_out()
 
-def plotTopNumPerSourceTfidf(topNumber, ngramVal, wordScoresDf, documentNames):
+        # convert matrix to coordinate format
+        coordinateMatrix = tfidfValues.tocoo()
+
+        # create a df with each word's tf-idf value for each document type
+        wordScoresDf = pd.DataFrame({
+            "Document": [documentNames[doc] for doc in coordinateMatrix.row], # document name corresponding to index
+            "Word": [featureNames[word] for word in coordinateMatrix.col],  # word corresponding to index
+            "DocumentIndex": coordinateMatrix.row,
+            "WordIndex": coordinateMatrix.col,
+            "TfidfValue": coordinateMatrix.data
+        })
+
+        # PLOT TF-IDF DATA
+
+        # WORD DIFFICULTY ANALYSIS
+        # Source code: https://github.com/dusking/medium_src/tree/main/src
+        # Article source: https://python.plainenglish.io/estimating-word-difficulty-in-english-using-machine-learning-ml-5d366c0f0700
+        # less than .55 = easy, > .55 = hard
+        if (ngramRange == 1):
+            word_difficulty = WordDifficultyML()
+            word_difficulty.set_model()
+
+            wordScoresDf['WordDifficultyScore'] = wordScoresDf['Word'].apply(lambda x: word_difficulty.eval_word(x))
+            wordScoresDf['WordDifficulty'] = np.where(wordScoresDf['WordDifficultyScore'] < .55, "easy", "hard")
+
+        wordScoresDf.to_csv(f"{ngramRange}_wordScoresDf.csv", index=False)
+
+        # PLOT TF-IDF, WORD DIFFICULTY DATA
+        if (ngramRange == 1):
+            plotAvgWordScores(wordScoresDf)
+            plotOverallTopTfidf(60, ngramVal, wordScoresDf)
+
+        plotTopNumPerSourceTfidf(20, ngramRange, ngramVal, wordScoresDf, documentNames)
+
+def plotTopNumPerSourceTfidf(topNumber, ngramRange, ngramVal, wordScoresDf, documentNames):
     # PLOT TOP <insert # here> WORDS (BASED ON TF-IDF SCORE) PER TYPE OF SOURCE TEXT
     sns.set_theme(style="whitegrid")
     fig, axes = plt.subplots(1, 3, figsize=(22, 10), sharey=False)
 
     for i, category in enumerate(documentNames):
-        if(ngramVal == "Words"):
-            subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue").sort_values(by='WordDifficultyScore', ascending=True)
-            sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], palette="rocket_r", hue="WordDifficultyScore", legend=False)
-        else:
-            subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue")
-            sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], color=sns.color_palette("rocket")[i], legend=False)
+        #subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue").sort_values(by='WordDifficultyScore', ascending=True)
+        #sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], palette="rocket_r", hue="WordDifficultyScore", legend=False)
+        subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue")
+        sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], color=sns.color_palette("rocket")[i], legend=False)
         axes[i].set_title(f"Top {topNumber} {ngramVal} (based on TF-IDF Score) in {category}")
         axes[i].set_xlabel("TF-IDF Score")
         axes[i].set_ylabel("Words")
         fig.tight_layout()
 
-    if(ngramVal == "Words"):
-        # Create a colorbar legend
-        norm = mcolors.Normalize(vmin=wordScoresDf["WordDifficultyScore"].min(),
-                                 vmax=wordScoresDf["WordDifficultyScore"].max())
-        sm = cm.ScalarMappable(cmap=sns.color_palette("rocket_r", as_cmap=True), norm=norm)
-        sm.set_array([])
+    # if(ngramVal == "Words"):
+    #     # Create a colorbar legend
+    #     norm = mcolors.Normalize(vmin=wordScoresDf["WordDifficultyScore"].min(),
+    #                              vmax=wordScoresDf["WordDifficultyScore"].max())
+    #     sm = cm.ScalarMappable(cmap=sns.color_palette("rocket_r", as_cmap=True), norm=norm)
+    #     sm.set_array([])
+    #
+    #     # Add colorbar to the figure
+    #     cbar = fig.colorbar(sm, ax=axes, orientation='horizontal', fraction=0.03, pad=0.12)
+    #     cbar.set_label("Word Difficulty")
+    #     cbar.set_ticks([wordScoresDf["WordDifficultyScore"].min(), wordScoresDf["WordDifficultyScore"].max()])
+    #     cbar.set_ticklabels(["Easy", "Hard"])
 
-        # Add colorbar to the figure
-        cbar = fig.colorbar(sm, ax=axes, orientation='horizontal', fraction=0.03, pad=0.12)
-        cbar.set_label("Word Difficulty")
-        cbar.set_ticks([wordScoresDf["WordDifficultyScore"].min(), wordScoresDf["WordDifficultyScore"].max()])
-        cbar.set_ticklabels(["Easy", "Hard"])
-
-    plt.savefig("TopNumPerSourceTfidf.png", transparent=False)
+    plt.savefig(f"{ngramRange}_TopNumPerSourceTfidf.png", transparent=False)
     plt.show()
 
 def plotAvgWordScores(wordScoresDf):
