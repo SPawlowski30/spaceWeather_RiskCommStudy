@@ -94,7 +94,7 @@ df["Kp_Sum"] = df[columns_to_check].sum(axis=1)
 
 # Apply classification based on the sum
 df["Kp_Class"] = df["Kp_Sum"].apply(
-    lambda x: 0 if 0 < x < 5 else
+    lambda x: 0 if 0 <= x < 5 else
               (1 if x < 6 else
                (2 if x < 7 else
                 (3 if x < 8 else
@@ -105,6 +105,8 @@ df["Kp_Class"] = df["Kp_Sum"].apply(
 def flare_class(level):
     # Ensure the value is a string before applying string methods
     if isinstance(level, str):
+        if level.startswith("C"):
+            return 0  # If flare starts with "C", return 0
         # Check if the level starts with 'M'
         if level.startswith("M"):
             number_part = level[1:]
