@@ -4,75 +4,105 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-file_path = "/Users/sarahpawlowski/Documents/spaceWeather_RiskCommStudy/01_Data/QuantitativeData/merged_df.csv"
+file_path = ("/Users/sarahpawlowski/Documents/spaceWeather_RiskCommStudy/01_Data/QuantitativeData/max_merged_df.csv")
+
 df = pd.read_csv(file_path)
-#df0 = df.iloc[:140]
-df1 = df.iloc[141:232]
-df2 = df.iloc[233:275]
-df3 = df.iloc[275:]
-
-df1 = df1[df1['Date_Info'].astype(str).str.isnumeric()]
-df1['Date_Info']= pd.to_datetime(df1['Date_Info'].astype(str), format='%Y%m%d%H%M', errors='coerce')
-df1['Date_Number'] = pd.to_datetime(df1['Date_Number'].astype(str), format='%Y%m%d%H%M')
-df1['Time_Difference'] = df1['Date_Number'] - df1['Date_Info']
-
-# Extract days, hours, and minutes separately
-df1['Days'] = df1['Time_Difference'].dt.days
-df1['Hours'] = df1['Time_Difference'].dt.seconds // 3600
-df1['Minutes'] = (df1['Time_Difference'].dt.seconds % 3600) // 60
-
-# Optionally, create a formatted string column
-df1['Formatted_Diff'] = df1.apply(lambda x: f"{x['Days']} days {x['Hours']} hrs {x['Minutes']} min", axis=1)
-
-# Display the resulting dataframe
-print(df1[['Date_Info', 'Date_Number', 'Days', 'Hours', 'Minutes', 'Formatted_Diff']])
 
 
+def convert_to_datetime(df, column):
+    df_copy = df.copy()
+    df_copy = df_copy.dropna(subset=[column])
+    df_copy[column] = df_copy[column].astype(float).astype(int)
 
-"""
-df2 = df2[df2['Date_Info'].astype(str).str.isnumeric()]
-df2['Date_Info']= pd.to_datetime(df2['Date_Info'].astype(str), format='%Y%m%d%H%M', errors='coerce')
-df2['Date_Number'] = pd.to_datetime(df2['Date_Number'].astype(str), format='%Y%m%d%H%M')
+    # Convert the integers to datetime format (YYYYMMDDHHMM)
+    df_copy[column] = pd.to_datetime(df_copy[column].astype(str), format='%Y%m%d%H%M', errors='coerce')
+    return df_copy
 
-df3 = df3[df3['Date_Info'].astype(str).str.isnumeric()]
-df3['Date_Info']= pd.to_datetime(df3['Date_Info'].astype(str), format='%Y%m%d%H%M', errors='coerce')
-df3['Date_Number'] = pd.to_datetime(df3['Date_Number'].astype(str), format='%Y%m%d%H%M')
+df_copy = convert_to_datetime(df, "Flare_Date_Number")
+df_copy = convert_to_datetime(df_copy, "Begin_Date_Number")
+df_copy = convert_to_datetime(df_copy, "Max_Date_Number")
+
+# Check the converted columns
+print(df_copy[['Flare_Date_Number', 'Begin_Date_Number']].head())
+
+
+def subtract_as_integers(df, column1, column2):
+    df_copy = df.copy()
+    df_copy = df_copy.dropna(subset=[column1, column2])
+    time_diff = df_copy[column1] - df_copy[column2]
+
+    # Calculate days, hours, and minutes
+    df_copy['Days'] = time_diff.dt.days
+    df_copy['Hours'] = time_diff.dt.seconds // 3600
+    df_copy['Minutes'] = (time_diff.dt.seconds % 3600) // 60
+
+    # Combine the time difference into a single column in minutes
+    df_copy['TotalMinutes'] = df_copy['Days'] * 1440 + df_copy['Hours'] * 60 + df_copy['Minutes']
+
+    # Print the results
+    print("\nTime differences (in days, hours, and minutes) between 'Flare_Date_Number' and 'Begin_Date_Number':")
+    print(df_copy[['Flare_Date_Number', 'Begin_Date_Number', 'Days', 'Hours', 'Minutes', 'TotalMinutes']])
+
+    return df_copy
+
+
+# Perform the subtraction and calculate the total time difference in minutes
+df_copy = subtract_as_integers(df_copy, "Begin_Date_Number", "Flare_Date_Number")
+
+min_time = -5760
+max_time = 5760
+
+filtered_data = df_copy['TotalMinutes'].dropna()
+filtered_data = filtered_data[(filtered_data >= min_time) & (filtered_data <= max_time)]
 
 plt.figure(figsize=(10, 6))
-plt.scatter(df1['Date_Info'], df1['Flare_Class'], label='Flares', color='red', alpha=0.5)
-plt.scatter(df1['Date_Number'], df1['Proton_class'], label='SEP event', color='green', alpha=0.5)
-plt.scatter(df1['Date_Number'], df1['Kp_Class'], label='Kp_index', color='blue', alpha=0.5)
-plt.xlabel('Year')
-plt.ylabel('Index')
-plt.title('Three Space Weather Warning Metrics vs. Time (1994-2008)')
-plt.xticks(rotation=45)
-plt.legend()
-plt.tight_layout()
+plt.hist(filtered_data, bins=30, color='skyblue', edgecolor='black')
+
+# Set the x-axis limits to match the filtered range
+plt.xlim(min_time, max_time)
+plt.yscale('log')
+plt.title("Histogram of Time Differences in Minutes(±3 Days)")
+plt.xlabel("Time Difference (in minutes)")
+plt.ylabel("Frequency (log scale)")
+plt.grid(True)
 plt.show()
 
-# Create the second plot for df2 (233-275 rows)
+df_copy = subtract_as_integers(df_copy, "Max_Date_Number", "Flare_Date_Number")
+
+min_time = -5760
+max_time = 5760
+
+filtered_data = df_copy['TotalMinutes'].dropna()
+filtered_data = filtered_data[(filtered_data >= min_time) & (filtered_data <= max_time)]
+
 plt.figure(figsize=(10, 6))
-plt.scatter(df2['Date_Info'], df2['Flare_Class'], label='Flares', color='red', alpha=0.5)
-plt.scatter(df2['Date_Number'], df2['Proton_class'], label='SEP event', color='blue', alpha=0.5)
-plt.scatter(df2['Date_Number'], df2['Kp_Class'], label='Kp_index', color='green', alpha=0.5)
-plt.xlabel('Year')
-plt.ylabel('Index')
-plt.title('Three Space Weather Warning Metrics vs. Time (2008-2019)')
-plt.xticks(rotation=45)
-plt.legend()
-plt.tight_layout()
+plt.hist(filtered_data, bins=30, color='skyblue', edgecolor='black')
+
+# Set the x-axis limits to match the filtered range
+plt.xlim(min_time, max_time)
+plt.yscale('log')
+plt.title("Histogram of Time Differences in Minutes(±3 Days)")
+plt.xlabel("Time Difference (in minutes)")
+plt.ylabel("Frequency (log scale)")
+plt.grid(True)
 plt.show()
 
-# Create the third plot for df3 (275 and onwards)
+df_copy = subtract_as_integers(df_copy, "Max_Date_Number", "Begin_Date_Number")
+
+min_time = -5760
+max_time = 5760
+
+filtered_data = df_copy['TotalMinutes'].dropna()
+filtered_data = filtered_data[(filtered_data >= min_time) & (filtered_data <= max_time)]
+
 plt.figure(figsize=(10, 6))
-plt.scatter(df3['Date_Info'], df3['Flare_Class'], label='Flares', color='red', alpha=0.5)
-plt.scatter(df3['Date_Number'], df3['Proton_class'], label='SEP event', color='blue', alpha=0.5)
-plt.scatter(df3['Date_Number'], df3['Kp_Class'], label='Kp_index', color='green', alpha=0.5)
-plt.xlabel('Year')
-plt.ylabel('Index')
-plt.title('Three Space Weather Warning Metrics vs. Time (2008-2019)')
-plt.xticks(rotation=45)
-plt.legend()
-plt.tight_layout()
+plt.hist(filtered_data, bins=30, color='skyblue', edgecolor='black')
+
+# Set the x-axis limits to match the filtered range
+plt.xlim(min_time, max_time)
+plt.yscale('log')
+plt.title("Histogram of Time Differences in Minutes(±3 Days)")
+plt.xlabel("Time Difference (in minutes)")
+plt.ylabel("Frequency (log scale)")
+plt.grid(True)
 plt.show()
-"""
