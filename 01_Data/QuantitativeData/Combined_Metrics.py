@@ -38,24 +38,44 @@ df_Max = merged_df.apply(adjust_time_columns, axis=1, time_columns=time_columns,
 print(df_Begin)
 print(df_Max)
 
+#df_Max["Flare_Date_Number"] = df_Max["Flare_Date_Number"].astype(int)
+#df_Begin["Flare_Date_Number"] = df_Begin["Flare_Date_Number"].astype(int)
+#df_Max["Max_Date_Number"] = df_Max["Max_Date_Number"].astype(int)
+#df_Begin["Flare_Date_Number"] = df_Begin["Flare_Date_Number"].astype(int)
+# Ensure Begin_Time is a string before applying str.zfill
 
-"""
-df["Time"] = df["Time"].astype(str).str.strip().str.zfill(4)
-df["Date_Number"] = df["Date_Number"].astype(str) + df["Time"]
+def classify_kp(df, columns_to_check):
+
+    # Convert columns to numeric, coercing errors to NaN
+    df[columns_to_check] = df[columns_to_check].apply(pd.to_numeric, errors='coerce')
+
+    # Compute the sum
+    df["Kp_Sum"] = df[columns_to_check].sum(axis=1)
+
+    # Apply classification based on the sum
+    def kp_classification(x):
+        if 0 <= x < 5:
+            return 0
+        elif x < 6:
+            return 1
+        elif x < 7:
+            return 2
+        elif x < 8:
+            return 3
+        elif x < 9:
+            return 4
+        elif x == 9:
+            return 5
+        return None  # Handle cases where x is NaN or outside expected range
+
+    df["Kp_Class"] = df["Kp_Sum"].apply(kp_classification)
+
+    return df
 
 columns_to_check = ["0000", "0300", "0600", "0900", "1200", "1500", "1800", "2100"]
-df[columns_to_check] = df[columns_to_check].apply(pd.to_numeric, errors='coerce')
-df["Kp_Sum"] = df[columns_to_check].sum(axis=1)
 
-# Apply classification based on the sum
-df["Kp_Class"] = df["Kp_Sum"].apply(
-    lambda x: 0 if 0 <= x < 5 else
-              (1 if x < 6 else
-               (2 if x < 7 else
-                (3 if x < 8 else
-                 (4 if x < 9 else
-                  (5 if x == 9 else None)))))
-)
+df_Max = classify_kp(df_Max, columns_to_check)
+df_Begin = classify_kp(df_Begin, columns_to_check)
 
 def flare_class(level):
     # Ensure the value is a string before applying string methods
@@ -93,7 +113,9 @@ def flare_class(level):
     return None
 
 # Apply the function to the Flare_Level column to create the Flare_Class column
-df['Flare_Class'] = df['Flare_Level'].apply(flare_class)
+df_Max['Flare_Class'] = df_Max['Flare_Level'].apply(flare_class)
+df_Begin['Flare_Class'] = df_Begin['Flare_Level'].apply(flare_class)
+
 
 def proton_class(value):
     # Check if the value is an integer or float and handle it appropriately
@@ -109,16 +131,22 @@ def proton_class(value):
         elif value >= 100000:
             return 5
     return None
-df['Proton_class'] = df['>10MeV_Max(pfu)'].apply(proton_class)
 
+df_Max['Proton_class'] = df_Max['>10MeV_Max(pfu)'].apply(proton_class)
+df_Begin['Proton_class'] = df_Begin['>10MeV_Max(pfu)'].apply(proton_class)
 
-"""
-# Save the modified dataframe to a new CSV file
+df_Max["Begin_Time"] = df_Max["Begin_Time"].astype(str)
+df_Begin["Begin_Time"] = df_Begin["Begin_Time"].astype(str)
+df_Max["Date_Number"] = df_Max["Date_Number"].astype(str)
+df_Begin["Date_Number"] = df_Begin["Date_Number"].astype(str)
+df_Max["Begin_Date_Number"] = df_Max["Date_Number"] + df_Max["Begin_Time"].str.zfill(4)
+df_Begin["Begin_Date_Number"] = df_Begin["Date_Number"] + df_Begin["Begin_Time"].str.zfill(4)
+df_Max["Begin_Date_Number"] = df_Max["Begin_Date_Number"].astype(int)
+df_Begin["Begin_Date_Number"] = df_Begin["Begin_Date_Number"].astype(int)
+df_Max.insert(1, "Begin_Date_Number", df_Max.pop("Begin_Date_Number"))
+df_Begin.insert(1, "Begin_Date_Number", df_Begin.pop("Begin_Date_Number"))
+
 df_Max.to_csv('max_merged_df.csv', index=False)
 df_Begin.to_csv('begin_merged_df.csv', index=False)
-#print(df.columns)
 
-
-# Display the updated dataframe
-#print(df)
 
