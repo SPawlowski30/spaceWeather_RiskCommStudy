@@ -6,12 +6,12 @@ df2 = df2.iloc[:, 3:]
 # Merge the two dataframes on the "Date_Number" column
 merged_df = pd.merge(df1, df2, on="Date_Number", how="left")
 
-def adjust_time_columns(row):
-    time = row['Time']  # Replace with your actual time column name
-    time_columns = ['0000', '0300', '0600', '0900', '1200', '1500', '1800', '2100']
+def adjust_time_columns(row, time_columns, time_column_name):
+    time_str = row[time_column_name]
+    if pd.isna(time_str):
+        return row
 
-    # Convert the time to an integer value (e.g., 1300 -> 1300, 1530 -> 1530)
-    current_time = int(time)  # Assuming 'Time' is in HH:MM format
+    current_time = int(time_str)
 
     # Find the closest time match
     closest_time = None
@@ -32,59 +32,12 @@ def adjust_time_columns(row):
     return row
 
 # Apply the function to each row in the dataframe
-df = merged_df.apply(adjust_time_columns, axis=1)
+time_columns = ['0000', '0300', '0600', '0900', '1200', '1500', '1800', '2100']
+df_Begin = merged_df.apply(adjust_time_columns, axis=1, time_columns=time_columns, time_column_name='Begin_Time')
+df_Max = merged_df.apply(adjust_time_columns, axis=1, time_columns=time_columns, time_column_name='Max_Time')
+print(df_Begin)
+print(df_Max)
 
-df[">10MeV_Max(pfu)"] = df[">10MeV_Max(pfu)"].str.replace(",", "").astype(int)
-df = df.drop(columns=['Region', 'Location', 'Type_II_Radio_Emission', 'Type_IV', 'Linear_Speed', 'Imagery/Misc'])
-
-#df['Time_Max'] = df['Flare_Max(UTC)'].str[-4:]  # Extract the last 4 digits (time)
-#df['Date_Info'] = df['Flare_Max(UTC)'].str[:-4]  # Extract everything before the last 4 digits (date/info)
-#df = df.drop(columns=['Flare_Max(UTC)'])
-
-
-#df.iloc[286,6] = "M1.7"
-#df.iloc[287,6] = "M1.6"
-#df.iloc[290,6] = "M5"
-#df.iloc[291,6] = "M4"
-#df.iloc[292,6] = "M1"
-#df.iloc[293,6] = "X1"
-#df.iloc[294,6] = "M1"
-#df.iloc[298,6] = "X3.3"
-#df.iloc[301,6] = "X3.9"
-#df.iloc[302,6] = "X5.8"
-#df.iloc[303,6] = "M9.7"
-#df.iloc[305,6] = "M1.0"
-#df.iloc[306,6] = "C9.6"
-#df.iloc[307,6] = "X1.8"
-#df.iloc[308,6] = "X1.8"
-#df.iloc[310,6] = "C7.6"
-#df.iloc[311,6] = "M3.9"
-#df.iloc[286,17] = "04/21"
-#df.iloc[287,17] = "05/07"
-#df.iloc[290,17] = "07/18"
-#df.iloc[291,17] = "05/09"
-#df.iloc[292,17] = "08/05"
-#df.iloc[293,17] = "08/07"
-#df.iloc[294,17] = "09/01"
-#df.iloc[298,17] = "02/09"
-#df.iloc[301,17] = "05/10"
-#df.iloc[302,17] = "05/11"
-#df.iloc[303,17] = "06/08"
-#df.iloc[305,17] = "09/09"
-#df.iloc[306,17] = "09/16"
-#df.iloc[307,17] = "10/09"
-#df.iloc[308,17] = "10/26"
-#df.iloc[310,17] = "01/04"
-#df.iloc[311,17] = "02/24"
-#df.iloc[288,17] = "05/09"
-
-#df['Date_Info'] = df['Date_Info'].str[-5:]
-#df['Date_Info'] = df['Date_Info'].str.replace("/", "")
-#df["Date_Info"] = df["Date_Info"].astype(str).str.strip()
-#df["Date_Info"] = df["Date_Info"].str.zfill(4)
-#df['Date_Info'] = df['Year'].astype(str) + df['Date_Info']
-#df["Time_Max"] = df["Time_Max"].astype(str).str.strip().str.zfill(4)  # Ensure 4 digits
-#df["Date_Info"] = df["Date_Info"] + df["Time_Max"]
 
 """
 df["Time"] = df["Time"].astype(str).str.strip().str.zfill(4)
@@ -161,10 +114,11 @@ df['Proton_class'] = df['>10MeV_Max(pfu)'].apply(proton_class)
 
 """
 # Save the modified dataframe to a new CSV file
-df.to_csv('merged_df.csv', index=False)
-print(df.columns)
+df_Max.to_csv('max_merged_df.csv', index=False)
+df_Begin.to_csv('begin_merged_df.csv', index=False)
+#print(df.columns)
 
 
 # Display the updated dataframe
-print(df)
+#print(df)
 
