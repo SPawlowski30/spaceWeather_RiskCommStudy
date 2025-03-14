@@ -19,11 +19,11 @@ nltk.download('words')
 nltk.download('names')
 
 def main():
-    emailAlertWords = open("../01_Preprocessing/emailAlertWords.txt", "r")
-    emailAlertWordsText = emailAlertWords.read()
-
     academicArticleWords = open("../01_Preprocessing/academicArticleWords.txt", "r")
     academicArticleWordsText = academicArticleWords.read()
+
+    emailAlertWords = open("../01_Preprocessing/emailAlertWords.txt", "r")
+    emailAlertWordsText = emailAlertWords.read()
 
     newsArticleWords = open("../01_Preprocessing/newsArticleWords.txt", "r")
     newsArticleWordsText = newsArticleWords.read()
@@ -35,8 +35,8 @@ def main():
 
     # TF-IDF ANALYSIS
     # merge docs (each compilation of source text types) into a single corpus for TF-IDF
-    documents = [emailAlertsTfidf, academicArticlesTfidf, newsArticlesTfidf]
-    documentNames = ["Email Alerts", "Academic Articles", "News Articles"]
+    documents = [academicArticlesTfidf, emailAlertsTfidf, newsArticlesTfidf]
+    documentNames = ["Academic Articles", "Email Alerts", "News Articles"]
 
     # use 'ngramRange' to decide how many words to group together
     ngramRange = 1
@@ -46,7 +46,7 @@ def main():
         ngramRange = i
 
         if (ngramRange == 1):
-            ngramVal = "Words"
+            ngramVal = "Unigrams"
         elif (ngramRange == 2):
             ngramVal = "Bigrams"
         elif (ngramRange == 3):
@@ -96,29 +96,16 @@ def plotTopNumPerSourceTfidf(topNumber, ngramRange, ngramVal, wordScoresDf, docu
     # PLOT TOP <insert # here> WORDS (BASED ON TF-IDF SCORE) PER TYPE OF SOURCE TEXT
     sns.set_theme(style="whitegrid")
     fig, axes = plt.subplots(1, 3, figsize=(22, 10), sharey=False)
+    palette = sns.color_palette("flare", n_colors=wordScoresDf["Document"].nunique())
 
     for i, category in enumerate(documentNames):
-        #subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue").sort_values(by='WordDifficultyScore', ascending=True)
-        #sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], palette="rocket_r", hue="WordDifficultyScore", legend=False)
-        subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue")
-        sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], color=sns.color_palette("rocket")[i], legend=False)
+        subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue").sort_values(by="Document", ascending=True).sort_values(by='TfidfValue', ascending=False)
+        sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], color=palette[i], legend=False)
+        axes[i].set_xlim(0, wordScoresDf["TfidfValue"].max() * 1.1)
         axes[i].set_title(f"Top {topNumber} {ngramVal} (based on TF-IDF Score) in {category}")
         axes[i].set_xlabel("TF-IDF Score")
         axes[i].set_ylabel("Words")
         fig.tight_layout()
-
-    # if(ngramVal == "Words"):
-    #     # Create a colorbar legend
-    #     norm = mcolors.Normalize(vmin=wordScoresDf["WordDifficultyScore"].min(),
-    #                              vmax=wordScoresDf["WordDifficultyScore"].max())
-    #     sm = cm.ScalarMappable(cmap=sns.color_palette("rocket_r", as_cmap=True), norm=norm)
-    #     sm.set_array([])
-    #
-    #     # Add colorbar to the figure
-    #     cbar = fig.colorbar(sm, ax=axes, orientation='horizontal', fraction=0.03, pad=0.12)
-    #     cbar.set_label("Word Difficulty")
-    #     cbar.set_ticks([wordScoresDf["WordDifficultyScore"].min(), wordScoresDf["WordDifficultyScore"].max()])
-    #     cbar.set_ticklabels(["Easy", "Hard"])
 
     plt.savefig(f"{ngramRange}_TopNumPerSourceTfidf.png", transparent=False)
     plt.show()
@@ -130,7 +117,7 @@ def plotAvgWordScores(wordScoresDf):
 
     # Set figure size
     plt.figure(figsize=(18, 12))
-    palette = sns.color_palette("rocket", n_colors=wordScoresDf["Document"].nunique())
+    palette = sns.color_palette("flare", n_colors=wordScoresDf["Document"].nunique())
 
     # Create the stacked barplot - as of now, will be skewed based on which source texts we have more text
     sns.barplot(
@@ -151,7 +138,7 @@ def plotAvgWordScores(wordScoresDf):
 
 def plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf):
     fig, ax = plt.subplots(figsize=(18, 12))
-    cmap = sns.color_palette("rocket_r", as_cmap=True)
+    cmap = sns.color_palette("flare", as_cmap=True)
 
     sns.barplot(
         data=wordScoresDf.nlargest(topNumber, "TfidfValue").sort_values(by='WordDifficultyScore', ascending=True),
@@ -159,7 +146,7 @@ def plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf):
         y="Word",
         hue="WordDifficultyScore",
         palette=cmap,
-        color = sns.color_palette("rocket")[1],
+        #color = sns.color_palette("flare_r"),
         ax=ax,
         errorbar=None
     )
