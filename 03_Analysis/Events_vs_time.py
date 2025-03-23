@@ -2,6 +2,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 file_path = ("/Users/sarahpawlowski/Documents/spaceWeather_RiskCommStudy/01_Data/QuantitativeData/max_merged_df.csv")
@@ -69,20 +70,27 @@ plt.show()
 
 df_copy = subtract_as_integers(df_copy, "Max_Date_Number", "Flare_Date_Number")
 
-min_time = -5760
-max_time = 5760
+min_time = 0
+max_time = 8640
 
 filtered_data = df_copy['TotalMinutes'].dropna()
 filtered_data = filtered_data[(filtered_data >= min_time) & (filtered_data <= max_time)]
 
 plt.figure(figsize=(10, 6))
-plt.hist(filtered_data, bins=30, color='skyblue', edgecolor='black')
+plt.hist(filtered_data, bins=30, color='#b53158', edgecolor='white')
 
 # Set the x-axis limits to match the filtered range
 plt.xlim(min_time, max_time)
 plt.yscale('log')
-plt.title("Histogram of Time Differences in Minutes(±3 Days)")
-plt.xlabel("Time Difference (in minutes)")
+
+minutes_in_day = 1440
+ticks = np.arange(min_time // minutes_in_day * minutes_in_day, max_time, minutes_in_day)
+
+# Add custom tick marks and labels
+plt.xticks(ticks, [f"Day {i}" for i in range(len(ticks))])
+
+plt.title("Time Differences in Days Between Solar Flare and Maximum of SPE")
+plt.xlabel("Time Difference")
 plt.ylabel("Frequency (log scale)")
 plt.grid(True)
 plt.show()

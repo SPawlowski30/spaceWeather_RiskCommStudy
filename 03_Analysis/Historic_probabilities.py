@@ -20,12 +20,12 @@ bins = np.arange(0, 7)
 counts, bin_edges = np.histogram(k_index_values, bins=bins)
 
 color_map = {
-    0: 'lightgreen',
-    1: 'yellow',
-    2: 'gold',
-    3: 'orange',
-    4: 'red',
-    5: 'darkred'
+    0: '#92d051', #light green
+    1: '#f6eb13', #yellow
+    2: '#ffc800', #light orange
+    3: '#ff9600', #dark orange
+    4: '#ff0000', #red
+    5: '#c70100'  #dark red
 }
 
 #Bar graph kp_index_begin
@@ -34,10 +34,10 @@ bar_centers = bin_edges[:-1] + 0.5
 plt.bar(bin_edges[:-1], counts, width=np.diff(bin_edges), color=colors, edgecolor='black', align='edge')
 plt.xticks(bar_centers, labels=np.arange(0, 6))
 
-plt.xlabel('Geomagnetic Storm Warning')
+plt.xlabel('Level 0-5')
 plt.ylabel('Count')
-plt.suptitle('Geomagnetic Storm Warning Bar Graph')
-plt.title("1994 - Present Day")
+plt.suptitle('(G) Geomagnetic Storm Warning Bar Graph')
+plt.title("1994 - Present Day, Level Associated with Beginning of Proton Event")
 plt.show()
 
 #Pie_plot kp_index_begin
@@ -51,7 +51,8 @@ wedges, texts = plt.pie(sizes, labels=labels, colors=colors, startangle=140, wed
 
 percentages = [f'{size / sum(sizes) * 100:.1f}%' for size in sizes]
 plt.legend(wedges, [f'{label}: {perc}' for label, perc in zip(labels, percentages)], title="Kp Class", loc="center left", bbox_to_anchor=(0.95, 0.5))
-plt.title('Geomagnetic Storm Warning Pie Plot')
+plt.suptitle('(G) Geomagnetic Storm Warning Level Proportions')
+plt.title("Level Associated with Beginning of Proton Event")
 plt.show()
 
 #Bar graph kp_index_max
@@ -61,10 +62,10 @@ bar_centers = bin_edges[:-1] + 0.5
 plt.bar(bin_edges[:-1], counts, width=np.diff(bin_edges), color=colors, edgecolor='black', align='edge')
 plt.xticks(bar_centers, labels=np.arange(0, 6))
 
-plt.xlabel('Geomagnetic Storm Warning')
+plt.xlabel('Level 0-5')
 plt.ylabel('Count')
-plt.suptitle('Geomagnetic Storm Warning Bar Graph Max')
-plt.title("1994 - Present Day")
+plt.suptitle('(G) Geomagnetic Storm Warning Bar Graph')
+plt.title("1994 - Present Day, Level Associated with Maximum of Proton Event")
 plt.show()
 
 #Pie_plot kp_index_begin
@@ -78,7 +79,8 @@ wedges, texts = plt.pie(sizes, labels=labels, colors=colors, startangle=140, wed
 
 percentages = [f'{size / sum(sizes) * 100:.1f}%' for size in sizes]
 plt.legend(wedges, [f'{label}: {perc}' for label, perc in zip(labels, percentages)], title="Kp Class", loc="center left", bbox_to_anchor=(0.95, 0.5))
-plt.title('Geomagnetic Storm Warning Pie Plot Max')
+plt.suptitle('Geomagnetic Storm Warning Level Proportions')
+plt.title("Level Associated with Maximum of Proton Event")
 plt.show()
 
 #Flare_class
@@ -91,9 +93,9 @@ bar_centers = bin_edges[:-1] + 0.5
 plt.bar(bin_edges[:-1], counts, width=np.diff(bin_edges), color=colors, edgecolor='black', align='edge')
 plt.xticks(bar_centers, labels=np.arange(0, 6))
 
-plt.xlabel('Radio Blackout Warning Level')
+plt.xlabel('Level 0-5')
 plt.ylabel('Count')
-plt.suptitle('Radio Blackout Warning Bar Graph')
+plt.suptitle('(R) Radio Blackout Warning Bar Graph')
 plt.title("1976 - Present Day")
 plt.show()
 
@@ -109,7 +111,7 @@ wedges, texts = plt.pie(sizes, labels=labels, colors=colors, startangle=140, wed
 
 percentages = [f'{size / sum(sizes) * 100:.1f}%' for size in sizes]
 plt.legend(wedges, [f'{label}: {perc}' for label, perc in zip(labels, percentages)], title="Flare Class", loc="center left", bbox_to_anchor=(0.93, 0.5))
-plt.title('Radio Blackout Warning Pie Plot')
+plt.title('(R) Radio Blackout Warning Level Proportions')
 plt.show()
 
 #Proton_Class
@@ -122,9 +124,9 @@ bar_centers = bin_edges[:-1] + 0.5
 plt.bar(bin_edges[:-1], counts, width=np.diff(bin_edges), color=colors, edgecolor='black', align='edge')
 plt.xticks(bar_centers, labels=np.arange(0, 6))
 
-plt.xlabel('Solar Radiation Storm Warning Level')
+plt.xlabel('Level 0-5')
 plt.ylabel('Count')
-plt.suptitle('Solar Radiation Warning Bar Graph')
+plt.suptitle('(S) Solar Radiation Storm Warning Bar Graph')
 plt.title("1976 - Present Day")
 plt.show()
 
@@ -139,7 +141,7 @@ wedges, texts = plt.pie(sizes, labels=labels, colors=colors, startangle=140, wed
 
 percentages = [f'{size / sum(sizes) * 100:.1f}%' for size in sizes]
 plt.legend(wedges, [f'{label}: {perc}' for label, perc in zip(labels, percentages)], title="Flare Class", loc="center left", bbox_to_anchor=(0.93, 0.5))
-plt.title('Solar Radiation Storm Warning Pie Plot')
+plt.title('(S) Solar Radiation Storm Warning Level Proportions')
 plt.show()
 
 max_value = df["Flare_Class"].max()
