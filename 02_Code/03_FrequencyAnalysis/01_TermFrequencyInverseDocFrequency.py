@@ -34,6 +34,7 @@ def main():
     newsArticlesTfidf = wordAnalysisPreprocess(newsArticleWordsText)
 
     # TF-IDF ANALYSIS
+    plt.rcParams.update({'font.size': 16})
     # merge docs (each compilation of source text types) into a single corpus for TF-IDF
     documents = [academicArticlesTfidf, emailAlertsTfidf, newsArticlesTfidf]
     documentNames = ["Academic Articles", "Email Alerts", "News Articles"]
@@ -95,18 +96,18 @@ def main():
 def plotTopNumPerSourceTfidf(topNumber, ngramRange, ngramVal, wordScoresDf, documentNames):
     # PLOT TOP <insert # here> WORDS (BASED ON TF-IDF SCORE) PER TYPE OF SOURCE TEXT
     sns.set_theme(style="whitegrid")
-    fig, axes = plt.subplots(1, 3, figsize=(22, 10), sharey=False)
+    fig, axes = plt.subplots(1, 3, figsize=(32, 10), sharey=False)
     palette = sns.color_palette("flare", n_colors=wordScoresDf["Document"].nunique())
 
     for i, category in enumerate(documentNames):
         subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue").sort_values(by="Document", ascending=True).sort_values(by='TfidfValue', ascending=False)
         sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], color=palette[i], legend=False)
-        axes[i].set_xlim(0, wordScoresDf["TfidfValue"].max() * 1.1)
-        axes[i].set_title(f"Top {topNumber} {ngramVal} (based on TF-IDF Score) in {category}")
-        axes[i].set_xlabel("TF-IDF Score")
-        axes[i].set_ylabel("Words")
+        axes[i].set_xlim(0, wordScoresDf["TfidfValue"].max() * 1.01)
+        axes[i].set_title(f"Top {topNumber} {ngramVal} (based on TF-IDF Score) in {category}", fontsize=16)
+        axes[i].set_xlabel("TF-IDF Score", fontsize=16)
+        axes[i].set_ylabel("Words", fontsize=16)
+        axes[i].tick_params(axis='y', labelsize=16)
         fig.tight_layout()
-
     plt.savefig(f"{ngramRange}_TopNumPerSourceTfidf.png", transparent=False)
     plt.show()
 
@@ -137,7 +138,7 @@ def plotAvgWordScores(wordScoresDf):
     plt.show()
 
 def plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf):
-    fig, ax = plt.subplots(figsize=(18, 12))
+    fig, ax = plt.subplots(figsize=(18, 16))
     cmap = sns.color_palette("flare", as_cmap=True)
 
     sns.barplot(
@@ -151,9 +152,9 @@ def plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf):
         errorbar=None
     )
 
-    ax.set_xlabel("TF-IDF Score")
-    ax.set_ylabel("Word")
-    ax.set_title(f"Top {topNumber} {ngramVal} by TF-IDF Score")
+    ax.set_xlabel("TF-IDF Score", fontsize=16)
+    ax.set_ylabel("Word", fontsize=16)
+    ax.set_title(f"Top {topNumber} {ngramVal} by TF-IDF Score", fontsize=16)
 
     # Remove the default legend
     ax.legend([], [], frameon=False)
@@ -168,7 +169,7 @@ def plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf):
     cbar.set_label("Word Difficulty")
 
     cbar.set_ticks([wordScoresDf["WordDifficultyScore"].min(), wordScoresDf["WordDifficultyScore"].max()])
-    cbar.set_ticklabels(["Hard", "Easy"])
+    cbar.set_ticklabels(["Hard", "Easy"], fontsize=16)
 
     plt.savefig("OverallTopTfidf.png", transparent=False)
     plt.show()
