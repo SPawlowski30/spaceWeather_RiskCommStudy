@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.graph_objects as go
 
-file_path = "/Users/sarahpawlowski/Documents/spaceWeather_RiskCommStudy/01_Data/QuantitativeData/max_merged_df.csv"
+file_path = "../01_Data/QuantitativeData/max_merged_df.csv"
 df = pd.read_csv(file_path)
 df = df.iloc[141:]
 

@@ -41,7 +41,7 @@ reshaped_df["Date_Number"] = (
     reshaped_df["Begin_Day"].str.zfill(2)
 )
 
-#getting time for max of SEP event
+#getting time for max of SPE event
 split_max_time = reshaped_df["Max_Time(UTC)"].str.split(" ", n=1, expand=True)
 max_year = split_max_time[0]  # Extract year
 max_month_day_time = split_max_time[1].str.split(" ", n=1, expand=True)

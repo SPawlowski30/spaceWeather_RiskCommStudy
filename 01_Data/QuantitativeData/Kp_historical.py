@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Define folder path
-folder_path = "/Users/sarahpawlowski/Documents/spaceWeather_RiskCommStudy/01_Data/QuantitativeData/Kp_Data"
+folder_path = "../QuantitativeData/Kp_Data"
 
 # List to store extracted data
 data_list = []

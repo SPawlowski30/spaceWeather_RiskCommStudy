@@ -4,10 +4,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-file_path2 = "/Users/sarahpawlowski/Documents/spaceWeather_RiskCommStudy/01_Data/QuantitativeData/max_merged_df.csv"
-file_path = "/Users/sarahpawlowski/Documents/spaceWeather_RiskCommStudy/01_Data/QuantitativeData/begin_merged_df.csv"
-df = pd.read_csv(file_path)
-df2 = pd.read_csv(file_path2)
+file_path2 = "../01_Data/QuantitativeData/max_merged_df.csv"
+file_path = "../01_Data/QuantitativeData/begin_merged_df.csv"
+df = pd.read_csv(file_path) # begin
+df2 = pd.read_csv(file_path2) # max
 print(df.head())
 
 df_subset = df.iloc[141:]
