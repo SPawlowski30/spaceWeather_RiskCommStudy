@@ -1,7 +1,10 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("SPE_Events_NOAA.csv", header=None)
+"""
+This script reads in the unformatted historic SPE events and creates a csv of the formatted data
+"""
+df = pd.read_csv("../../01_Data/QuantitativeData/Historic_Data/SPE_Events_NOAA.csv", header=None)
 
 reshaped_array = df.values.flatten().reshape(-1, 10)
 

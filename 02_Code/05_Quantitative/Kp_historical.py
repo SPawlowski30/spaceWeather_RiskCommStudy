@@ -1,8 +1,13 @@
 import os
 import pandas as pd
 
+"""
+This script combs through historical K-index data and outputs a csv with the data and the planetary 
+k-indices for that day
+"""
+
 # Define folder path
-folder_path = "../QuantitativeData/Kp_Data"
+folder_path = "../../01_Data/QuantitativeData//Historic_Data/Kp_Data"
 
 # List to store extracted data
 data_list = []
@@ -121,6 +126,6 @@ df_combined = pd.concat([df_first_three, df], ignore_index=True)
 # Print the combined DataFrame to check the results
 print(df_combined)
 
-# If you want, save the combined DataFrame to a CSV file
+
 output_csv_combined = "kp_output_file.csv"  # Specify the name for the combined CSV file
 df_combined.to_csv(output_csv_combined, index=False)

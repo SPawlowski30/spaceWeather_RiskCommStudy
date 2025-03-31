@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-file_path = ("../01_Data/QuantitativeData/max_merged_df.csv")
+file_path = ("../01_Data/QuantitativeData/Outputs/max_merged_df.csv")
 
 df = pd.read_csv(file_path)
 
