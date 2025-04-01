@@ -49,13 +49,15 @@ print(df_Max)
 #df_Begin["Flare_Date_Number"] = df_Begin["Flare_Date_Number"].astype(int)
 # Ensure Begin_Time is a string before applying str.zfill
 
-def classify_kp(df, columns_to_check):
+#The code in between the #-------# are the functions used to compute the warning levels
+#----------------------------------------------------------------------------------------------#
+def classify_kp(df, columns_to_check): #This will have to be handled slightly differently on dashboard
 
     # Convert columns to numeric, coercing errors to NaN
     df[columns_to_check] = df[columns_to_check].apply(pd.to_numeric, errors='coerce')
 
     # Compute the sum
-    df["Kp_Sum"] = df[columns_to_check].sum(axis=1)
+    df["Kp_Sum"] = df[columns_to_check].sum(axis=1) #no need to sum for dashboard, this is a product of how the csv was organized
 
     # Apply classification based on the sum
     def kp_classification(x):
@@ -136,7 +138,7 @@ def proton_class(value):
         elif value >= 100000:
             return 5
     return None
-
+#-------------------------------------------------------------------------------------------------#
 df_Max['Proton_class'] = df_Max['>10MeV_Max(pfu)'].apply(proton_class)
 df_Begin['Proton_class'] = df_Begin['>10MeV_Max(pfu)'].apply(proton_class)
 
