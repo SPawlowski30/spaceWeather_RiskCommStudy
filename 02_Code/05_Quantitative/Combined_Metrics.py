@@ -51,6 +51,7 @@ print(df_Max)
 
 #The code in between the #-------# are the functions used to compute the warning levels
 #----------------------------------------------------------------------------------------------#
+# for finding G warning level applies to k-index
 def classify_kp(df, columns_to_check): #This will have to be handled slightly differently on dashboard
 
     # Convert columns to numeric, coercing errors to NaN
@@ -84,6 +85,7 @@ columns_to_check = ["0000", "0300", "0600", "0900", "1200", "1500", "1800", "210
 df_Max = classify_kp(df_Max, columns_to_check)
 df_Begin = classify_kp(df_Begin, columns_to_check)
 
+#R warning applied to flare levels, this strategy will not work for dashboard, need to use numeric thresholds instead
 def flare_class(level):
     # Ensure the value is a string before applying string methods
     if isinstance(level, str):
@@ -124,6 +126,7 @@ df_Max['Flare_Class'] = df_Max['Flare_Level'].apply(flare_class)
 df_Begin['Flare_Class'] = df_Begin['Flare_Level'].apply(flare_class)
 
 
+#S warnings applies to proton data, should work the exact same on dashboard
 def proton_class(value):
     # Check if the value is an integer or float and handle it appropriately
     if isinstance(value, (int, float)):
