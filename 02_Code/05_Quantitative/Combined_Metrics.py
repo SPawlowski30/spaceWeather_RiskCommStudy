@@ -125,6 +125,20 @@ def flare_class(level):
 df_Max['Flare_Class'] = df_Max['Flare_Level'].apply(flare_class)
 df_Begin['Flare_Class'] = df_Begin['Flare_Level'].apply(flare_class)
 
+#For R warning, use this one for the real time data
+def flare_class_numeric(value):
+    if isinstance(value, (int, float)):
+        if (10**-5) <= value < 5*(10**-5):
+            return 1
+        elif 5*(10**-5) <= value < (10**-4):
+            return 2
+        elif (10**-4) <= value < (10**-3):
+            return 3
+        elif (10**-3) <= value < (2*(10**-3)):
+            return 4
+        elif value>= (2*(10**-3)):
+            return 5
+    return None
 
 #S warnings applies to proton data, should work the exact same on dashboard
 def proton_class(value):
