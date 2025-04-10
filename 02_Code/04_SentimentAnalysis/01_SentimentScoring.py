@@ -7,15 +7,18 @@ def main():
     emailAlertSentences = pd.read_csv("../01_Preprocessing/emailAlertSentences.csv").dropna()
     academicArticleSentences = pd.read_csv("../01_Preprocessing/academicArticleSentences.csv").dropna()
     newsArticleSentences = pd.read_csv("../01_Preprocessing/newsArticleSentences.csv").dropna()
+    dashboardSentences = pd.read_csv("../01_Preprocessing/dashboardSentences.csv").dropna()
 
     # Apply sentiment analysis function to each sentence
     emailAlertSentences[['SentimentLabel', 'SentimentScore']] = emailAlertSentences['Sentence'].apply(analyzeSentiment)
     academicArticleSentences[['SentimentLabel', 'SentimentScore']] = academicArticleSentences['Sentence'].apply(analyzeSentiment)
     newsArticleSentences[['SentimentLabel', 'SentimentScore']] = newsArticleSentences['Sentence'].apply(analyzeSentiment)
+    dashboardSentences[['SentimentLabel', 'SentimentScore']] = dashboardSentences['Sentence'].apply(analyzeSentiment)
 
     emailAlertSentences.to_csv("emailAlertSentimentScores.csv", index=False)
     academicArticleSentences.to_csv("academicArticleSentimentScores.csv", index=False)
     newsArticleSentences.to_csv("newsArticleSentimentScores.csv", index=False)
+    dashboardSentences.to_csv("dashboardSentimentScores.csv", index=False)
 
 def analyzeSentiment(sentence):
     print("sentence: ", sentence)

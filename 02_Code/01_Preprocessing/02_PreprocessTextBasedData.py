@@ -100,16 +100,28 @@ def main():
     foxSpaceWeatherSatellitesArticleSentences = splitSentencesToDataFrame(foxSpaceWeatherSatellitesArticleClean,"FoxSpaceWeatherSatellitesNews", "newsArticle")
 
     # combine all text into one variable, vertically combine all dfs
-    newsArticleWords = " ".join([mitArticleClean, nasaArticleClean, nprPlanesPowerGridsArticleClean, nprSolarStormArticleClean, bbcNorthernLightsArticleClean, astronomyEnsembleForecastingArticleClean, astronomySolarStormsArticleClean, astronomySevereSpaceWeatherArticleClean, cnnSolarStormGpsArticleClean, cnnSatelliteArticleClean, foxSpaceWeatherSatellitesArticleClean])
+    newsArticleWords = removePunctuation(" ".join([mitArticleClean, nasaArticleClean, nprPlanesPowerGridsArticleClean, nprSolarStormArticleClean, bbcNorthernLightsArticleClean, astronomyEnsembleForecastingArticleClean, astronomySolarStormsArticleClean, astronomySevereSpaceWeatherArticleClean, cnnSolarStormGpsArticleClean, cnnSatelliteArticleClean, foxSpaceWeatherSatellitesArticleClean]))
     newsArticleSentences = pd.concat([mitArticleSentences, nasaArticleSentences, nprPlanesPowerGridsArticleSentences, nprSolarStormArticleSentences, nprNorthernLightsArticleSentences, astronomyEnsembleForecastingArticleSentences, astronomySolarStormsArticleSentences, astronomySevereSpaceWeatherArticleSentences, cnnSolarStormGpsArticleSentences, cnnSatelliteArticleSentences, foxSpaceWeatherSatellitesArticleSentences])
     newsArticleSentences['Sentence'] = newsArticleSentences['Sentence'].apply(removePunctuation)
 
-    # export .txt and .csv files for academic articles
+    # export .txt and .csv files for news articles
     print("Exporting text and csv files for news articles...")
     with open('newsArticleWords.txt', 'w') as f:
         f.write(newsArticleWords)
     newsArticleSentences.to_csv("newsArticleSentences.csv", index=False)
-    # TO-DO: remove items in parentheses? lots of citations in some of these...
+
+    # DASHBOARD MESSAGES
+    dashboardMessages = pd.read_csv("../../01_Data/TextBasedData/Dashboard_Language.csv")
+    dashboardText = " ".join(dashboardMessages['Combined_Message'].dropna())
+    dashboardTextClean = standardPreprocess(dashboardText)
+    dashboardSentences = splitSentencesToDataFrame(dashboardTextClean, "CombinedMessages", "dashboardMessages")
+    dashboardTextNoPunctuation = removePunctuation(dashboardTextClean)
+    dashboardSentences['Sentence'] = dashboardSentences['Sentence'].apply(removePunctuation)
+    print("Exporting text and csv files for dashboard messages...")
+    with open('dashboardWords.txt', 'w') as f:
+        f.write(dashboardTextNoPunctuation)
+    dashboardSentences.to_csv("dashboardSentences.csv", index=False)
+
     # also some words end up getting meshed together...ex: "workshopcopyright" - should we remove words not in the english language?
 
 def removePunctuation(text):

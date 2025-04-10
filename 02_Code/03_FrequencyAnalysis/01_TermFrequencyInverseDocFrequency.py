@@ -28,15 +28,19 @@ def main():
     newsArticleWords = open("../01_Preprocessing/newsArticleWords.txt", "r")
     newsArticleWordsText = newsArticleWords.read()
 
+    dashboardWords = open("../01_Preprocessing/dashboardWords.txt", "r")
+    dashboardWordsText = dashboardWords.read()
+
     # preprocessing specifically necessary for single word, bigram and trigram analysis
-    emailAlertsTfidf = wordAnalysisPreprocess(emailAlertWordsText)
-    academicArticlesTfidf = wordAnalysisPreprocess(academicArticleWordsText)
-    newsArticlesTfidf = wordAnalysisPreprocess(newsArticleWordsText)
+    emailAlertsClean = wordAnalysisPreprocess(emailAlertWordsText)
+    academicArticlesClean = wordAnalysisPreprocess(academicArticleWordsText)
+    newsArticlesClean = wordAnalysisPreprocess(newsArticleWordsText)
+    dashboardClean = wordAnalysisPreprocess(dashboardWordsText)
 
     # TF-IDF ANALYSIS
-    plt.rcParams.update({'font.size': 16})
+    plt.rcParams.update({'font.size': 24})
     # merge docs (each compilation of source text types) into a single corpus for TF-IDF
-    documents = [academicArticlesTfidf, emailAlertsTfidf, newsArticlesTfidf]
+    documents = [academicArticlesClean, emailAlertsClean, newsArticlesClean]
     documentNames = ["Academic Articles", "Email Alerts", "News Articles"]
 
     # use 'ngramRange' to decide how many words to group together
@@ -63,15 +67,13 @@ def main():
         coordinateMatrix = tfidfValues.tocoo()
 
         # create a df with each word's tf-idf value for each document type
-        wordScoresDf = pd.DataFrame({
+        tfidfDf = pd.DataFrame({
             "Document": [documentNames[doc] for doc in coordinateMatrix.row], # document name corresponding to index
-            "Word": [featureNames[word] for word in coordinateMatrix.col],  # word corresponding to index
+            "Word": [featureNames[word] for word in coordinateMatrix.col], # word corresponding to index
             "DocumentIndex": coordinateMatrix.row,
             "WordIndex": coordinateMatrix.col,
             "TfidfValue": coordinateMatrix.data
         })
-
-        # PLOT TF-IDF DATA
 
         # WORD DIFFICULTY ANALYSIS
         # Source code: https://github.com/dusking/medium_src/tree/main/src
@@ -81,40 +83,61 @@ def main():
             word_difficulty = WordDifficultyML()
             word_difficulty.set_model()
 
-            wordScoresDf['WordDifficultyScore'] = wordScoresDf['Word'].apply(lambda x: word_difficulty.eval_word(x))
-            wordScoresDf['WordDifficulty'] = np.where(wordScoresDf['WordDifficultyScore'] < .55, "easy", "hard")
+            # word difficulty for TFIDF
+            tfidfDf['WordDifficultyScore'] = tfidfDf['Word'].apply(lambda x: word_difficulty.eval_word(x))
+            tfidfDf['WordDifficulty'] = np.where(tfidfDf['WordDifficultyScore'] < .55, "easy", "hard")
 
-        wordScoresDf.to_csv(f"{ngramRange}_wordScoresDf.csv", index=False)
+            # Generate word difficulty DFs
+            academicArticlesWordDifficulty = scoreWordDifficulty("Academic Articles", academicArticlesClean, word_difficulty)
+            emailWordDifficulty = scoreWordDifficulty("Email Alerts", emailAlertsClean, word_difficulty)
+            newsWordDifficulty = scoreWordDifficulty("News Articles", newsArticlesClean, word_difficulty)
+            dashboardWordDifficulty = scoreWordDifficulty("Dashboard", dashboardClean, word_difficulty)
 
-        # PLOT TF-IDF, WORD DIFFICULTY DATA
-        if (ngramRange == 1):
-            plotAvgWordScores(wordScoresDf)
-            plotOverallTopTfidf(60, ngramVal, wordScoresDf)
+            # Combine for difficulty plot
+            wordDifficultyDf = pd.concat([academicArticlesWordDifficulty, emailWordDifficulty, newsWordDifficulty, dashboardWordDifficulty], ignore_index=True)
+            wordDifficultyDf.to_csv(f"wordDifficultyDf.csv", index=False)
 
-        plotTopNumPerSourceTfidf(20, ngramRange, ngramVal, wordScoresDf, documentNames)
+            plotAvgWordScores(wordDifficultyDf)
+            print("TEST TFIDF")
+            print(tfidfDf)
+            plotOverallTopTfidf(60, ngramVal, tfidfDf)
+
+        tfidfDf.to_csv(f"{ngramRange}_tfidfDf.csv", index=False)
+        plotTopNumPerSourceTfidf(20, ngramRange, ngramVal, tfidfDf, documentNames)
+
+        palette = sns.color_palette("flare")
+        print("Color Palette for Flare")
+        print(palette.as_hex())
+
+def scoreWordDifficulty(sourceTextName, text, wordDifficultyAnalyzer):
+    tokens = text.split()
+    df = pd.DataFrame({"Document": sourceTextName, "Word": tokens})
+    df["WordDifficultyScore"] = df["Word"].apply(lambda x: wordDifficultyAnalyzer.eval_word(x))
+    df["WordDifficulty"] = np.where(df["WordDifficultyScore"] < .55, "easy", "hard")
+    return df
 
 def plotTopNumPerSourceTfidf(topNumber, ngramRange, ngramVal, wordScoresDf, documentNames):
     # PLOT TOP <insert # here> WORDS (BASED ON TF-IDF SCORE) PER TYPE OF SOURCE TEXT
     sns.set_theme(style="whitegrid")
-    fig, axes = plt.subplots(1, 3, figsize=(32, 10), sharey=False)
+    fig, axes = plt.subplots(1, 3, figsize=(50, 10), sharey=False)
     palette = sns.color_palette("flare", n_colors=wordScoresDf["Document"].nunique())
 
     for i, category in enumerate(documentNames):
         subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue").sort_values(by="Document", ascending=True).sort_values(by='TfidfValue', ascending=False)
-        sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], color=palette[i], legend=False)
+        sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], color=palette[i], legend=False, alpha=1, saturation=1)
         axes[i].set_xlim(0, wordScoresDf["TfidfValue"].max() * 1.01)
-        axes[i].set_title(f"Top {topNumber} {ngramVal} (based on TF-IDF Score) in {category}", fontsize=16)
-        axes[i].set_xlabel("TF-IDF Score", fontsize=16)
-        axes[i].set_ylabel("Words", fontsize=16)
-        axes[i].tick_params(axis='y', labelsize=16)
+        axes[i].set_title(f"Top {topNumber} {ngramVal} (based on TF-IDF Score) in {category}", fontsize=24)
+        axes[i].set_xlabel("TF-IDF Score", fontsize=24)
+        axes[i].set_ylabel("Words", fontsize=24)
+        axes[i].tick_params(axis='y', labelsize=24)
+        axes[i].tick_params(axis='x', labelsize=24)
         fig.tight_layout()
     plt.savefig(f"{ngramRange}_TopNumPerSourceTfidf.png", transparent=False)
     plt.show()
 
 def plotAvgWordScores(wordScoresDf):
     # PLOT OVERALL TOP <insert # here> WORDS (BASED ON TF-IDF SCORE) ACROSS ALL SOURCE TEXTS
-    avgWordDifficultyDf = pd.DataFrame(wordScoresDf.groupby("Document")["WordDifficultyScore"].mean())
-    print(avgWordDifficultyDf)
+    avgWordDifficultyDf = pd.DataFrame(wordScoresDf.groupby("Document", as_index=False)["WordDifficultyScore"].mean().sort_values(by="WordDifficultyScore", ascending=False))
 
     # Set figure size
     plt.figure(figsize=(18, 12))
@@ -126,7 +149,8 @@ def plotAvgWordScores(wordScoresDf):
         x="Document",
         y="WordDifficultyScore",
         hue="Document",
-        palette=palette
+        palette=palette,
+        saturation=1
     )
 
     # Labels and title
@@ -138,7 +162,7 @@ def plotAvgWordScores(wordScoresDf):
     plt.show()
 
 def plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf):
-    fig, ax = plt.subplots(figsize=(18, 16))
+    fig, ax = plt.subplots(figsize=(18,25))
     cmap = sns.color_palette("flare", as_cmap=True)
 
     sns.barplot(
@@ -147,14 +171,13 @@ def plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf):
         y="Word",
         hue="WordDifficultyScore",
         palette=cmap,
-        #color = sns.color_palette("flare_r"),
         ax=ax,
         errorbar=None
     )
 
-    ax.set_xlabel("TF-IDF Score", fontsize=16)
-    ax.set_ylabel("Word", fontsize=16)
-    ax.set_title(f"Top {topNumber} {ngramVal} by TF-IDF Score", fontsize=16)
+    ax.set_xlabel("TF-IDF Score", fontsize=24)
+    ax.set_ylabel("Word", fontsize=24)
+    ax.set_title(f"Top {topNumber} {ngramVal} by TF-IDF Score", fontsize=24)
 
     # Remove the default legend
     ax.legend([], [], frameon=False)
@@ -169,7 +192,7 @@ def plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf):
     cbar.set_label("Word Difficulty")
 
     cbar.set_ticks([wordScoresDf["WordDifficultyScore"].min(), wordScoresDf["WordDifficultyScore"].max()])
-    cbar.set_ticklabels(["Hard", "Easy"], fontsize=16)
+    cbar.set_ticklabels(["Hard", "Easy"], fontsize=24)
 
     plt.savefig("OverallTopTfidf.png", transparent=False)
     plt.show()
