@@ -28764,9 +28764,9 @@ News Articles,flight,0.09,easy
 News Articles,center,0.03,easy
 News Articles,previously,0.42,easy
 News Articles,stated,0.49,easy
-Dashboard,The,0.0,easy
 Dashboard,power,0.0,easy
 Dashboard,grid,0.67,hard
+Dashboard,power,0.0,easy
 Dashboard,might,0.0,easy
 Dashboard,voltage,0.71,hard
 Dashboard,equipment,0.28,easy
@@ -28775,7 +28775,8 @@ Dashboard,direction,0.01,easy
 Dashboard,might,0.0,easy
 Dashboard,weaken,0.67,hard
 Dashboard,northern,0.62,hard
-Dashboard,Idaho,-1.0,easy
+Dashboard,york,0.33,easy
+Dashboard,power,0.0,easy
 Dashboard,need,0.0,easy
 Dashboard,voltage,0.71,hard
 Dashboard,safety,0.35,easy
@@ -28785,6 +28786,7 @@ Dashboard,face,0.0,easy
 Dashboard,drag,0.09,easy
 Dashboard,need,0.0,easy
 Dashboard,direction,0.01,easy
+Dashboard,radio,0.22,easy
 Dashboard,could,0.0,easy
 Dashboard,northern,0.62,hard
 Dashboard,control,0.0,easy
@@ -28796,13 +28798,13 @@ Dashboard,grid,0.67,hard
 Dashboard,might,0.0,easy
 Dashboard,need,0.0,easy
 Dashboard,direction,0.01,easy
+Dashboard,pipeline,0.7,hard
 Dashboard,satellite,0.65,hard
 Dashboard,navigation,0.61,hard
 Dashboard,might,0.0,easy
 Dashboard,stop,0.0,easy
 Dashboard,radio,0.22,easy
 Dashboard,northern,0.62,hard
-Dashboard,California,-1.0,easy
 Dashboard,voltage,0.71,hard
 Dashboard,causing,0.66,hard
 Dashboard,power,0.0,easy
@@ -28811,6 +28813,7 @@ Dashboard,surface,0.09,easy
 Dashboard,charging,0.75,hard
 Dashboard,direction,0.01,easy
 Dashboard,signal,0.48,easy
+Dashboard,pipeline,0.7,hard
 Dashboard,work,0.0,easy
 Dashboard,day,0.0,easy
 Dashboard,satellite,0.65,hard
@@ -28843,12 +28846,14 @@ Dashboard,sunlit,0.76,hard
 Dashboard,several,0.0,easy
 Dashboard,contact,0.23,easy
 Dashboard,causing,0.66,hard
+Dashboard,satellite,0.65,hard
 Dashboard,navigation,0.61,hard
 Dashboard,experience,0.0,easy
 Dashboard,could,0.0,easy
 Dashboard,affect,0.49,easy
 Dashboard,night,0.0,easy
 Dashboard,small,0.0,easy
+Dashboard,satellite,0.65,hard
 Dashboard,small,0.0,easy
 Dashboard,polar,0.64,hard
 Dashboard,affected,0.57,hard

@@ -121,9 +121,15 @@ def plotTopNumPerSourceTfidf(topNumber, ngramRange, ngramVal, wordScoresDf, docu
     sns.set_theme(style="whitegrid")
     fig, axes = plt.subplots(1, 3, figsize=(50, 10), sharey=False)
     palette = sns.color_palette("flare", n_colors=wordScoresDf["Document"].nunique())
+    graphOrder = ["Email Alerts", "Academic Articles", "News Articles"]
+    wordScoresDf["Document"] = pd.Categorical(wordScoresDf["Document"], categories=graphOrder,
+                                         ordered=True)
+    print(wordScoresDf)
 
-    for i, category in enumerate(documentNames):
-        subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue").sort_values(by="Document", ascending=True).sort_values(by='TfidfValue', ascending=False)
+    for i, category in enumerate(graphOrder):
+        subset = wordScoresDf[wordScoresDf["Document"] == category].nlargest(topNumber, "TfidfValue").sort_values(by="Document").sort_values(by='TfidfValue', ascending=False)
+        print("SUBSET")
+        print(subset)
         sns.barplot(data=subset, x="TfidfValue", y="Word", ax=axes[i], color=palette[i], legend=False, alpha=1, saturation=1)
         axes[i].set_xlim(0, wordScoresDf["TfidfValue"].max() * 1.01)
         axes[i].set_title(f"Top {topNumber} {ngramVal} (based on TF-IDF Score) in {category}", fontsize=24)
@@ -162,7 +168,7 @@ def plotAvgWordScores(wordScoresDf):
     plt.show()
 
 def plotOverallTopTfidf(topNumber, ngramVal, wordScoresDf):
-    fig, ax = plt.subplots(figsize=(18,25))
+    fig, ax = plt.subplots(figsize=(20,25))
     cmap = sns.color_palette("flare", as_cmap=True)
 
     sns.barplot(
