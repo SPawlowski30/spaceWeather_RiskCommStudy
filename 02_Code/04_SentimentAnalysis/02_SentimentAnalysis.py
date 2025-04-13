@@ -14,7 +14,7 @@ def main():
         "Count"].transform("sum")
 
     sns.set_theme(style="whitegrid")
-    fig, axes = plt.subplots(2, 2, figsize=(24, 12), sharey=False)
+    fig, axes = plt.subplots(2, 2, figsize=(18, 12), sharey=False)
     axes = axes.flatten()
 
     palette = sns.color_palette("flare", n_colors=sentimentCounts["SentimentLabel"].nunique())
@@ -27,7 +27,7 @@ def main():
     for i, category in enumerate(graphOrder):
         subset = sentimentCounts[sentimentCounts["SourceTextType"] == category]
         wedges, texts, autotexts = axes[i].pie(data=subset, x="Proportion", colors=palette, autopct="%1.1f%%", pctdistance=1.25)
-        axes[i].set_title(f"Sentence Sentiment Proportions for {pieTitles[i]}", fontsize=24, pad=20)
+        axes[i].set_title(f"{pieTitles[i]}", fontsize=24, pad=20)
         axes[i].set_xlabel("", fontsize=24) # No need for x label, the graph is self-explanatory
 
         # Set percent font size
@@ -40,14 +40,14 @@ def main():
 
         fig.tight_layout()
         # Padding between columns so that titles don't overlap
-        fig.subplots_adjust(wspace=0.25)
+        fig.subplots_adjust(wspace=0.1)
 
     plt.legend(
         handles=legendWedges,
         labels=["Neutral", "Negative", "Positive"],
         loc = "center",
         ncol=1,
-        bbox_to_anchor=(-.875, .25),
+        bbox_to_anchor=(-.4, 1),
         frameon=False,
         borderaxespad=0.0,
         title="Sentiment Label",
