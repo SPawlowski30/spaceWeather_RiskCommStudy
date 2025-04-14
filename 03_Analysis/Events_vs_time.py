@@ -1,3 +1,5 @@
+#prop = {"size": 24},
+#title_fontsize = 24)
 import matplotlib
 matplotlib.use('TkAgg')
 import pandas as pd
