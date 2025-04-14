@@ -128,7 +128,7 @@ fig.update_layout(
             xref='paper', yref='paper',
             text='Radio Blackout',
             showarrow=False,
-            font=dict(size=12, color='black'),
+            font=dict(size=18, color='black'),
         ),
         #Add label for Proton_class column
         dict(
@@ -136,7 +136,7 @@ fig.update_layout(
             xref='paper', yref='paper',
             text='Solar Radiation Storm',
             showarrow=False,
-            font=dict(size=12, color='black'),
+            font=dict(size=18, color='black'),
         ),
         #Add label for Kp_class column
         dict(
@@ -144,9 +144,9 @@ fig.update_layout(
             xref='paper', yref='paper',
             text='Geomagnetic Storm',
             showarrow=False,
-            font=dict(size=12, color='black'),
+            font=dict(size=18, color='black'),
         ),
     ]
 )
-fig.update_layout(title_text="Alluvial Diagram of  R, S, and G Warnings, 1994 Onwards", font_size=12)
+fig.update_layout(title_text="Alluvial Diagram of  R, S, and G Warnings, 1994 Onwards", font_size=16)
 fig.show()

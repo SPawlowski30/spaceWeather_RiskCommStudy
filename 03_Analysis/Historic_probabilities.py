@@ -54,7 +54,7 @@ wedges_kp, _ = axs[2].pie(
     labels=None,
     colors=colors_kp,
     startangle=140,
-    wedgeprops={'edgecolor': 'black'}
+    wedgeprops={'edgecolor': 'white'}
 )
 axs[2].set_title('G', fontsize=24)
 
@@ -71,7 +71,7 @@ wedges_flare, _ = axs[0].pie(
     labels=None,
     colors=colors_flare,
     startangle=140,
-    wedgeprops={'edgecolor': 'black'}
+    wedgeprops={'edgecolor': 'white'}
 )
 axs[0].set_title('R', fontsize=24)
 
@@ -88,7 +88,7 @@ wedges_proton, _ = axs[1].pie(
     labels=None,
     colors=colors_proton,
     startangle=140,
-    wedgeprops={'edgecolor': 'black'}
+    wedgeprops={'edgecolor': 'white'}
 )
 axs[1].set_title('S', fontsize=24)
 
@@ -100,7 +100,7 @@ legend_handles = [
     plt.Line2D([0], [0], marker='o', color='w',
                label=label,
                markerfacecolor=color_map[label],
-               markeredgecolor='black',
+               markeredgecolor='white',
                markersize=24)
     for label in all_labels
 ]
@@ -121,6 +121,153 @@ fig.legend(
 plt.subplots_adjust(bottom=0.2, top=0.88)
 plt.show()
 
+fig, axs = plt.subplots(1, 3, figsize=(18, 6), sharey=True)
+
+bins = np.arange(0, 7)
+
+# ----------------------
+# (R) Flare Class
+# ----------------------
+counts, bin_edges = np.histogram(flare_class_values, bins=bins)
+colors = [color_map.get(int(bin_edges[i]), 'gray') for i in range(len(bin_edges) - 1)]
+bar_centers = bin_edges[:-1] + 0.5
+axs[0].bar(bin_edges[:-1], counts, width=np.diff(bin_edges), color=colors, edgecolor='black', align='edge')
+axs[0].set_xticks(bar_centers)
+axs[0].set_xticklabels(np.arange(0, 6))
+axs[0].set_xlabel('Level')
+axs[0].set_ylabel('Count')
+axs[0].set_title('R', fontsize=24)
+
+# ----------------------
+# (S) Proton Class
+# ----------------------
+counts, bin_edges = np.histogram(proton_class_values, bins=bins)
+colors = [color_map.get(int(bin_edges[i]), 'gray') for i in range(len(bin_edges) - 1)]
+bar_centers = bin_edges[:-1] + 0.5
+axs[1].bar(bin_edges[:-1], counts, width=np.diff(bin_edges), color=colors, edgecolor='black', align='edge')
+axs[1].set_xticks(bar_centers)
+axs[1].set_xticklabels(np.arange(0, 6))
+axs[1].set_xlabel('Level')
+axs[1].set_title('S', fontsize=24)
+
+# ----------------------
+# (G) Kp Index
+# ----------------------
+counts, bin_edges = np.histogram(k_index_values_2, bins=bins)
+colors = [color_map.get(int(bin_edges[i]), 'gray') for i in range(len(bin_edges) - 1)]
+bar_centers = bin_edges[:-1] + 0.5
+axs[2].bar(bin_edges[:-1], counts, width=np.diff(bin_edges), color=colors, edgecolor='black', align='edge')
+axs[2].set_xticks(bar_centers)
+axs[2].set_xticklabels(np.arange(0, 6))
+axs[2].set_xlabel('Level')
+axs[2].set_title('G', fontsize=24)
+
+# ----------------------
+# Adjust layout
+# ----------------------
+plt.tight_layout(rect=[0, 0, 1, 0.92])  # Leave space for suptitle
+plt.show()
+
+fig, axs = plt.subplots(2, 3, figsize=(18, 10))  # 2 rows: top pies, bottom bars
+#-------COMBINED GRAPHS-----------
+# === PIE CHARTS (Top row) ===
+# -------- R: Flare Class --------
+flare_counts = flare_class_values.value_counts().sort_index()
+labels_flare = flare_counts.index
+sizes_flare = flare_counts.values
+colors_flare = [color_map[label] for label in labels_flare]
+axs[0, 0].pie(
+    sizes_flare,
+    labels=[f'{s / sum(sizes_flare) * 100:.1f}%' for s in sizes_flare],
+    colors=colors_flare,
+    startangle=140,
+    wedgeprops={'edgecolor': 'white'},
+    textprops={'fontsize': 11}
+)
+axs[0, 0].set_title('R', fontsize=24)
+
+# -------- S: Proton Class --------
+proton_counts = proton_class_values.value_counts().sort_index()
+labels_proton = proton_counts.index
+sizes_proton = proton_counts.values
+colors_proton = [color_map[label] for label in labels_proton]
+axs[0, 1].pie(
+    sizes_proton,
+    labels=[f'{s / sum(sizes_proton) * 100:.1f}%' for s in sizes_proton],
+    colors=colors_proton,
+    startangle=140,
+    wedgeprops={'edgecolor': 'white'},
+    textprops={'fontsize': 11}
+)
+axs[0, 1].set_title('S', fontsize=24)
+
+# -------- G: Kp Index --------
+kp_counts = k_index_values_2.value_counts().sort_index()
+labels_kp = kp_counts.index
+sizes_kp = kp_counts.values
+colors_kp = [color_map[label] for label in labels_kp]
+axs[0, 2].pie(
+    sizes_kp,
+    colors=colors_kp,
+    startangle=140,
+    wedgeprops={'edgecolor': 'white'}
+
+)
+axs[0, 2].set_title('G', fontsize=24)
+
+# === BAR GRAPHS (Bottom row) ===
+bins = np.arange(0, 7)
+bar_labels = np.arange(0, 6)
+
+# -------- R: Flare Class --------
+counts, bin_edges = np.histogram(flare_class_values, bins=bins)
+colors = [color_map.get(i, 'gray') for i in bar_labels]
+axs[1, 0].bar(bar_labels, counts, color=colors, edgecolor='white', width = 1.0)
+axs[1, 0].set_xticks(bar_labels)
+axs[1, 0].set_xlabel('Level', fontsize=14)
+axs[1, 0].set_ylabel('Count', fontsize=14)
+axs[1, 0].tick_params(axis='both', labelsize=12)
+
+
+# -------- S: Proton Class --------
+counts, bin_edges = np.histogram(proton_class_values, bins=bins)
+axs[1, 1].bar(bar_labels, counts, color=colors, edgecolor='white', width = 1.0)
+axs[1, 1].set_xticks(bar_labels)
+axs[1, 1].set_xlabel('Level', fontsize=14)
+axs[1, 1].tick_params(axis='both', labelsize=12)
+
+
+# -------- G: Kp Index --------
+counts, bin_edges = np.histogram(k_index_values_2, bins=bins)
+axs[1, 2].bar(bar_labels, counts, color=colors, edgecolor='white', width = 1.0)
+axs[1, 2].set_xticks(bar_labels)
+axs[1, 2].set_xlabel('Level', fontsize=14)
+axs[1, 2].tick_params(axis='both', labelsize=12)
+
+
+# === SHARED LEGEND ===
+all_labels = sorted(set(labels_kp) | set(labels_flare) | set(labels_proton))
+legend_handles = [
+    plt.Line2D([0], [0], marker='o', color='w',
+               label=label,
+               markerfacecolor=color_map[label],
+               markeredgecolor='white',
+               markersize=14)
+    for label in all_labels
+]
+fig.legend(
+    handles=legend_handles,
+    labels=all_labels,
+    loc='lower center',
+    ncol=len(all_labels),
+    title="Warning Levels",
+    title_fontsize=14,
+    prop={'size': 10},
+    bbox_to_anchor=(0.5, -0.01)  # Lower the legend further
+)
+
+plt.tight_layout(rect=[0, 0.07, 1, 0.93])  # Leave extra space below for legend
+plt.show()
 """
 bins = np.arange(0, 7)
 counts, bin_edges = np.histogram(k_index_values, bins=bins)

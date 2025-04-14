@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 
 
-file_path = "/02_Code/05_Quantitative/Outputs/max_merged_df.csv"
+file_path = "../02_Code/05_Quantitative/Outputs/max_merged_df.csv"
 df = pd.read_csv(file_path)
 
 #columns of interest
@@ -20,7 +20,7 @@ df_corr = df_corr.dropna()
 corr = df_corr.corr()
 
 # Create a custom colormap:
-colors = ["#e98d6b", "#d14a61", "#6c2b6d"]  # purple → peach → pink
+colors = ["#e98d6b", "#df8090", "#6c2b6d"]  # purple → peach → pink
 custom_cmap = LinearSegmentedColormap.from_list("spaceweather", colors)
 
 

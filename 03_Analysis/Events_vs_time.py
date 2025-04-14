@@ -1,5 +1,3 @@
-#prop = {"size": 24},
-#title_fontsize = 24)
 import matplotlib
 matplotlib.use('TkAgg')
 import pandas as pd
@@ -7,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-file_path = ("../01_Data/QuantitativeData/Outputs/max_merged_df.csv")
+file_path = "../02_Code/05_Quantitative/Outputs/max_merged_df.csv"
 
 df = pd.read_csv(file_path)
 
@@ -79,7 +77,7 @@ filtered_data = df_copy['TotalMinutes'].dropna()
 filtered_data = filtered_data[(filtered_data >= min_time) & (filtered_data <= max_time)]
 
 plt.figure(figsize=(10, 6))
-plt.hist(filtered_data, bins=30, color='#b53158', edgecolor='white')
+plt.hist(filtered_data, bins=30, color='#b13c6c', edgecolor='white')
 
 # Set the x-axis limits to match the filtered range
 plt.xlim(min_time, max_time)
@@ -89,11 +87,12 @@ minutes_in_day = 1440
 ticks = np.arange(min_time // minutes_in_day * minutes_in_day, max_time, minutes_in_day)
 
 # Add custom tick marks and labels
-plt.xticks(ticks, [f"Day {i}" for i in range(len(ticks))])
+plt.xticks(ticks, [f"Day {i}" for i in range(len(ticks))], fontsize=12)
+plt.yticks(fontsize=12)
 
-plt.title("Time Differences in Days Between Solar Flare and Maximum of SPE")
-plt.xlabel("Time Difference")
-plt.ylabel("Frequency (log scale)")
+plt.title("Time Differences Between Solar Flare and Maximum of SPE", fontsize =16)
+plt.xlabel("Time Difference (R - S)", fontsize =14)
+plt.ylabel("Frequency (log scale)", fontsize =14)
 plt.grid(True)
 plt.show()
 
@@ -112,7 +111,7 @@ plt.hist(filtered_data, bins=30, color='skyblue', edgecolor='black')
 plt.xlim(min_time, max_time)
 plt.yscale('log')
 plt.title("Histogram of Time Differences in Minutes(±3 Days)")
-plt.xlabel("Time Difference (in minutes)")
+plt.xlabel("Time Difference in Minutes)")
 plt.ylabel("Frequency (log scale)")
 plt.grid(True)
 plt.show()
