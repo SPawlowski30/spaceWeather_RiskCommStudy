@@ -29,6 +29,8 @@ counts, bin_edges = np.histogram(proton_class_values, bins=bins)
 flare_class_values = df['Flare_Class']
 counts, bin_edges = np.histogram(flare_class_values, bins=bins)
 
+
+
 color_map = {
     0: '#92d051', #light green
     1: '#f6eb13', #yellow

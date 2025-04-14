@@ -20,7 +20,7 @@ df_corr = df_corr.dropna()
 corr = df_corr.corr()
 
 # Create a custom colormap:
-colors = ["#b53158", "#f7ebe0", "#59274e"]  # purple → peach → pink
+colors = ["#e98d6b", "#d14a61", "#6c2b6d"]  # purple → peach → pink
 custom_cmap = LinearSegmentedColormap.from_list("spaceweather", colors)
 
 
