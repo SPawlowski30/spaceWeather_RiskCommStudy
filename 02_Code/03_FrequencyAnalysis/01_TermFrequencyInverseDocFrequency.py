@@ -147,7 +147,8 @@ def plotAvgWordScores(wordScoresDf):
 
     # Set figure size
     plt.figure(figsize=(18, 12))
-    palette = sns.color_palette("flare", n_colors=wordScoresDf["Document"].nunique())
+    #palette = sns.color_palette("flare", n_colors=wordScoresDf["Document"].nunique())
+    palette = sns.color_palette("flare")
 
     # Create the stacked barplot - as of now, will be skewed based on which source texts we have more text
     sns.barplot(
@@ -155,7 +156,7 @@ def plotAvgWordScores(wordScoresDf):
         x="Document",
         y="WordDifficultyScore",
         hue="Document",
-        palette=palette,
+        color=palette[4],
         saturation=1
     )
 
