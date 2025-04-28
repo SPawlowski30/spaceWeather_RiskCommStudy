@@ -165,7 +165,6 @@ def standardPreprocess(text):
     # ensure that text is an all lowercase sentence
     preprocessedText = str(text.lower())
 
-    # To-DO: update so that puncuation attached to numbers is removed
     # remove numeric values, URLS, and any other items that are not characters; remove rest of punctuation after split into sentences
     preprocessedText = re.sub(r'http\S+|https\S+|[^a-zA-Z\s.,;:!?\'\"()-]', '', preprocessedText)
     # remove excessive whitespace

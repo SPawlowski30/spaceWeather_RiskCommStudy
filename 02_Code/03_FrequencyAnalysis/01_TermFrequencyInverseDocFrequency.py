@@ -1,6 +1,7 @@
 import re
 import nltk
 import numpy as np
+from scipy import stats
 
 from wordDifficulty.src.a05_word_difficulty_ml import WordDifficultyML
 import pandas as pd
@@ -144,7 +145,14 @@ def plotTopNumPerSourceTfidf(topNumber, ngramRange, ngramVal, wordScoresDf, docu
 def plotAvgWordScores(wordScoresDf):
     # PLOT OVERALL TOP <insert # here> WORDS (BASED ON TF-IDF SCORE) ACROSS ALL SOURCE TEXTS
     avgWordDifficultyDf = pd.DataFrame(wordScoresDf.groupby("Document", as_index=False)["WordDifficultyScore"].mean().sort_values(by="WordDifficultyScore", ascending=False))
+    print("AVERAGE WORD DIFFICULTY SCORES")
+    print(avgWordDifficultyDf)
 
+    print("T-TEST")
+    tStat, pValue = stats.ttest_ind(wordScoresDf[wordScoresDf["Document"]=="Email Alerts"]["WordDifficultyScore"], wordScoresDf[wordScoresDf["Document"]=="Dashboard"]["WordDifficultyScore"])
+
+    print(f"T-statistic: {tStat:.2f}")
+    print(f"P-value: {pValue:.4f}")
     # Set figure size
     plt.figure(figsize=(18, 12))
     #palette = sns.color_palette("flare", n_colors=wordScoresDf["Document"].nunique())
@@ -216,11 +224,12 @@ def wordAnalysisPreprocess(text):
     stopWords = set(stopwords.words('english'))
     words = set(nltk.corpus.words.words())
     names = set(nltk.corpus.names.words())
-    stopWords = stopWords.union(['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 'monday', 'tuesday', 'wednesday', 'friday', 'thats', 'said', 'also', 'copyright', 'one', 'two', 'three', 'would', 'within', 'yeah', 'dont', 'go'])
+    stopWords = stopWords.union(['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 'monday', 'tuesday', 'wednesday', 'friday', 'thats', 'said', 'also', 'copyright', 'one', 'two', 'three', 'would', 'within', 'yeah', 'dont', 'go', 'threedayforecasttxt'])
 
     wordTokens = word_tokenize(noPunctuation)
     # only keep words that are not stop words; lemmatize each word during the process
-    filteredSentence = [wnl.lemmatize(w) for w in wordTokens if (not w in stopWords) and (w in words) and (not w in names)]
+    englishWordsOnly = [w for w in wordTokens if w in words]
+    filteredSentence = [wnl.lemmatize(w) for w in englishWordsOnly if (not w in stopWords) and (w in words) and (not w in names)]
 
     # Join the filtered words to form a clean text
     cleanText = ' '.join(filteredSentence)
