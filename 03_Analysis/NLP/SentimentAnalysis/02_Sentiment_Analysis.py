@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def main():
-    academicArticleSentimentValues = pd.read_csv("./academicArticleSentimentScores.csv")
-    emailAlertSentimentValues = pd.read_csv("./emailAlertSentimentScores.csv")
-    newsArticleSentimentValues = pd.read_csv("./newsArticleSentimentScores.csv")
-    dashboardSentimentValues = pd.read_csv("./dashboardSentimentScores.csv")
+    academicArticleSentimentValues = pd.read_csv("../../../02_Code/03_Sentiment_Scores/academicArticleSentimentScores.csv")
+    emailAlertSentimentValues = pd.read_csv("../../../02_Code/03_Sentiment_Scores/emailAlertSentimentScores.csv")
+    newsArticleSentimentValues = pd.read_csv("../../../02_Code/03_Sentiment_Scores/newsArticleSentimentScores.csv")
+    dashboardSentimentValues = pd.read_csv("../../../02_Code/03_Sentiment_Scores/dashboardSentimentScores.csv")
 
     sentimentScoresDf = pd.concat([emailAlertSentimentValues, academicArticleSentimentValues, newsArticleSentimentValues, dashboardSentimentValues])
     sentimentCounts = sentimentScoresDf.groupby(["SourceTextType"])["SentimentLabel"].value_counts().reset_index(name="Count")

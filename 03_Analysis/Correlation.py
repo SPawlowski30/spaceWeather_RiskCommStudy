@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 
 
-file_path = "../02_Code/05_Quantitative/Outputs/max_merged_df.csv"
+file_path = "../02_Code/04_Quantitative/Outputs/max_merged_df.csv"
 df = pd.read_csv(file_path)
 
 #columns of interest
